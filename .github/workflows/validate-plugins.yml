@@ -813,11 +813,12 @@ jobs:
                 elif [ -f package-lock.json ] || [ -f npm-shrinkwrap.json ]; then
                   npm ci --ignore-scripts --no-audit --registry=https://registry.npmjs.org/
                 else
-                  echo "::error::$category/$plugin_name has no supported package-local lockfile"
-                  fail=1
-                  failed_plugins+=("$category/$plugin_name")
-                  cd - > /dev/null
-                  continue
+                  # The earlier diff-scoped audit hard-fails every changed
+                  # dependency-bearing package without a lock. This fallback
+                  # keeps unchanged legacy debt testable until its dedicated
+                  # lock PR lands, but still disables every executable hook.
+                  echo "::warning::$category/$plugin_name has legacy no-lock debt; installing with scripts disabled"
+                  pnpm install --ignore-workspace --no-lockfile --ignore-scripts --ignore-pnpmfile --config.registry=https://registry.npmjs.org/
                 fi
               fi
 

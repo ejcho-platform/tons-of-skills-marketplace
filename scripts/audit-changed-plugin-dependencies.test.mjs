@@ -112,6 +112,10 @@ test('CI uses a complete manual-run range and disables standalone lifecycle scri
     workflow,
     /npm ci --ignore-scripts --no-audit --registry=https:\/\/registry\.npmjs\.org\//,
   );
+  assert.match(
+    workflow,
+    /pnpm install --ignore-workspace --no-lockfile --ignore-scripts --ignore-pnpmfile --config\.registry=https:\/\/registry\.npmjs\.org\//,
+  );
 });
 
 test('peer-only packages remain inside the dependency-audit denominator', () => {
@@ -173,6 +177,29 @@ test('workspace package symlinks are rejected before workspace exclusion', () =>
   assert.throws(
     () => discoverChangedStandalonePackages({ repoRoot, changedPaths: [linkedRoot] }),
     /traverses symlink/,
+  );
+});
+
+test('broken plugin directory symlinks fail closed instead of disappearing', () => {
+  const repoRoot = fixture();
+  const linkedRoot = 'plugins/skill-enhancers/broken-plugin';
+  mkdirSync(join(repoRoot, 'plugins/skill-enhancers'), { recursive: true });
+  symlinkSync(join(repoRoot, 'missing-target'), join(repoRoot, linkedRoot));
+  assert.throws(
+    () => discoverChangedStandalonePackages({ repoRoot, changedPaths: [linkedRoot] }),
+    /traverses symlink/,
+  );
+});
+
+test('workspace membership changes cannot reclassify a package out of the audit', () => {
+  const repoRoot = fixture();
+  assert.throws(
+    () =>
+      discoverChangedStandalonePackages({
+        repoRoot,
+        changedPaths: ['pnpm-workspace.yaml', 'plugins/skill-enhancers/new-member/package.json'],
+      }),
+    /dedicated workspace-boundary review/,
   );
 });
 

@@ -96,8 +96,14 @@ function assertChangedPluginPathsAreNotSymlinked(repoRoot, changedPaths) {
     let current = repoRoot;
     for (const part of normalized.split('/')) {
       current = join(current, part);
-      if (!existsSync(current)) break;
-      if (lstatSync(current).isSymbolicLink()) {
+      let stat;
+      try {
+        stat = lstatSync(current);
+      } catch (error) {
+        if (error?.code === 'ENOENT') break;
+        throw error;
+      }
+      if (stat.isSymbolicLink()) {
         throw new Error(
           `${normalized} traverses symlink ${normalizePath(relative(repoRoot, current))}`,
         );
@@ -124,6 +130,12 @@ function hasAuditableDependencies(manifest) {
 }
 
 export function discoverChangedStandalonePackages({ repoRoot, changedPaths }) {
+  if (changedPaths.map(normalizePath).includes('pnpm-workspace.yaml')) {
+    throw new Error(
+      'pnpm-workspace.yaml changes require a dedicated workspace-boundary review; ' +
+        'the standalone audit will not trust PR-controlled package reclassification',
+    );
+  }
   const workspacePath = join(repoRoot, 'pnpm-workspace.yaml');
   const workspacePatterns = existsSync(workspacePath)
     ? parseWorkspacePatterns(readFileSync(workspacePath, 'utf8'))
