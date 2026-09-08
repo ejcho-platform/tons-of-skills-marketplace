@@ -1,6 +1,13 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdirSync, mkdtempSync, symlinkSync, unlinkSync, writeFileSync } from 'node:fs';
+import {
+  mkdirSync,
+  mkdtempSync,
+  readFileSync,
+  symlinkSync,
+  unlinkSync,
+  writeFileSync,
+} from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { join } from 'node:path';
 import { tmpdir } from 'node:os';
@@ -89,6 +96,24 @@ test('empty changed scope succeeds without inventing package work', () => {
   );
 });
 
+test('CI uses a complete manual-run range and disables standalone lifecycle scripts', () => {
+  const workflow = readFileSync(
+    new URL('../.github/workflows/validate-plugins.yml', import.meta.url),
+    'utf8',
+  );
+  assert.match(workflow, /git fetch --no-tags --unshallow origin "\$AUDIT_DEFAULT_BRANCH"/);
+  assert.match(workflow, /audit_base="origin\/\$AUDIT_DEFAULT_BRANCH"/);
+  assert.doesNotMatch(workflow, /audit_base="HEAD\^"/);
+  assert.match(
+    workflow,
+    /pnpm install --ignore-workspace --frozen-lockfile --ignore-scripts --ignore-pnpmfile/,
+  );
+  assert.match(
+    workflow,
+    /npm ci --ignore-scripts --no-audit --registry=https:\/\/registry\.npmjs\.org\//,
+  );
+});
+
 test('peer-only packages remain inside the dependency-audit denominator', () => {
   const repoRoot = fixture();
   writePackage(repoRoot, 'plugins/skill-enhancers/peer-only', {
@@ -120,7 +145,34 @@ test('a changed symlinked package manifest is rejected instead of disappearing f
         repoRoot,
         changedPaths: [`${packageRoot}/package.json`],
       }),
-    /regular non-symlink file/,
+    /traverses symlink|regular non-symlink file/,
+  );
+});
+
+test('workspace package symlinks are rejected before workspace exclusion', () => {
+  const repoRoot = fixture();
+  const packageRoot = 'plugins/mcp/workspace-symlink';
+  const directory = join(repoRoot, packageRoot);
+  mkdirSync(directory, { recursive: true });
+  writeFileSync(
+    join(repoRoot, 'outside.json'),
+    JSON.stringify({ dependencies: { risky: '1.0.0' } }),
+  );
+  symlinkSync(join(repoRoot, 'outside.json'), join(directory, 'package.json'));
+  assert.throws(
+    () =>
+      discoverChangedStandalonePackages({
+        repoRoot,
+        changedPaths: [`${packageRoot}/package.json`],
+      }),
+    /traverses symlink|regular non-symlink file/,
+  );
+
+  const linkedRoot = 'plugins/mcp/linked-directory';
+  symlinkSync(directory, join(repoRoot, linkedRoot));
+  assert.throws(
+    () => discoverChangedStandalonePackages({ repoRoot, changedPaths: [linkedRoot] }),
+    /traverses symlink/,
   );
 });
 
@@ -214,7 +266,7 @@ test('git discovery includes a regular package manifest changed into a symlink',
   assert.ok(changedPaths.includes(`${packageRoot}/package.json`));
   assert.throws(
     () => discoverChangedStandalonePackages({ repoRoot, changedPaths }),
-    /regular non-symlink file/,
+    /traverses symlink|regular non-symlink file/,
   );
 });
 
@@ -233,6 +285,24 @@ test('a changed dependency package without an authoritative lock fails actionabl
   assert.equal(result.ok, false);
   assert.equal(result.hardFailure, true);
   assert.match(result.messages[0], /no package-local lockfile/);
+});
+
+test('package-local npm configuration cannot redirect a standalone audit', () => {
+  const repoRoot = fixture();
+  const packageInfo = {
+    root: 'plugins/skill-enhancers/redirected-audit',
+    manifest: { dependencies: { risky: '1.0.0' } },
+  };
+  writePackage(repoRoot, packageInfo.root, packageInfo.manifest, 'pnpm-lock.yaml');
+  writeFileSync(join(repoRoot, packageInfo.root, '.npmrc'), 'registry=https://attacker.invalid/\n');
+  const result = auditStandalonePackage({
+    repoRoot,
+    packageInfo,
+    run: () => assert.fail('must reject configuration before executing a package manager'),
+  });
+  assert.equal(result.ok, false);
+  assert.equal(result.hardFailure, true);
+  assert.match(result.messages[0], /\.npmrc is not allowed/);
 });
 
 test('high and critical advisories retain package path, scope, and advisory IDs in report-only mode', () => {
@@ -329,13 +399,13 @@ test('a clean locked package passes both production and full audits', () => {
   assert.deepEqual(result.findings, []);
 });
 
-test('pnpm lock and audit commands disable lifecycle scripts and pnpmfile hooks', () => {
+test('npm commands pin the trusted registry and ignore lifecycle scripts', () => {
   const repoRoot = fixture();
   const packageInfo = {
-    root: 'plugins/skill-enhancers/hook-safe',
-    manifest: { dependencies: { safe: '1.0.0' } },
+    root: 'plugins/skill-enhancers/npm-safe',
+    manifest: { devDependencies: { safe: '1.0.0' } },
   };
-  writePackage(repoRoot, packageInfo.root, packageInfo.manifest, 'pnpm-lock.yaml');
+  writePackage(repoRoot, packageInfo.root, packageInfo.manifest, 'package-lock.json');
   const calls = [];
   const result = auditStandalonePackage({
     repoRoot,
@@ -347,10 +417,45 @@ test('pnpm lock and audit commands disable lifecycle scripts and pnpmfile hooks'
   });
   assert.equal(result.ok, true);
   assert.equal(calls.length, 3);
+  assert.ok(calls.every((call) => call.command === 'npm'));
+  assert.ok(calls[0].args.includes('--ignore-scripts'));
+  assert.ok(calls.every((call) => call.args.includes('--registry=https://registry.npmjs.org/')));
+});
+
+test('pnpm commands disable executable hooks and pin the trusted audit registry', () => {
+  const repoRoot = fixture();
+  const packageInfo = {
+    root: 'plugins/skill-enhancers/hook-safe',
+    manifest: { dependencies: { safe: '1.0.0' } },
+  };
+  writePackage(repoRoot, packageInfo.root, packageInfo.manifest, 'pnpm-lock.yaml');
+  const calls = [];
+  const priorRegistry = process.env.NPM_CONFIG_REGISTRY;
+  process.env.NPM_CONFIG_REGISTRY = 'https://attacker.invalid/';
+  let result;
+  try {
+    result = auditStandalonePackage({
+      repoRoot,
+      packageInfo,
+      run: (command, args, options) => {
+        calls.push({ command, args, options });
+        return { status: 0, stdout: args.includes('audit') ? '{}' : '' };
+      },
+    });
+  } finally {
+    if (priorRegistry === undefined) delete process.env.NPM_CONFIG_REGISTRY;
+    else process.env.NPM_CONFIG_REGISTRY = priorRegistry;
+  }
+  assert.equal(result.ok, true);
+  assert.equal(calls.length, 3);
   assert.ok(calls.every((call) => call.command === 'pnpm'));
   assert.ok(calls[0].args.includes('--ignore-scripts'));
   assert.ok(calls[0].args.includes('--ignore-pnpmfile'));
   assert.ok(calls.slice(1).every((call) => call.args.includes('--config.ignore-pnpmfile=true')));
+  assert.ok(
+    calls.every((call) => call.args.includes('--config.registry=https://registry.npmjs.org/')),
+  );
+  assert.ok(calls.every((call) => call.options.env.NPM_CONFIG_REGISTRY === undefined));
 });
 
 test('an audit transport or registry failure cannot masquerade as a clean report-only result', () => {

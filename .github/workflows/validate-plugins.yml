@@ -574,6 +574,7 @@ jobs:
         env:
           AUDIT_BASE_REF: ${{ github.base_ref }}
           AUDIT_BEFORE: ${{ github.event.before }}
+          AUDIT_DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
           AUDIT_EVENT: ${{ github.event_name }}
         run: |
           set -euo pipefail
@@ -585,9 +586,13 @@ jobs:
             git fetch --no-tags --depth=1 origin "$AUDIT_BEFORE"
             audit_base="$AUDIT_BEFORE"
             audit_diff_mode="two-dot"
+          elif [ "$AUDIT_EVENT" = "workflow_dispatch" ]; then
+            git fetch --no-tags --unshallow origin "$AUDIT_DEFAULT_BRANCH"
+            audit_base="origin/$AUDIT_DEFAULT_BRANCH"
+            audit_diff_mode="three-dot"
           else
-            audit_base="HEAD^"
-            audit_diff_mode="two-dot"
+            echo "::error::Unsupported audit event without a complete comparison range: $AUDIT_EVENT"
+            exit 1
           fi
           node scripts/audit-changed-plugin-dependencies.mjs --base="$audit_base" --diff-mode="$audit_diff_mode"
 
@@ -802,8 +807,18 @@ jobs:
               # "ReferenceError: __vite_ssr_exportName__ is not defined".
               # Install the plugin's own declared deps in isolation first.
               if [ "$category" != "mcp" ] && [[ "$plugin_name" != *-pack ]]; then
-                echo "  ↳ non-workspace plugin — installing its own deps (--ignore-workspace)"
-                pnpm install --ignore-workspace
+                echo "  ↳ non-workspace plugin — installing its locked deps with lifecycle scripts disabled"
+                if [ -f pnpm-lock.yaml ]; then
+                  pnpm install --ignore-workspace --frozen-lockfile --ignore-scripts --ignore-pnpmfile
+                elif [ -f package-lock.json ] || [ -f npm-shrinkwrap.json ]; then
+                  npm ci --ignore-scripts --no-audit --registry=https://registry.npmjs.org/
+                else
+                  echo "::error::$category/$plugin_name has no supported package-local lockfile"
+                  fail=1
+                  failed_plugins+=("$category/$plugin_name")
+                  cd - > /dev/null
+                  continue
+                fi
               fi
 
               if grep -q '"test:ci":' package.json; then

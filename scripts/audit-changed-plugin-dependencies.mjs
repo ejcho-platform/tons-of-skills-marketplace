@@ -89,6 +89,23 @@ function packageRoots(repoRoot) {
   return roots.sort((a, b) => b.length - a.length || a.localeCompare(b));
 }
 
+function assertChangedPluginPathsAreNotSymlinked(repoRoot, changedPaths) {
+  for (const changedPath of changedPaths) {
+    const normalized = normalizePath(changedPath);
+    if (!normalized.startsWith('plugins/')) continue;
+    let current = repoRoot;
+    for (const part of normalized.split('/')) {
+      current = join(current, part);
+      if (!existsSync(current)) break;
+      if (lstatSync(current).isSymbolicLink()) {
+        throw new Error(
+          `${normalized} traverses symlink ${normalizePath(relative(repoRoot, current))}`,
+        );
+      }
+    }
+  }
+}
+
 export function packageRootFor(changedPath, knownPackageRoots) {
   const normalized = normalizePath(changedPath);
   if (normalized.split('/').some((part) => part === '..')) return null;
@@ -111,6 +128,7 @@ export function discoverChangedStandalonePackages({ repoRoot, changedPaths }) {
   const workspacePatterns = existsSync(workspacePath)
     ? parseWorkspacePatterns(readFileSync(workspacePath, 'utf8'))
     : [];
+  assertChangedPluginPathsAreNotSymlinked(repoRoot, changedPaths);
   const knownPackageRoots = packageRoots(repoRoot);
   const roots = [
     ...new Set(changedPaths.map((path) => packageRootFor(path, knownPackageRoots)).filter(Boolean)),
@@ -118,12 +136,12 @@ export function discoverChangedStandalonePackages({ repoRoot, changedPaths }) {
   const packages = [];
 
   for (const root of roots) {
-    if (workspaceIncludes(workspacePatterns, root)) continue;
     const manifestPath = join(repoRoot, root, 'package.json');
     const manifestStat = lstatSync(manifestPath);
     if (!manifestStat.isFile() || manifestStat.isSymbolicLink()) {
       throw new Error(`${root}/package.json must be a regular non-symlink file`);
     }
+    if (workspaceIncludes(workspacePatterns, root)) continue;
     const manifest = JSON.parse(readFileSync(manifestPath, 'utf8'));
     if (!hasAuditableDependencies(manifest)) continue;
     packages.push({ root, manifestPath, manifest });
@@ -238,6 +256,7 @@ function auditCommands(manager, directory) {
           '--lockfile-only',
           '--ignore-scripts',
           '--ignore-pnpmfile',
+          '--config.registry=https://registry.npmjs.org/',
         ],
       },
       audits: [
@@ -249,6 +268,7 @@ function auditCommands(manager, directory) {
             directory,
             '--ignore-workspace',
             '--config.ignore-pnpmfile=true',
+            '--config.registry=https://registry.npmjs.org/',
             'audit',
             '--prod',
             '--audit-level',
@@ -264,6 +284,7 @@ function auditCommands(manager, directory) {
             directory,
             '--ignore-workspace',
             '--config.ignore-pnpmfile=true',
+            '--config.registry=https://registry.npmjs.org/',
             'audit',
             '--audit-level',
             'high',
@@ -274,18 +295,28 @@ function auditCommands(manager, directory) {
     };
   }
   return {
-    lockCheck: { command: 'npm', args: ['ci', '--ignore-scripts', '--no-audit'], cwd: directory },
+    lockCheck: {
+      command: 'npm',
+      args: ['ci', '--ignore-scripts', '--no-audit', '--registry=https://registry.npmjs.org/'],
+      cwd: directory,
+    },
     audits: [
       {
         scope: 'production',
         command: 'npm',
-        args: ['audit', '--omit=dev', '--audit-level=high', '--json'],
+        args: [
+          'audit',
+          '--omit=dev',
+          '--audit-level=high',
+          '--json',
+          '--registry=https://registry.npmjs.org/',
+        ],
         cwd: directory,
       },
       {
         scope: 'full',
         command: 'npm',
-        args: ['audit', '--audit-level=high', '--json'],
+        args: ['audit', '--audit-level=high', '--json', '--registry=https://registry.npmjs.org/'],
         cwd: directory,
       },
     ],
@@ -293,11 +324,14 @@ function auditCommands(manager, directory) {
 }
 
 function invoke(run, spec) {
+  const environment = Object.fromEntries(
+    Object.entries(process.env).filter(([name]) => !/^npm_config_/i.test(name)),
+  );
   return run(spec.command, spec.args, {
     cwd: spec.cwd,
     encoding: 'utf8',
     maxBuffer: 16 * 1024 * 1024,
-    env: { ...process.env, CI: 'true' },
+    env: { ...environment, CI: 'true' },
   });
 }
 
@@ -311,6 +345,17 @@ export function auditStandalonePackage({
   if (!lock.ok) return { ok: false, hardFailure: true, messages: [lock.error], findings: [] };
 
   const directory = join(repoRoot, packageInfo.root);
+  if (existsSync(join(directory, '.npmrc'))) {
+    return {
+      ok: false,
+      hardFailure: true,
+      messages: [
+        `${packageInfo.root}/.npmrc is not allowed in a standalone audited package; ` +
+          'package-local registry configuration can redirect or falsify dependency audits.',
+      ],
+      findings: [],
+    };
+  }
   const commands = auditCommands(lock.manager, directory);
   const lockResult = invoke(run, commands.lockCheck);
   if (lockResult.error || lockResult.status !== 0) {
