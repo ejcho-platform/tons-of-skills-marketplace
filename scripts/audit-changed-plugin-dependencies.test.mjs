@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { mkdirSync, mkdtempSync, symlinkSync, writeFileSync } from 'node:fs';
+import { mkdirSync, mkdtempSync, symlinkSync, unlinkSync, writeFileSync } from 'node:fs';
+import { execFileSync } from 'node:child_process';
 import { join } from 'node:path';
 import { tmpdir } from 'node:os';
 import {
@@ -159,8 +160,62 @@ test('git discovery includes deletions and uses two-dot mode for push ranges', (
   assert.deepEqual(paths, ['plugins/example/tool/pnpm-lock.yaml']);
   assert.deepEqual(invocation, {
     command: 'git',
-    args: ['diff', '--name-only', '--diff-filter=ACMRD', '-z', 'before-sha..HEAD'],
+    args: ['diff', '--name-only', '--diff-filter=ACMRDT', '-z', 'before-sha..HEAD'],
   });
+});
+
+test('git discovery includes a regular package manifest changed into a symlink', () => {
+  const repoRoot = fixture();
+  const packageRoot = 'plugins/skill-enhancers/type-change';
+  writePackage(repoRoot, packageRoot, { dependencies: { risky: '1.0.0' } }, 'pnpm-lock.yaml');
+  writeFileSync(
+    join(repoRoot, 'outside.json'),
+    JSON.stringify({ dependencies: { risky: '2.0.0' } }),
+  );
+
+  execFileSync('git', ['init', '-q'], { cwd: repoRoot });
+  execFileSync('git', ['add', '.'], { cwd: repoRoot });
+  execFileSync(
+    'git',
+    [
+      '-c',
+      'user.name=Security Test',
+      '-c',
+      'user.email=security@example.invalid',
+      'commit',
+      '-qm',
+      'base',
+    ],
+    { cwd: repoRoot },
+  );
+  const base = execFileSync('git', ['rev-parse', 'HEAD'], {
+    cwd: repoRoot,
+    encoding: 'utf8',
+  }).trim();
+
+  unlinkSync(join(repoRoot, packageRoot, 'package.json'));
+  symlinkSync(join(repoRoot, 'outside.json'), join(repoRoot, packageRoot, 'package.json'));
+  execFileSync('git', ['add', '-A'], { cwd: repoRoot });
+  execFileSync(
+    'git',
+    [
+      '-c',
+      'user.name=Security Test',
+      '-c',
+      'user.email=security@example.invalid',
+      'commit',
+      '-qm',
+      'type change',
+    ],
+    { cwd: repoRoot },
+  );
+
+  const changedPaths = changedPathsFromGit(repoRoot, base, 'HEAD', undefined, 'two-dot');
+  assert.ok(changedPaths.includes(`${packageRoot}/package.json`));
+  assert.throws(
+    () => discoverChangedStandalonePackages({ repoRoot, changedPaths }),
+    /regular non-symlink file/,
+  );
 });
 
 test('a changed dependency package without an authoritative lock fails actionably', () => {
@@ -274,7 +329,7 @@ test('a clean locked package passes both production and full audits', () => {
   assert.deepEqual(result.findings, []);
 });
 
-test('pnpm lock validation disables lifecycle scripts and pnpmfile hooks', () => {
+test('pnpm lock and audit commands disable lifecycle scripts and pnpmfile hooks', () => {
   const repoRoot = fixture();
   const packageInfo = {
     root: 'plugins/skill-enhancers/hook-safe',
@@ -295,7 +350,7 @@ test('pnpm lock validation disables lifecycle scripts and pnpmfile hooks', () =>
   assert.ok(calls.every((call) => call.command === 'pnpm'));
   assert.ok(calls[0].args.includes('--ignore-scripts'));
   assert.ok(calls[0].args.includes('--ignore-pnpmfile'));
-  assert.ok(calls.slice(1).every((call) => !call.args.includes('--ignore-pnpmfile')));
+  assert.ok(calls.slice(1).every((call) => call.args.includes('--config.ignore-pnpmfile=true')));
 });
 
 test('an audit transport or registry failure cannot masquerade as a clean report-only result', () => {

@@ -248,6 +248,7 @@ function auditCommands(manager, directory) {
             '--dir',
             directory,
             '--ignore-workspace',
+            '--config.ignore-pnpmfile=true',
             'audit',
             '--prod',
             '--audit-level',
@@ -262,6 +263,7 @@ function auditCommands(manager, directory) {
             '--dir',
             directory,
             '--ignore-workspace',
+            '--config.ignore-pnpmfile=true',
             'audit',
             '--audit-level',
             'high',
@@ -396,7 +398,7 @@ export function changedPathsFromGit(
   const separator = diffMode === 'two-dot' ? '..' : '...';
   const result = run(
     'git',
-    ['diff', '--name-only', '--diff-filter=ACMRD', '-z', `${base}${separator}${head}`],
+    ['diff', '--name-only', '--diff-filter=ACMRDT', '-z', `${base}${separator}${head}`],
     {
       cwd: repoRoot,
       encoding: 'utf8',
