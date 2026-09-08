@@ -112,10 +112,7 @@ test('CI uses a complete manual-run range and disables standalone lifecycle scri
     workflow,
     /npm ci --ignore-scripts --no-audit --registry=https:\/\/registry\.npmjs\.org\//,
   );
-  assert.match(
-    workflow,
-    /pnpm install --ignore-workspace --no-lockfile --ignore-scripts --ignore-pnpmfile --config\.registry=https:\/\/registry\.npmjs\.org\//,
-  );
+  assert.match(workflow, /has no supported package-local lockfile/);
 });
 
 test('peer-only packages remain inside the dependency-audit denominator', () => {
