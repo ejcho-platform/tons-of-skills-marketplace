@@ -5562,17 +5562,19 @@
     {
       "name": "vastai-pack",
       "source": "./plugins/saas-packs/vastai-pack",
-      "description": "Complete Vast.ai integration skill pack with 24 skills covering GPU marketplace, cloud compute, and ML infrastructure. Flagship tier vendor pack.",
-      "version": "1.11.0",
+      "description": "Evidence-gated Vast.ai operator pack for GPU rentals, Serverless, governance, recovery, and cost control (24 skills)",
+      "version": "2.0.0",
       "category": "saas-packs",
       "keywords": [
         "vastai",
         "vast-ai",
         "gpu-marketplace",
         "cloud-gpu",
-        "ml-infrastructure",
-        "compute",
-        "training"
+        "serverless",
+        "checkpoint-recovery",
+        "signed-webhooks",
+        "teams-rbac",
+        "cost-control"
       ],
       "author": {
         "name": "Jeremy Longshore",
