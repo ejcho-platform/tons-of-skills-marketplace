@@ -272,7 +272,6 @@
       "Bash(system:*)",
       "Bash(system_profiler:*)",
       "Bash(tar:*)",
-      "Bash(tcpdump:*)",
       "Bash(terraform:*)",
       "Bash(test:*)",
       "Bash(test:a11y-*)",
@@ -12096,7 +12095,7 @@
       "slug": "canva-pack",
       "name": "canva-pack",
       "displayName": "canva pack",
-      "description": "Claude Code skill pack for Canva (30 skills)",
+      "description": "30 governed Canva Connect operator workflows for OAuth, designs, asynchronous jobs, and secure integrations",
       "category": "saas-packs",
       "keywords": [
         "canva",
@@ -12110,15 +12109,15 @@
         "url": "https://github.com/jeremylongshore"
       },
       "authorType": "official",
-      "version": "1.5.0",
+      "version": "2.0.0",
       "isFeatured": false,
       "isNew": false,
       "badges": [],
       "skillCount": 30,
-      "verificationScore": 86,
-      "verificationGrade": "B",
-      "verificationBadge": "silver",
-      "searchText": "canva pack claude code skill pack for canva (30 skills) saas-packs canva saas sdk integration"
+      "verificationScore": 94,
+      "verificationGrade": "A",
+      "verificationBadge": "gold",
+      "searchText": "canva pack 30 governed canva connect operator workflows for oauth, designs, asynchronous jobs, and secure integrations saas-packs canva saas sdk integration"
     },
     {
       "type": "plugin",
@@ -23881,629 +23880,630 @@
       "id": "canva-advanced-troubleshooting",
       "slug": "canva-advanced-troubleshooting",
       "name": "canva-advanced-troubleshooting",
-      "description": "Apply Canva Connect API advanced debugging for hard-to-diagnose issues. Use when standard troubleshooting fails, investigating intermittent failures, or preparing evidence bundles for Canva developer support. Trigger with phrases like \"canva hard bug\", \"canva mystery error\", \"canva impossible to debug\", \"difficult canva issue\", \"canva deep debug\".",
+      "description": "Isolate difficult Canva Connect failures without rotating credentials, replaying writes, or leaking customer data. Use when investigating intermittent transport, OAuth, async-job, capability, or preview-feature failures. Trigger with: \"deep debug Canva\", \"Canva intermittent failure\", \"prepare Canva support evidence\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
         "Grep",
-        "Bash(kubectl:*)",
-        "Bash(curl:*)",
-        "Bash(tcpdump:*)"
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "canva-pack",
         "category": "saas-packs"
       },
-      "searchText": "canva-advanced-troubleshooting apply canva connect api advanced debugging for hard-to-diagnose issues. use when standard troubleshooting fails, investigating intermittent failures, or preparing evidence bundles for canva developer support. trigger with phrases like \"canva hard bug\", \"canva mystery error\", \"canva impossible to debug\", \"difficult canva issue\", \"canva deep debug\". saas-packs read grep bash(kubectl:*) bash(curl:*) bash(tcpdump:*) "
+      "searchText": "canva-advanced-troubleshooting isolate difficult canva connect failures without rotating credentials, replaying writes, or leaking customer data. use when investigating intermittent transport, oauth, async-job, capability, or preview-feature failures. trigger with: \"deep debug canva\", \"canva intermittent failure\", \"prepare canva support evidence\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "canva-architecture-variants",
       "slug": "canva-architecture-variants",
       "name": "canva-architecture-variants",
-      "description": "Choose and implement Canva Connect API architecture blueprints for different scales. Use when designing new Canva integrations, choosing between monolith/service/microservice architectures, or planning migration paths. Trigger with phrases like \"canva architecture\", \"canva blueprint\", \"how to structure canva\", \"canva project layout\", \"canva microservice\".",
+      "description": "Choose a Canva Connect integration architecture from explicit trust, workload, and recovery constraints. Use when deciding between a backend monolith, service plus workers, or isolated multi-tenant services. Trigger with: \"design Canva architecture\", \"scale Canva integration\", \"choose Canva topology\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
-        "Grep"
+        "Grep",
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "canva-pack",
         "category": "saas-packs"
       },
-      "searchText": "canva-architecture-variants choose and implement canva connect api architecture blueprints for different scales. use when designing new canva integrations, choosing between monolith/service/microservice architectures, or planning migration paths. trigger with phrases like \"canva architecture\", \"canva blueprint\", \"how to structure canva\", \"canva project layout\", \"canva microservice\". saas-packs read grep "
+      "searchText": "canva-architecture-variants choose a canva connect integration architecture from explicit trust, workload, and recovery constraints. use when deciding between a backend monolith, service plus workers, or isolated multi-tenant services. trigger with: \"design canva architecture\", \"scale canva integration\", \"choose canva topology\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "canva-ci-integration",
       "slug": "canva-ci-integration",
       "name": "canva-ci-integration",
-      "description": "Configure CI/CD pipelines for Canva Connect API integrations with GitHub Actions. Use when setting up automated testing, configuring CI pipelines, or integrating Canva API tests into your build process. Trigger with phrases like \"canva CI\", \"canva GitHub Actions\", \"canva automated tests\", \"CI canva\", \"canva pipeline\".",
+      "description": "Build credential-free Canva contract tests with a separately protected live read. Use when testing adapters, OAuth boundaries, OpenAPI drift, fork behavior, or deployment readiness. Trigger with: \"test Canva in CI\", \"add Canva contract tests\", \"secure Canva GitHub Actions\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(gh:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "canva-pack",
         "category": "saas-packs"
       },
-      "searchText": "canva-ci-integration configure ci/cd pipelines for canva connect api integrations with github actions. use when setting up automated testing, configuring ci pipelines, or integrating canva api tests into your build process. trigger with phrases like \"canva ci\", \"canva github actions\", \"canva automated tests\", \"ci canva\", \"canva pipeline\". saas-packs read write edit bash(gh:*) "
+      "searchText": "canva-ci-integration build credential-free canva contract tests with a separately protected live read. use when testing adapters, oauth boundaries, openapi drift, fork behavior, or deployment readiness. trigger with: \"test canva in ci\", \"add canva contract tests\", \"secure canva github actions\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "canva-common-errors",
       "slug": "canva-common-errors",
       "name": "canva-common-errors",
-      "description": "Diagnose and fix Canva Connect API errors and HTTP status codes. Use when encountering Canva errors, debugging failed requests, or troubleshooting integration issues. Trigger with phrases like \"canva error\", \"fix canva\", \"canva not working\", \"debug canva\", \"canva 401\", \"canva 429\".",
+      "description": "Analyze and classify Canva Connect failures by HTTP status, provider error code, operation, and authorization state. Use when deciding whether to refresh, reauthorize, wait, reconcile, correct input, or escalate. Trigger with: \"Canva API error\", \"Canva 401\", \"Canva 403 or 429\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
         "Grep",
-        "Bash(curl:*)"
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "canva-pack",
         "category": "saas-packs"
       },
-      "searchText": "canva-common-errors diagnose and fix canva connect api errors and http status codes. use when encountering canva errors, debugging failed requests, or troubleshooting integration issues. trigger with phrases like \"canva error\", \"fix canva\", \"canva not working\", \"debug canva\", \"canva 401\", \"canva 429\". saas-packs read grep bash(curl:*) "
+      "searchText": "canva-common-errors analyze and classify canva connect failures by http status, provider error code, operation, and authorization state. use when deciding whether to refresh, reauthorize, wait, reconcile, correct input, or escalate. trigger with: \"canva api error\", \"canva 401\", \"canva 403 or 429\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "canva-core-workflow-a",
       "slug": "canva-core-workflow-a",
       "name": "canva-core-workflow-a",
-      "description": "Execute the Canva design creation and export pipeline via the Connect API. Use when building design creation workflows, exporting designs programmatically, or integrating Canva's design tools into your application. Trigger with phrases like \"canva create design\", \"canva export\", \"canva design pipeline\", \"canva generate content\".",
+      "description": "Create an authorized Canva design and export it through a reconciled asynchronous job. Use when performing design creation, supported-format selection, export polling, and safe result handling. Trigger with: \"create Canva design\", \"export Canva design\", \"poll Canva export\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "canva-pack",
         "category": "saas-packs"
       },
-      "searchText": "canva-core-workflow-a execute the canva design creation and export pipeline via the connect api. use when building design creation workflows, exporting designs programmatically, or integrating canva's design tools into your application. trigger with phrases like \"canva create design\", \"canva export\", \"canva design pipeline\", \"canva generate content\". saas-packs read write edit bash(npm:*) grep "
+      "searchText": "canva-core-workflow-a create an authorized canva design and export it through a reconciled asynchronous job. use when performing design creation, supported-format selection, export polling, and safe result handling. trigger with: \"create canva design\", \"export canva design\", \"poll canva export\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "canva-core-workflow-b",
       "slug": "canva-core-workflow-b",
       "name": "canva-core-workflow-b",
-      "description": "Execute Canva asset management, brand template autofill, and folder organization. Use when uploading assets, autofilling brand templates with dynamic data, or organizing designs into folders via the Connect API. Trigger with phrases like \"canva assets\", \"canva brand template\", \"canva autofill\", \"canva folders\", \"canva upload image\".",
+      "description": "Operate Canva assets, brand-template autofill, and folders with explicit rights and asynchronous reconciliation. Use when performing uploads, dataset validation, autofill jobs, or folder changes. Trigger with: \"upload Canva asset\", \"autofill brand template\", \"manage Canva folder\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "canva-pack",
         "category": "saas-packs"
       },
-      "searchText": "canva-core-workflow-b execute canva asset management, brand template autofill, and folder organization. use when uploading assets, autofilling brand templates with dynamic data, or organizing designs into folders via the connect api. trigger with phrases like \"canva assets\", \"canva brand template\", \"canva autofill\", \"canva folders\", \"canva upload image\". saas-packs read write edit bash(npm:*) grep "
+      "searchText": "canva-core-workflow-b operate canva assets, brand-template autofill, and folders with explicit rights and asynchronous reconciliation. use when performing uploads, dataset validation, autofill jobs, or folder changes. trigger with: \"upload canva asset\", \"autofill brand template\", \"manage canva folder\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "canva-cost-tuning",
       "slug": "canva-cost-tuning",
       "name": "canva-cost-tuning",
-      "description": "Optimize Canva Connect API usage costs through efficient API patterns and monitoring. Use when analyzing Canva API usage, reducing unnecessary calls, or implementing usage monitoring and budget tracking. Trigger with phrases like \"canva cost\", \"canva usage\", \"reduce canva calls\", \"canva API efficiency\", \"canva budget\".",
+      "description": "Reduce unnecessary Canva Connect operations using measured request, retry, cache, and premium-feature evidence. Use when reviewing usage, trial-quota pressure, deduplication, or budget guardrails. Trigger with: \"reduce Canva usage\", \"Canva quota planning\", \"optimize Canva calls\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
-        "Grep"
+        "Grep",
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "canva-pack",
         "category": "saas-packs"
       },
-      "searchText": "canva-cost-tuning optimize canva connect api usage costs through efficient api patterns and monitoring. use when analyzing canva api usage, reducing unnecessary calls, or implementing usage monitoring and budget tracking. trigger with phrases like \"canva cost\", \"canva usage\", \"reduce canva calls\", \"canva api efficiency\", \"canva budget\". saas-packs read grep "
+      "searchText": "canva-cost-tuning reduce unnecessary canva connect operations using measured request, retry, cache, and premium-feature evidence. use when reviewing usage, trial-quota pressure, deduplication, or budget guardrails. trigger with: \"reduce canva usage\", \"canva quota planning\", \"optimize canva calls\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "canva-data-handling",
       "slug": "canva-data-handling",
       "name": "canva-data-handling",
-      "description": "Implement Canva Connect API data handling, PII protection, and GDPR/CCPA compliance. Use when handling user design data, implementing data retention policies, or ensuring privacy compliance for Canva integrations. Trigger with phrases like \"canva data\", \"canva PII\", \"canva GDPR\", \"canva data retention\", \"canva privacy\", \"canva CCPA\".",
+      "description": "Analyze and govern Canva credentials, user metadata, designs, assets, comments, and temporary result URLs across their lifecycle. Use when defining collection, storage, access, retention, deletion, or privacy controls. Trigger with: \"classify Canva data\", \"Canva retention\", \"delete Canva integration data\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "canva-pack",
         "category": "saas-packs"
       },
-      "searchText": "canva-data-handling implement canva connect api data handling, pii protection, and gdpr/ccpa compliance. use when handling user design data, implementing data retention policies, or ensuring privacy compliance for canva integrations. trigger with phrases like \"canva data\", \"canva pii\", \"canva gdpr\", \"canva data retention\", \"canva privacy\", \"canva ccpa\". saas-packs read write edit "
+      "searchText": "canva-data-handling analyze and govern canva credentials, user metadata, designs, assets, comments, and temporary result urls across their lifecycle. use when defining collection, storage, access, retention, deletion, or privacy controls. trigger with: \"classify canva data\", \"canva retention\", \"delete canva integration data\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "canva-debug-bundle",
       "slug": "canva-debug-bundle",
       "name": "canva-debug-bundle",
-      "description": "Collect Canva Connect API debug evidence for troubleshooting and support. Use when encountering persistent issues, preparing support tickets, or collecting diagnostic information for Canva API problems. Trigger with phrases like \"canva debug\", \"canva support bundle\", \"collect canva logs\", \"canva diagnostic\".",
+      "description": "Assemble a minimal Canva Connect diagnostic bundle without credentials, customer content, raw payloads, or full headers. Use when preparing an incident handoff or provider escalation. Trigger with: \"Canva debug bundle\", \"collect Canva evidence\", \"sanitize Canva diagnostics\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
-        "Bash(grep:*)",
-        "Bash(curl:*)",
-        "Bash(tar:*)",
-        "Grep"
+        "Grep",
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "canva-pack",
         "category": "saas-packs"
       },
-      "searchText": "canva-debug-bundle collect canva connect api debug evidence for troubleshooting and support. use when encountering persistent issues, preparing support tickets, or collecting diagnostic information for canva api problems. trigger with phrases like \"canva debug\", \"canva support bundle\", \"collect canva logs\", \"canva diagnostic\". saas-packs read bash(grep:*) bash(curl:*) bash(tar:*) grep "
+      "searchText": "canva-debug-bundle assemble a minimal canva connect diagnostic bundle without credentials, customer content, raw payloads, or full headers. use when preparing an incident handoff or provider escalation. trigger with: \"canva debug bundle\", \"collect canva evidence\", \"sanitize canva diagnostics\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "canva-deploy-integration",
       "slug": "canva-deploy-integration",
       "name": "canva-deploy-integration",
-      "description": "Deploy Canva Connect API integrations to Vercel, Fly.io, and Cloud Run. Use when deploying Canva-powered applications to production, configuring platform-specific secrets, or setting up deployment pipelines. Trigger with phrases like \"deploy canva\", \"canva Vercel\", \"canva production deploy\", \"canva Cloud Run\", \"canva Fly.io\".",
+      "description": "Deploy a Canva Connect backend with exact redirect URIs, runtime-only secrets, protected migrations, and verified rollback. Use when promoting to staging or production. Trigger with: \"deploy Canva integration\", \"configure Canva callback\", \"release Canva backend\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(vercel:*)",
-        "Bash(fly:*)",
-        "Bash(gcloud:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "canva-pack",
         "category": "saas-packs"
       },
-      "searchText": "canva-deploy-integration deploy canva connect api integrations to vercel, fly.io, and cloud run. use when deploying canva-powered applications to production, configuring platform-specific secrets, or setting up deployment pipelines. trigger with phrases like \"deploy canva\", \"canva vercel\", \"canva production deploy\", \"canva cloud run\", \"canva fly.io\". saas-packs read write edit bash(vercel:*) bash(fly:*) bash(gcloud:*) "
+      "searchText": "canva-deploy-integration deploy a canva connect backend with exact redirect uris, runtime-only secrets, protected migrations, and verified rollback. use when promoting to staging or production. trigger with: \"deploy canva integration\", \"configure canva callback\", \"release canva backend\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "canva-enterprise-rbac",
       "slug": "canva-enterprise-rbac",
       "name": "canva-enterprise-rbac",
-      "description": "Configure Canva Enterprise organization access control and scope management. Use when implementing per-user scope control, managing Canva Enterprise features, or setting up organization-level Canva integration governance. Trigger with phrases like \"canva enterprise\", \"canva RBAC\", \"canva roles\", \"canva permissions\", \"canva organization\", \"canva team\".",
+      "description": "Implement application-owned authorization from Canva scopes, user capabilities, resource ownership, and tenant policy. Use when gating Enterprise or privileged operations without inventing a Canva custom-role API. Trigger with: \"Canva RBAC\", \"check Canva capability\", \"authorize Canva action\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "canva-pack",
         "category": "saas-packs"
       },
-      "searchText": "canva-enterprise-rbac configure canva enterprise organization access control and scope management. use when implementing per-user scope control, managing canva enterprise features, or setting up organization-level canva integration governance. trigger with phrases like \"canva enterprise\", \"canva rbac\", \"canva roles\", \"canva permissions\", \"canva organization\", \"canva team\". saas-packs read write edit "
+      "searchText": "canva-enterprise-rbac implement application-owned authorization from canva scopes, user capabilities, resource ownership, and tenant policy. use when gating enterprise or privileged operations without inventing a canva custom-role api. trigger with: \"canva rbac\", \"check canva capability\", \"authorize canva action\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "canva-hello-world",
       "slug": "canva-hello-world",
       "name": "canva-hello-world",
-      "description": "Create a minimal working Canva Connect API example. Use when starting a new Canva integration, testing your setup, or learning basic Canva REST API patterns. Trigger with phrases like \"canva hello world\", \"canva example\", \"canva quick start\", \"simple canva code\".",
+      "description": "Verify a Canva Connect integration with a minimal read-only identity request and a redacted receipt. Use when proving OAuth, endpoint reachability, and response shape before any design or asset mutation. Trigger with: \"test Canva connection\", \"Canva hello world\", \"verify Canva auth\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "canva-pack",
         "category": "saas-packs"
       },
-      "searchText": "canva-hello-world create a minimal working canva connect api example. use when starting a new canva integration, testing your setup, or learning basic canva rest api patterns. trigger with phrases like \"canva hello world\", \"canva example\", \"canva quick start\", \"simple canva code\". saas-packs read write edit "
+      "searchText": "canva-hello-world verify a canva connect integration with a minimal read-only identity request and a redacted receipt. use when proving oauth, endpoint reachability, and response shape before any design or asset mutation. trigger with: \"test canva connection\", \"canva hello world\", \"verify canva auth\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "canva-incident-runbook",
       "slug": "canva-incident-runbook",
       "name": "canva-incident-runbook",
-      "description": "Execute Canva Connect API incident response with triage, mitigation, and postmortem. Use when responding to Canva-related outages, investigating API errors, or running post-incident reviews for Canva integration failures. Trigger with phrases like \"canva incident\", \"canva outage\", \"canva down\", \"canva on-call\", \"canva emergency\", \"canva broken\".",
+      "description": "Analyze and contain a Canva Connect incident with evidence-led recovery. Use when authentication, design, export, asset, webhook, or provider failures affect users. Trigger with: \"Canva incident\", \"Canva outage\", \"triage Canva production\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
         "Grep",
-        "Bash(kubectl:*)",
-        "Bash(curl:*)"
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "canva-pack",
         "category": "saas-packs"
       },
-      "searchText": "canva-incident-runbook execute canva connect api incident response with triage, mitigation, and postmortem. use when responding to canva-related outages, investigating api errors, or running post-incident reviews for canva integration failures. trigger with phrases like \"canva incident\", \"canva outage\", \"canva down\", \"canva on-call\", \"canva emergency\", \"canva broken\". saas-packs read grep bash(kubectl:*) bash(curl:*) "
+      "searchText": "canva-incident-runbook analyze and contain a canva connect incident with evidence-led recovery. use when authentication, design, export, asset, webhook, or provider failures affect users. trigger with: \"canva incident\", \"canva outage\", \"triage canva production\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "canva-install-auth",
       "slug": "canva-install-auth",
       "name": "canva-install-auth",
-      "description": "Set up Canva Connect API OAuth 2.0 PKCE authentication and project scaffolding. Use when creating a new Canva integration, setting up OAuth credentials, or initializing a Canva Connect API project. Trigger with phrases like \"install canva\", \"setup canva\", \"canva auth\", \"configure canva API\", \"canva OAuth\".",
+      "description": "Implement Canva Connect OAuth 2.0 Authorization Code with SHA-256 PKCE on a backend. Use when creating an integration, adding explicit scopes, handling callback state, or rotating single-use refresh tokens. Trigger with: \"set up Canva OAuth\", \"Canva PKCE\", \"refresh Canva token\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(pnpm:*)",
-        "Bash(npx:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "canva-pack",
         "category": "saas-packs"
       },
-      "searchText": "canva-install-auth set up canva connect api oauth 2.0 pkce authentication and project scaffolding. use when creating a new canva integration, setting up oauth credentials, or initializing a canva connect api project. trigger with phrases like \"install canva\", \"setup canva\", \"canva auth\", \"configure canva api\", \"canva oauth\". saas-packs read write edit bash(npm:*) bash(pnpm:*) bash(npx:*) grep "
+      "searchText": "canva-install-auth implement canva connect oauth 2.0 authorization code with sha-256 pkce on a backend. use when creating an integration, adding explicit scopes, handling callback state, or rotating single-use refresh tokens. trigger with: \"set up canva oauth\", \"canva pkce\", \"refresh canva token\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "canva-known-pitfalls",
       "slug": "canva-known-pitfalls",
       "name": "canva-known-pitfalls",
-      "description": "Identify and avoid Canva Connect API anti-patterns and common integration mistakes. Use when reviewing Canva code, onboarding developers, or auditing existing Canva integrations for best practices violations. Trigger with phrases like \"canva mistakes\", \"canva anti-patterns\", \"canva pitfalls\", \"canva what not to do\", \"canva code review\".",
+      "description": "Analyze a Canva Connect implementation for recurring authorization, async-job, preview, data, and retry hazards. Use when reviewing code, preparing release, or investigating repeated failures. Trigger with: \"review Canva pitfalls\", \"audit Canva integration\", \"find Canva anti-patterns\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
-        "Grep"
+        "Grep",
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "canva-pack",
         "category": "saas-packs"
       },
-      "searchText": "canva-known-pitfalls identify and avoid canva connect api anti-patterns and common integration mistakes. use when reviewing canva code, onboarding developers, or auditing existing canva integrations for best practices violations. trigger with phrases like \"canva mistakes\", \"canva anti-patterns\", \"canva pitfalls\", \"canva what not to do\", \"canva code review\". saas-packs read grep "
+      "searchText": "canva-known-pitfalls analyze a canva connect implementation for recurring authorization, async-job, preview, data, and retry hazards. use when reviewing code, preparing release, or investigating repeated failures. trigger with: \"review canva pitfalls\", \"audit canva integration\", \"find canva anti-patterns\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "canva-load-scale",
       "slug": "canva-load-scale",
       "name": "canva-load-scale",
-      "description": "Implement Canva Connect API load testing, auto-scaling, and capacity planning. Use when running performance tests, planning capacity around Canva rate limits, or scaling Canva integrations for production workloads. Trigger with phrases like \"canva load test\", \"canva scale\", \"canva performance test\", \"canva capacity\", \"canva k6\", \"canva benchmark\".",
+      "description": "Design a mock-first Canva capacity test and a tightly authorized provider probe. Use when sizing queues, workers, token-refresh serialization, or endpoint concurrency without inventing universal quotas. Trigger with: \"load test Canva\", \"size Canva workers\", \"Canva capacity plan\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(k6:*)",
-        "Bash(kubectl:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "canva-pack",
         "category": "saas-packs"
       },
-      "searchText": "canva-load-scale implement canva connect api load testing, auto-scaling, and capacity planning. use when running performance tests, planning capacity around canva rate limits, or scaling canva integrations for production workloads. trigger with phrases like \"canva load test\", \"canva scale\", \"canva performance test\", \"canva capacity\", \"canva k6\", \"canva benchmark\". saas-packs read write edit bash(k6:*) bash(kubectl:*) "
+      "searchText": "canva-load-scale design a mock-first canva capacity test and a tightly authorized provider probe. use when sizing queues, workers, token-refresh serialization, or endpoint concurrency without inventing universal quotas. trigger with: \"load test canva\", \"size canva workers\", \"canva capacity plan\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "canva-local-dev-loop",
       "slug": "canva-local-dev-loop",
       "name": "canva-local-dev-loop",
-      "description": "Configure Canva Connect API local development with hot reload and mock server. Use when setting up a development environment, testing OAuth flows locally, or establishing a fast iteration cycle for Canva integrations. Trigger with phrases like \"canva dev setup\", \"canva local development\", \"canva dev environment\", \"develop with canva\", \"canva mock\".",
+      "description": "Configure local Canva Connect development with contract fixtures and an optional dedicated OAuth integration. Use when building adapters, callbacks, async-job handling, or UI flows without using production credentials. Trigger with: \"Canva local setup\", \"mock Canva API\", \"test Canva callback locally\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(pnpm:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "canva-pack",
         "category": "saas-packs"
       },
-      "searchText": "canva-local-dev-loop configure canva connect api local development with hot reload and mock server. use when setting up a development environment, testing oauth flows locally, or establishing a fast iteration cycle for canva integrations. trigger with phrases like \"canva dev setup\", \"canva local development\", \"canva dev environment\", \"develop with canva\", \"canva mock\". saas-packs read write edit bash(npm:*) bash(pnpm:*) grep "
+      "searchText": "canva-local-dev-loop configure local canva connect development with contract fixtures and an optional dedicated oauth integration. use when building adapters, callbacks, async-job handling, or ui flows without using production credentials. trigger with: \"canva local setup\", \"mock canva api\", \"test canva callback locally\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "canva-migration-deep-dive",
       "slug": "canva-migration-deep-dive",
       "name": "canva-migration-deep-dive",
-      "description": "Execute major Canva Connect API integration migrations with strangler fig pattern. Use when migrating to Canva from another design platform, re-platforming existing integrations, or performing major architectural changes. Trigger with phrases like \"migrate to canva\", \"canva migration\", \"switch to canva\", \"canva replatform\", \"replace design tool with canva\".",
+      "description": "Plan and execute a staged migration into or across Canva Connect application boundaries. Use when replacing a legacy design provider, moving token or job infrastructure, or introducing new Canva API surfaces. Trigger with: \"migrate to Canva\", \"Canva strangler migration\", \"move Canva integration\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(node:*)",
-        "Bash(kubectl:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "canva-pack",
         "category": "saas-packs"
       },
-      "searchText": "canva-migration-deep-dive execute major canva connect api integration migrations with strangler fig pattern. use when migrating to canva from another design platform, re-platforming existing integrations, or performing major architectural changes. trigger with phrases like \"migrate to canva\", \"canva migration\", \"switch to canva\", \"canva replatform\", \"replace design tool with canva\". saas-packs read write edit bash(npm:*) bash(node:*) bash(kubectl:*) "
+      "searchText": "canva-migration-deep-dive plan and execute a staged migration into or across canva connect application boundaries. use when replacing a legacy design provider, moving token or job infrastructure, or introducing new canva api surfaces. trigger with: \"migrate to canva\", \"canva strangler migration\", \"move canva integration\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "canva-multi-env-setup",
       "slug": "canva-multi-env-setup",
       "name": "canva-multi-env-setup",
-      "description": "Configure Canva Connect API across development, staging, and production environments. Use when setting up multi-environment deployments, managing OAuth credentials per environment, or implementing environment-specific Canva configurations. Trigger with phrases like \"canva environments\", \"canva staging\", \"canva dev prod\", \"canva environment setup\", \"canva config by env\".",
+      "description": "Configure isolated development, staging, and production Canva integrations. Use when separating redirect URIs, credentials, users, token stores, scopes, data, and audit evidence across environments. Trigger with: \"Canva environments\", \"Canva staging setup\", \"separate Canva credentials\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(aws:*)",
-        "Bash(gcloud:*)",
-        "Bash(vault:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "canva-pack",
         "category": "saas-packs"
       },
-      "searchText": "canva-multi-env-setup configure canva connect api across development, staging, and production environments. use when setting up multi-environment deployments, managing oauth credentials per environment, or implementing environment-specific canva configurations. trigger with phrases like \"canva environments\", \"canva staging\", \"canva dev prod\", \"canva environment setup\", \"canva config by env\". saas-packs read write edit bash(aws:*) bash(gcloud:*) bash(vault:*) "
+      "searchText": "canva-multi-env-setup configure isolated development, staging, and production canva integrations. use when separating redirect uris, credentials, users, token stores, scopes, data, and audit evidence across environments. trigger with: \"canva environments\", \"canva staging setup\", \"separate canva credentials\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "canva-observability",
       "slug": "canva-observability",
       "name": "canva-observability",
-      "description": "Set up observability for Canva Connect API integrations with metrics, traces, and alerts. Use when implementing monitoring for Canva API operations, setting up dashboards, or configuring alerting for Canva integration health. Trigger with phrases like \"canva monitoring\", \"canva metrics\", \"canva observability\", \"monitor canva\", \"canva alerts\", \"canva tracing\".",
+      "description": "Implement low-cardinality metrics, traces, logs, and alerts for Canva Connect workflows. Use when measuring API health, authorization failures, async-job reconciliation, queue pressure, or token rotation without exposing protected data. Trigger with: \"monitor Canva\", \"Canva metrics\", \"Canva tracing\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "canva-pack",
         "category": "saas-packs"
       },
-      "searchText": "canva-observability set up observability for canva connect api integrations with metrics, traces, and alerts. use when implementing monitoring for canva api operations, setting up dashboards, or configuring alerting for canva integration health. trigger with phrases like \"canva monitoring\", \"canva metrics\", \"canva observability\", \"monitor canva\", \"canva alerts\", \"canva tracing\". saas-packs read write edit "
+      "searchText": "canva-observability implement low-cardinality metrics, traces, logs, and alerts for canva connect workflows. use when measuring api health, authorization failures, async-job reconciliation, queue pressure, or token rotation without exposing protected data. trigger with: \"monitor canva\", \"canva metrics\", \"canva tracing\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "canva-performance-tuning",
       "slug": "canva-performance-tuning",
       "name": "canva-performance-tuning",
-      "description": "Optimize Canva Connect API performance with caching, pagination, and connection pooling. Use when experiencing slow API responses, implementing caching strategies, or optimizing request throughput for Canva integrations. Trigger with phrases like \"canva performance\", \"optimize canva\", \"canva latency\", \"canva caching\", \"canva slow\", \"canva pagination\".",
+      "description": "Optimize Canva Connect latency and throughput from measured application evidence. Use when tuning metadata caches, pagination, connection reuse, async-job polling, or endpoint concurrency under explicit freshness and safety budgets. Trigger with: \"speed up Canva\", \"tune Canva polling\", \"optimize Canva performance\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "canva-pack",
         "category": "saas-packs"
       },
-      "searchText": "canva-performance-tuning optimize canva connect api performance with caching, pagination, and connection pooling. use when experiencing slow api responses, implementing caching strategies, or optimizing request throughput for canva integrations. trigger with phrases like \"canva performance\", \"optimize canva\", \"canva latency\", \"canva caching\", \"canva slow\", \"canva pagination\". saas-packs read write edit "
+      "searchText": "canva-performance-tuning optimize canva connect latency and throughput from measured application evidence. use when tuning metadata caches, pagination, connection reuse, async-job polling, or endpoint concurrency under explicit freshness and safety budgets. trigger with: \"speed up canva\", \"tune canva polling\", \"optimize canva performance\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "canva-policy-guardrails",
       "slug": "canva-policy-guardrails",
       "name": "canva-policy-guardrails",
-      "description": "Implement Canva Connect API lint rules, policy enforcement, and automated guardrails. Use when setting up code quality rules for Canva integrations, implementing pre-commit hooks, or configuring CI policy checks. Trigger with phrases like \"canva policy\", \"canva lint\", \"canva guardrails\", \"canva best practices check\", \"canva eslint\".",
+      "description": "Implement repository and runtime controls for Canva Connect authorization, secrets, previews, data, retries, and CI trust. Use when converting integration policy into testable deny-by-default checks. Trigger with: \"add Canva guardrails\", \"lint Canva integration\", \"enforce Canva policy\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npx:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "canva-pack",
         "category": "saas-packs"
       },
-      "searchText": "canva-policy-guardrails implement canva connect api lint rules, policy enforcement, and automated guardrails. use when setting up code quality rules for canva integrations, implementing pre-commit hooks, or configuring ci policy checks. trigger with phrases like \"canva policy\", \"canva lint\", \"canva guardrails\", \"canva best practices check\", \"canva eslint\". saas-packs read write edit bash(npx:*) "
+      "searchText": "canva-policy-guardrails implement repository and runtime controls for canva connect authorization, secrets, previews, data, retries, and ci trust. use when converting integration policy into testable deny-by-default checks. trigger with: \"add canva guardrails\", \"lint canva integration\", \"enforce canva policy\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "canva-prod-checklist",
       "slug": "canva-prod-checklist",
       "name": "canva-prod-checklist",
-      "description": "Execute Canva Connect API production deployment checklist and go-live procedures. Use when deploying Canva integrations to production, preparing for launch, or validating production readiness. Trigger with phrases like \"canva production\", \"deploy canva\", \"canva go-live\", \"canva launch checklist\".",
+      "description": "Gate a Canva Connect release on authorization, review eligibility, data controls, async recovery, observability, and rollback evidence. Use when promoting a backend integration or enabling a new Canva operation. Trigger with: \"Canva production checklist\", \"release Canva integration\", \"Canva go-live review\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
-        "Bash(kubectl:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Grep",
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "canva-pack",
         "category": "saas-packs"
       },
-      "searchText": "canva-prod-checklist execute canva connect api production deployment checklist and go-live procedures. use when deploying canva integrations to production, preparing for launch, or validating production readiness. trigger with phrases like \"canva production\", \"deploy canva\", \"canva go-live\", \"canva launch checklist\". saas-packs read bash(kubectl:*) bash(curl:*) grep "
+      "searchText": "canva-prod-checklist gate a canva connect release on authorization, review eligibility, data controls, async recovery, observability, and rollback evidence. use when promoting a backend integration or enabling a new canva operation. trigger with: \"canva production checklist\", \"release canva integration\", \"canva go-live review\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "canva-rate-limits",
       "slug": "canva-rate-limits",
       "name": "canva-rate-limits",
-      "description": "Handle Canva Connect API rate limits with backoff, queuing, and monitoring. Use when hitting 429 errors, implementing retry logic, or optimizing API request throughput for Canva integrations. Trigger with phrases like \"canva rate limit\", \"canva throttling\", \"canva 429\", \"canva retry\", \"canva backoff\".",
+      "description": "Implement endpoint- and user-scoped Canva throttling with bounded backoff and reconciliation. Use when handling HTTP 429, sizing concurrency, or preventing duplicate asynchronous jobs. Trigger with: \"Canva rate limit\", \"Canva 429\", \"throttle Canva requests\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "canva-pack",
         "category": "saas-packs"
       },
-      "searchText": "canva-rate-limits handle canva connect api rate limits with backoff, queuing, and monitoring. use when hitting 429 errors, implementing retry logic, or optimizing api request throughput for canva integrations. trigger with phrases like \"canva rate limit\", \"canva throttling\", \"canva 429\", \"canva retry\", \"canva backoff\". saas-packs read write edit "
+      "searchText": "canva-rate-limits implement endpoint- and user-scoped canva throttling with bounded backoff and reconciliation. use when handling http 429, sizing concurrency, or preventing duplicate asynchronous jobs. trigger with: \"canva rate limit\", \"canva 429\", \"throttle canva requests\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "canva-reference-architecture",
       "slug": "canva-reference-architecture",
       "name": "canva-reference-architecture",
-      "description": "Implement Canva Connect API reference architecture with best-practice project layout. Use when designing new Canva integrations, reviewing project structure, or establishing architecture standards for Canva applications. Trigger with phrases like \"canva architecture\", \"canva project structure\", \"how to organize canva\", \"canva layout\", \"canva reference\".",
+      "description": "Implement a Canva Connect backend reference architecture with policy, OAuth, job reconciliation, and privacy-safe operations. Use when establishing service boundaries, ownership, storage, and recovery for production. Trigger with: \"Canva reference architecture\", \"design Canva backend\", \"Canva service layout\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
-        "Grep"
+        "Grep",
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "canva-pack",
         "category": "saas-packs"
       },
-      "searchText": "canva-reference-architecture implement canva connect api reference architecture with best-practice project layout. use when designing new canva integrations, reviewing project structure, or establishing architecture standards for canva applications. trigger with phrases like \"canva architecture\", \"canva project structure\", \"how to organize canva\", \"canva layout\", \"canva reference\". saas-packs read grep "
+      "searchText": "canva-reference-architecture implement a canva connect backend reference architecture with policy, oauth, job reconciliation, and privacy-safe operations. use when establishing service boundaries, ownership, storage, and recovery for production. trigger with: \"canva reference architecture\", \"design canva backend\", \"canva service layout\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "canva-reliability-patterns",
       "slug": "canva-reliability-patterns",
       "name": "canva-reliability-patterns",
-      "description": "Implement reliability patterns for Canva Connect API — circuit breakers, idempotency, graceful degradation. Use when building fault-tolerant Canva integrations, implementing retry strategies, or adding resilience to production Canva services. Trigger with phrases like \"canva reliability\", \"canva circuit breaker\", \"canva resilience\", \"canva fallback\", \"canva fault tolerance\".",
+      "description": "Implement Canva reliability controls for transport failures, asynchronous jobs, token rotation, throttling, and dead letters. Use when preventing duplicate writes or recovering safely across timeouts and restarts. Trigger with: \"Canva retries\", \"Canva circuit breaker\", \"recover Canva job\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "canva-pack",
         "category": "saas-packs"
       },
-      "searchText": "canva-reliability-patterns implement reliability patterns for canva connect api — circuit breakers, idempotency, graceful degradation. use when building fault-tolerant canva integrations, implementing retry strategies, or adding resilience to production canva services. trigger with phrases like \"canva reliability\", \"canva circuit breaker\", \"canva resilience\", \"canva fallback\", \"canva fault tolerance\". saas-packs read write edit "
+      "searchText": "canva-reliability-patterns implement canva reliability controls for transport failures, asynchronous jobs, token rotation, throttling, and dead letters. use when preventing duplicate writes or recovering safely across timeouts and restarts. trigger with: \"canva retries\", \"canva circuit breaker\", \"recover canva job\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "canva-sdk-patterns",
       "slug": "canva-sdk-patterns",
       "name": "canva-sdk-patterns",
-      "description": "Apply production-ready Canva Connect API client patterns for TypeScript and Python. Use when building a reusable API client, implementing token refresh, or establishing team coding standards for Canva integrations. Trigger with phrases like \"canva client patterns\", \"canva best practices\", \"canva code patterns\", \"canva API wrapper\", \"canva TypeScript client\".",
+      "description": "Implement a narrow typed Canva Connect REST adapter from a pinned OpenAPI contract. Use when generating or hand-writing request types, response validation, error classification, and tenant-safe client boundaries. Trigger with: \"Canva SDK pattern\", \"generate Canva client\", \"type Canva API\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "canva-pack",
         "category": "saas-packs"
       },
-      "searchText": "canva-sdk-patterns apply production-ready canva connect api client patterns for typescript and python. use when building a reusable api client, implementing token refresh, or establishing team coding standards for canva integrations. trigger with phrases like \"canva client patterns\", \"canva best practices\", \"canva code patterns\", \"canva api wrapper\", \"canva typescript client\". saas-packs read write edit "
+      "searchText": "canva-sdk-patterns implement a narrow typed canva connect rest adapter from a pinned openapi contract. use when generating or hand-writing request types, response validation, error classification, and tenant-safe client boundaries. trigger with: \"canva sdk pattern\", \"generate canva client\", \"type canva api\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "canva-security-basics",
       "slug": "canva-security-basics",
       "name": "canva-security-basics",
-      "description": "Apply Canva Connect API security best practices for OAuth tokens and access control. Use when securing OAuth credentials, implementing least-privilege scopes, or auditing Canva integration security. Trigger with phrases like \"canva security\", \"canva secrets\", \"secure canva\", \"canva token security\", \"canva OAuth security\".",
+      "description": "Implement the Canva Connect security baseline for backend OAuth, least privilege, tenant isolation, logging, revocation, and preview webhook verification. Use when threat-modeling, reviewing, or hardening an integration. Trigger with: \"secure Canva integration\", \"Canva token security\", \"verify Canva webhook\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "canva-pack",
         "category": "saas-packs"
       },
-      "searchText": "canva-security-basics apply canva connect api security best practices for oauth tokens and access control. use when securing oauth credentials, implementing least-privilege scopes, or auditing canva integration security. trigger with phrases like \"canva security\", \"canva secrets\", \"secure canva\", \"canva token security\", \"canva oauth security\". saas-packs read write grep "
+      "searchText": "canva-security-basics implement the canva connect security baseline for backend oauth, least privilege, tenant isolation, logging, revocation, and preview webhook verification. use when threat-modeling, reviewing, or hardening an integration. trigger with: \"secure canva integration\", \"canva token security\", \"verify canva webhook\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "canva-upgrade-migration",
       "slug": "canva-upgrade-migration",
       "name": "canva-upgrade-migration",
-      "description": "Plan and execute Canva Connect API version upgrades and breaking change detection. Use when Canva releases API changes, migrating brand template IDs, or adapting to endpoint deprecations. Trigger with phrases like \"upgrade canva\", \"canva API changes\", \"canva breaking changes\", \"canva deprecation\", \"canva changelog\".",
+      "description": "Plan and verify a Canva Connect contract upgrade from pinned OpenAPI and changelog evidence. Use when endpoints, scopes, enums, validation, deprecations, or preview behavior change. Trigger with: \"upgrade Canva API\", \"Canva breaking change\", \"diff Canva OpenAPI\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(git:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "canva-pack",
         "category": "saas-packs"
       },
-      "searchText": "canva-upgrade-migration plan and execute canva connect api version upgrades and breaking change detection. use when canva releases api changes, migrating brand template ids, or adapting to endpoint deprecations. trigger with phrases like \"upgrade canva\", \"canva api changes\", \"canva breaking changes\", \"canva deprecation\", \"canva changelog\". saas-packs read write edit bash(npm:*) bash(git:*) "
+      "searchText": "canva-upgrade-migration plan and verify a canva connect contract upgrade from pinned openapi and changelog evidence. use when endpoints, scopes, enums, validation, deprecations, or preview behavior change. trigger with: \"upgrade canva api\", \"canva breaking change\", \"diff canva openapi\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "canva-webhooks-events",
       "slug": "canva-webhooks-events",
       "name": "canva-webhooks-events",
-      "description": "Implement Canva Connect API webhook handling with JWK signature verification. Use when setting up webhook endpoints, handling Canva event notifications, or implementing real-time design collaboration features. Trigger with phrases like \"canva webhook\", \"canva events\", \"canva notifications\", \"handle canva events\", \"canva JWK\".",
+      "description": "Implement Canva preview webhook verification, routing, replay defense, and idempotent processing. Use when receiving supported notification types in a non-public or otherwise eligible integration. Trigger with: \"Canva webhook\", \"verify Canva signature\", \"handle Canva notification\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(curl:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.5.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "canva-pack",
         "category": "saas-packs"
       },
-      "searchText": "canva-webhooks-events implement canva connect api webhook handling with jwk signature verification. use when setting up webhook endpoints, handling canva event notifications, or implementing real-time design collaboration features. trigger with phrases like \"canva webhook\", \"canva events\", \"canva notifications\", \"handle canva events\", \"canva jwk\". saas-packs read write edit bash(curl:*) "
+      "searchText": "canva-webhooks-events implement canva preview webhook verification, routing, replay defense, and idempotent processing. use when receiving supported notification types in a non-public or otherwise eligible integration. trigger with: \"canva webhook\", \"verify canva signature\", \"handle canva notification\". saas-packs read grep write edit "
     },
     {
       "type": "skill",

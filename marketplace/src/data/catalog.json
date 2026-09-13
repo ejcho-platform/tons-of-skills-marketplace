@@ -9138,8 +9138,8 @@
       "slug": "canva-pack",
       "name": "canva-pack",
       "displayName": "canva pack",
-      "description": "Claude Code skill pack for Canva (30 skills)",
-      "version": "1.5.0",
+      "description": "30 governed Canva Connect operator workflows for OAuth, designs, asynchronous jobs, and secure integrations",
+      "version": "2.0.0",
       "category": "saas-packs",
       "keywords": [
         "canva",

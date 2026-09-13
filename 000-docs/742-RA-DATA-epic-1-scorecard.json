@@ -22,8 +22,8 @@
       "error_files": 339,
       "error_total": 2860,
       "grade_distribution": {
-        "A": 2715,
-        "B": 485,
+        "A": 2741,
+        "B": 459,
         "C": 133,
         "D": 154,
         "F": 4
@@ -42,7 +42,7 @@
       "values": {
         "plugin_agent_files": 352,
         "raw_tracked_plugin_skill_files": 2991,
-        "tracked_files": 25550
+        "tracked_files": 25612
       }
     },
     "2": {
@@ -91,7 +91,7 @@
         },
         "marketplace_terminal": {
           "error_total_all_validated_surfaces": 3097,
-          "fully_compliant_surfaces": 1890,
+          "fully_compliant_surfaces": 1920,
           "terminal_denominator": {
             "agents": 363,
             "commands": 370,
@@ -101,7 +101,7 @@
             "skills": 3491
           },
           "validated_plugin_manifests": 595,
-          "validator_reported_mixed_denominator_percent": 39.3
+          "validator_reported_mixed_denominator_percent": 39.9
         },
         "skill_rows": {
           "a_error_total": 26,
@@ -112,8 +112,8 @@
           "error_files": 339,
           "error_total": 2860,
           "grade_distribution": {
-            "A": 2715,
-            "B": 485,
+            "A": 2741,
+            "B": 459,
             "C": 133,
             "D": 154,
             "F": 4
@@ -129,17 +129,17 @@
       "source": ["scripts/validate-skills-schema.py"],
       "status": "measured",
       "values": {
-        "average_score": 91.3,
+        "average_score": 91.4,
         "grade_distribution": {
-          "A": 2715,
-          "B": 485,
+          "A": 2741,
+          "B": 459,
           "C": 133,
           "D": 154,
           "F": 4
         },
         "grade_percentages": {
-          "A": 77.8,
-          "B": 13.9,
+          "A": 78.5,
+          "B": 13.1,
           "C": 3.8,
           "D": 4.4,
           "F": 0.1
@@ -286,7 +286,7 @@
       "source": ["scripts/validate-skills-schema.py"],
       "status": "measured",
       "values": {
-        "distinct_values": 301,
+        "distinct_values": 331,
         "invalid_or_empty": 0,
         "target_free_text_values": 0,
         "values": [
@@ -316,6 +316,14 @@
           },
           {
             "count": 1,
+            "value": "Architecture choices require a backend web application because Canva Connect secrets cannot be secured in browser-only clients."
+          },
+          {
+            "count": 1,
+            "value": "Canva webhooks and keys are preview; Canva states public integrations using preview features cannot pass review."
+          },
+          {
+            "count": 1,
             "value": "Claude Code native workflows; Codex/OpenCode/Grok portable adapter"
           },
           {
@@ -337,6 +345,10 @@
           {
             "count": 1,
             "value": "Claude Code, Codex, OpenCode, Antigravity (needs gh CLI + git remote); Desktop/web via pasted issue text (lossy)"
+          },
+          {
+            "count": 1,
+            "value": "Collection requires an incident ID, approved evidence destination, retention period, and reviewer."
           },
           {
             "count": 1,
@@ -379,7 +391,7 @@
             "value": "Cross-platform — talks WebDriver HTTP directly via Node's built-in node:https; no platform-specific binary dependency. Requires Node.js >= 18, a persistent local filesystem (the observe-decide-act loop passes state through local turn files), and ~/.kobiton/.credentials written by /automate:setup — scripts/appium.js reads that file directly and never calls the MCP getCredential tool, so it is required, not a fallback. An authenticated Kobiton MCP connection is additionally useful for device selection."
           },
           {
-            "count": 2405,
+            "count": 2375,
             "value": "Designed for Claude Code"
           },
           {
@@ -1240,6 +1252,10 @@
           },
           {
             "count": 1,
+            "value": "Diagnosis may use redacted production evidence; any live reproduction requires an approved test user and operation."
+          },
+          {
+            "count": 1,
             "value": "EVM method availability, fee fields, and finality rules vary by chain and network"
           },
           {
@@ -1253,6 +1269,14 @@
           {
             "count": 1,
             "value": "Live checks require a protected CI environment and a read-only QuickNode credential"
+          },
+          {
+            "count": 1,
+            "value": "Live local OAuth requires a dedicated development integration, controlled redirect URI, test user, and encrypted or ephemeral backend token store."
+          },
+          {
+            "count": 1,
+            "value": "Live probes require an approved test user, least-privilege token, and incident-scoped authorization."
           },
           {
             "count": 1,
@@ -1304,6 +1328,10 @@
           },
           {
             "count": 1,
+            "value": "Provider load testing requires explicit authorization, dedicated non-production users, synthetic data, and an abort owner."
+          },
+          {
+            "count": 1,
             "value": "Readiness evidence varies by chain, product, plan, and application write authority"
           },
           {
@@ -1344,6 +1372,10 @@
           },
           {
             "count": 1,
+            "value": "Requires a Canva Developer Portal integration, controlled redirect URI, backend secret store, and consent design."
+          },
+          {
+            "count": 1,
             "value": "Requires a QuickNode HTTP endpoint and a documented read method for the selected chain"
           },
           {
@@ -1352,11 +1384,39 @@
           },
           {
             "count": 1,
+            "value": "Requires a backend web application, approved secret store, threat owner, and current Canva security documentation."
+          },
+          {
+            "count": 1,
+            "value": "Requires a backend web application, durable token/job storage, approved data policy, and service ownership."
+          },
+          {
+            "count": 1,
+            "value": "Requires a backend-held access token for a dedicated authorized test user."
+          },
+          {
+            "count": 1,
             "value": "Requires a connected cluster, representative baseline, and approved ownership of node and workload scaling controls"
           },
           {
             "count": 1,
+            "value": "Requires a documented application role model plus current Canva scope and capability evidence."
+          },
+          {
+            "count": 1,
+            "value": "Requires a durable operation ledger, current error contract, scoped queues, and explicit failure budgets."
+          },
+          {
+            "count": 1,
             "value": "Requires a managed HTTPS destination, an approved Bright Data snapshot, and durable streaming storage"
+          },
+          {
+            "count": 1,
+            "value": "Requires a pinned Canva OpenAPI snapshot and a backend credential/policy service; generated code is application-owned."
+          },
+          {
+            "count": 1,
+            "value": "Requires a protected benchmark workload, current endpoint contract, and approved latency, freshness, data, and rollback budgets."
           },
           {
             "count": 1,
@@ -1380,7 +1440,19 @@
           },
           {
             "count": 1,
+            "value": "Requires an approved organizational privacy/security policy and resource-owner authorization; this skill is not legal advice."
+          },
+          {
+            "count": 1,
+            "value": "Requires an approved policy owner, repository scope, exception process, and current Canva contracts."
+          },
+          {
+            "count": 1,
             "value": "Requires an approved public-data use case, named system owners, and current Bright Data product documentation"
+          },
+          {
+            "count": 1,
+            "value": "Requires an approved telemetry schema, retention policy, and SLO derived from the application rather than guessed provider guarantees."
           },
           {
             "count": 1,
@@ -1388,7 +1460,23 @@
           },
           {
             "count": 1,
+            "value": "Requires an authorized test or production user, explicit design scopes, and approved content/retention policy."
+          },
+          {
+            "count": 1,
+            "value": "Requires an exact release artifact, controlled production integration, current feature-status evidence, and rollback authority."
+          },
+          {
+            "count": 1,
             "value": "Requires an existing infrastructure delivery system and cloud-specific CAST AI permissions reviewed for each target cluster"
+          },
+          {
+            "count": 1,
+            "value": "Requires control of the HTTPS callback domain, approved environment credentials, and a tested rollback artifact."
+          },
+          {
+            "count": 1,
+            "value": "Requires controlled domains and an approved secret backend for every named environment."
           },
           {
             "count": 24,
@@ -1408,7 +1496,23 @@
           },
           {
             "count": 1,
+            "value": "Requires current and target contract artifacts, compatibility tests, feature flags, and rollback authority."
+          },
+          {
+            "count": 1,
+            "value": "Requires current endpoint rate metadata, observed response evidence, and an application operation ledger."
+          },
+          {
+            "count": 1,
+            "value": "Requires current tenant entitlement evidence and an approved measurement window; public pricing must not be inferred."
+          },
+          {
+            "count": 1,
             "value": "Requires declared CAST AI feature mode and read access to rendered Kubernetes and cloud permission definitions"
+          },
+          {
+            "count": 1,
+            "value": "Requires incident authority, approved read-only diagnostics, service ownership, and rollback access."
           },
           {
             "count": 1,
@@ -1424,11 +1528,19 @@
           },
           {
             "count": 1,
+            "value": "Requires operation-specific scopes, resource rights, current feature availability, and an approved asset/data classification."
+          },
+          {
+            "count": 1,
             "value": "Requires read access to the target kube context; console or API evidence may require an appropriately scoped CAST AI identity"
           },
           {
             "count": 1,
             "value": "Requires read-only access to the selected cluster; collection must follow local data-handling and support-sharing policy"
+          },
+          {
+            "count": 1,
+            "value": "Requires source/target contracts, content rights, user-consent analysis, rollback authority, and a bounded migration cohort."
           },
           {
             "count": 1,
@@ -1452,6 +1564,10 @@
           },
           {
             "count": 1,
+            "value": "Review uses repository and redacted runtime evidence; live mutation is outside this skill."
+          },
+          {
+            "count": 1,
             "value": "Runs on any MCP-aware host, including hosts with no local filesystem — this is the plugin's only pure-MCP skill, needing no local file, binary, or shell. Uses the Kobiton MCP tools createTestRun, getTestCase/getTestSuite, listDevices, and getOrgSettings; requires an authenticated Kobiton MCP connection. Delegates monitoring to the monitor-test-run skill (same plugin), which does need a local poller — so on a filesystem-less host, create the run and report its id rather than offering to watch it."
           },
           {
@@ -1469,6 +1585,10 @@
           {
             "count": 1,
             "value": "Supports CAST AI documented connection paths; cloud permissions and available features vary by provider and subscription"
+          },
+          {
+            "count": 1,
+            "value": "The live lane requires a protected environment and dedicated low-privilege test user; forked code must never receive secrets."
           },
           {
             "count": 1,
@@ -2916,7 +3036,7 @@
         "invalid_patterns": 0,
         "invisible_files": 5,
         "target_invisible_files": 0,
-        "tracked_files": 25550
+        "tracked_files": 25612
       }
     },
     "47": {
@@ -3001,15 +3121,15 @@
       "dimension": "Inventory header versus rows",
       "reproduce": "pnpm run measure:e1 --row=52 --stdout",
       "source": [
-        "freshie/reports/run-delta-124.json",
+        "freshie/reports/run-delta-125.json",
         "freshie/scripts/dolt-sync.py",
         "freshie/scripts/run-delta.py"
       ],
       "status": "target_met",
       "values": {
-        "dolt_commit": "coq7lg1jnu8gqu8i2ghidpc2krcam2qu",
+        "dolt_commit": "tuefkmeolqjmoktio463rot69qoetrmv",
         "header_total_skills": 2914,
-        "run_id": 124,
+        "run_id": 125,
         "skill_row_delta": 0,
         "skill_rows": 2914,
         "target_skill_row_delta": 0
@@ -3022,32 +3142,32 @@
       "source": [
         "freshie/grade-histogram.json",
         "freshie/grades.csv",
-        "freshie/reports/run-delta-124.json"
+        "freshie/reports/run-delta-125.json"
       ],
       "status": "target_met",
       "values": {
         "compliance_rows": 3491,
-        "export_dolt_commit": "coq7lg1jnu8gqu8i2ghidpc2krcam2qu",
-        "export_run_id": 124,
+        "export_dolt_commit": "tuefkmeolqjmoktio463rot69qoetrmv",
+        "export_run_id": 125,
         "grades_csv_rows": 3491,
-        "grades_csv_sha256": "06f8c99efbc8d95a252d33fef051da6b3bbd56c5e2dfea53b20449302c0c44aa",
+        "grades_csv_sha256": "932820f205ae478fd6400b59c17731f146dc040a1195cf41a490849cb064af64",
         "histogram_grades": {
-          "A": 2715,
-          "B": 485,
+          "A": 2741,
+          "B": 459,
           "C": 133,
           "D": 154,
           "F": 4
         },
         "histogram_total": 3491,
         "immutable_grade_counts": {
-          "A": 2715,
-          "B": 485,
+          "A": 2741,
+          "B": 459,
           "C": 133,
           "D": 154,
           "F": 4
         },
-        "inventory_dolt_commit": "coq7lg1jnu8gqu8i2ghidpc2krcam2qu",
-        "inventory_run_id": 124,
+        "inventory_dolt_commit": "tuefkmeolqjmoktio463rot69qoetrmv",
+        "inventory_run_id": 125,
         "target_lag_runs": 0
       }
     },
@@ -3057,7 +3177,7 @@
       "reproduce": "pnpm run measure:e1 --row=54 --stdout",
       "source": [
         "freshie/reports/legacy-forge-proofs-demotion.json",
-        "freshie/reports/run-delta-124.json",
+        "freshie/reports/run-delta-125.json",
         "freshie/reports/run-delta-19.json",
         "freshie/scripts/dolt-sync.py",
         "freshie/scripts/run-delta.py",
@@ -3071,7 +3191,7 @@
           "E2": 0,
           "E3": 0
         },
-        "current_run_id": 124,
+        "current_run_id": 125,
         "invalid_identities": 0,
         "legacy_e0_records": 3,
         "retained_e2_e3": 0,
@@ -3095,7 +3215,7 @@
       "source": [
         "000-docs/807-DR-STND-evaluation-evidence.md",
         "freshie/reports/legacy-forge-proofs-demotion.json",
-        "freshie/reports/run-delta-124.json",
+        "freshie/reports/run-delta-125.json",
         "freshie/reports/run-delta-19.json",
         "freshie/scripts/dolt-sync.py",
         "freshie/scripts/run-delta.py"
