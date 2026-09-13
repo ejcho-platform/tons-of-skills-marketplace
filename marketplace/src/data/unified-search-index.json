@@ -663,6 +663,7 @@
       "conversational-ai",
       "conversion",
       "coordination",
+      "copilot",
       "copilot-alternative",
       "coreweave",
       "corpus-linguistics",
@@ -1383,6 +1384,7 @@
       "return on investment",
       "revenue",
       "revenue-enablement",
+      "revenue-operations",
       "review",
       "rewards",
       "risk",
@@ -12162,12 +12164,13 @@
       "slug": "clari-pack",
       "name": "clari-pack",
       "displayName": "clari pack",
-      "description": "Claude Code skill pack for Clari (18 skills)",
+      "description": "18 governed Clari operator workflows for Revenue API exports, v2 ingestion, Copilot, governance, and production operations",
       "category": "saas-packs",
       "keywords": [
         "clari",
-        "saas",
-        "sdk",
+        "revenue-operations",
+        "forecasting",
+        "copilot",
         "integration"
       ],
       "author": {
@@ -12176,15 +12179,15 @@
         "url": "https://github.com/jeremylongshore"
       },
       "authorType": "official",
-      "version": "1.6.0",
+      "version": "2.0.0",
       "isFeatured": false,
       "isNew": false,
       "badges": [],
       "skillCount": 18,
-      "verificationScore": 86,
-      "verificationGrade": "B",
-      "verificationBadge": "silver",
-      "searchText": "clari pack claude code skill pack for clari (18 skills) saas-packs clari saas sdk integration"
+      "verificationScore": 95,
+      "verificationGrade": "A",
+      "verificationBadge": "gold",
+      "searchText": "clari pack 18 governed clari operator workflows for revenue api exports, v2 ingestion, copilot, governance, and production operations saas-packs clari revenue-operations forecasting copilot integration"
     },
     {
       "type": "plugin",
@@ -25797,384 +25800,378 @@
       "id": "clari-ci-integration",
       "slug": "clari-ci-integration",
       "name": "clari-ci-integration",
-      "description": "Integrate Clari export pipeline testing and validation into CI/CD. Use when adding automated tests for Clari integrations, validating export schemas in CI, or testing pipeline reliability. Trigger with phrases like \"clari CI\", \"clari github actions\", \"clari automated tests\", \"test clari pipeline\".",
+      "description": "Validate a Clari integration in CI with offline OpenAPI-derived contracts, synthetic job lifecycles, schema drift checks, and secret scanning. Use when adding release gates. Trigger with: \"add Clari CI\", \"test the Clari contract\", \"gate a Clari release\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(gh:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "clari-pack",
         "category": "saas-packs"
       },
-      "searchText": "clari-ci-integration integrate clari export pipeline testing and validation into ci/cd. use when adding automated tests for clari integrations, validating export schemas in ci, or testing pipeline reliability. trigger with phrases like \"clari ci\", \"clari github actions\", \"clari automated tests\", \"test clari pipeline\". saas-packs read write edit bash(gh:*) "
+      "searchText": "clari-ci-integration validate a clari integration in ci with offline openapi-derived contracts, synthetic job lifecycles, schema drift checks, and secret scanning. use when adding release gates. trigger with: \"add clari ci\", \"test the clari contract\", \"gate a clari release\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "clari-common-errors",
       "slug": "clari-common-errors",
       "name": "clari-common-errors",
-      "description": "Diagnose and fix Clari API errors including auth failures, export issues, and data mismatches. Use when Clari API calls fail, exports return empty data, or forecast numbers do not match the UI. Trigger with phrases like \"clari error\", \"clari not working\", \"clari api failure\", \"fix clari\", \"debug clari\".",
+      "description": "Analyze and resolve Clari authentication, authorization, job, ingestion, schema, and empty-result failures from redacted evidence. Use when an integration fails or returns incomplete data. Trigger with: \"debug Clari\", \"triage a Clari error\", \"fix an empty Clari export\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
-        "Bash(curl:*)",
-        "Grep"
+        "Grep",
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "clari-pack",
         "category": "saas-packs"
       },
-      "searchText": "clari-common-errors diagnose and fix clari api errors including auth failures, export issues, and data mismatches. use when clari api calls fail, exports return empty data, or forecast numbers do not match the ui. trigger with phrases like \"clari error\", \"clari not working\", \"clari api failure\", \"fix clari\", \"debug clari\". saas-packs read bash(curl:*) grep "
+      "searchText": "clari-common-errors analyze and resolve clari authentication, authorization, job, ingestion, schema, and empty-result failures from redacted evidence. use when an integration fails or returns incomplete data. trigger with: \"debug clari\", \"triage a clari error\", \"fix an empty clari export\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "clari-core-workflow-a",
       "slug": "clari-core-workflow-a",
       "name": "clari-core-workflow-a",
-      "description": "Build a Clari forecast export pipeline to your data warehouse. Use when exporting forecast calls, quota data, and CRM totals from Clari to Snowflake, BigQuery, or a local database. Trigger with phrases like \"clari forecast export\", \"clari data pipeline\", \"clari to snowflake\", \"clari to bigquery\", \"export clari data\".",
+      "description": "Build a Clari forecast-export pipeline with reconciliation, schema controls, and warehouse lineage. Use when loading forecasts, quotas, adjustments, or CRM totals. Trigger with: \"export Clari forecasts\", \"load Clari into the warehouse\", \"build a forecast pipeline\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(python3:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "clari-pack",
         "category": "saas-packs"
       },
-      "searchText": "clari-core-workflow-a build a clari forecast export pipeline to your data warehouse. use when exporting forecast calls, quota data, and crm totals from clari to snowflake, bigquery, or a local database. trigger with phrases like \"clari forecast export\", \"clari data pipeline\", \"clari to snowflake\", \"clari to bigquery\", \"export clari data\". saas-packs read write edit bash(python3:*) bash(curl:*) grep "
+      "searchText": "clari-core-workflow-a build a clari forecast-export pipeline with reconciliation, schema controls, and warehouse lineage. use when loading forecasts, quotas, adjustments, or crm totals. trigger with: \"export clari forecasts\", \"load clari into the warehouse\", \"build a forecast pipeline\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "clari-core-workflow-b",
       "slug": "clari-core-workflow-b",
       "name": "clari-core-workflow-b",
-      "description": "Build Clari revenue analytics: pipeline coverage, forecast accuracy, and rep performance dashboards from exported data. Use when analyzing forecast accuracy, building attainment reports, or creating executive revenue dashboards. Trigger with phrases like \"clari analytics\", \"clari dashboard\", \"clari forecast accuracy\", \"clari pipeline coverage\".",
+      "description": "Extract Clari Copilot calls, details, users, topics, and scorecards into a governed analytics flow. Use when building conversation or coaching datasets. Trigger with: \"export Clari Copilot calls\", \"build conversation analytics\", \"load Copilot scorecards\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(python3:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "clari-pack",
         "category": "saas-packs"
       },
-      "searchText": "clari-core-workflow-b build clari revenue analytics: pipeline coverage, forecast accuracy, and rep performance dashboards from exported data. use when analyzing forecast accuracy, building attainment reports, or creating executive revenue dashboards. trigger with phrases like \"clari analytics\", \"clari dashboard\", \"clari forecast accuracy\", \"clari pipeline coverage\". saas-packs read write edit bash(python3:*) grep "
+      "searchText": "clari-core-workflow-b extract clari copilot calls, details, users, topics, and scorecards into a governed analytics flow. use when building conversation or coaching datasets. trigger with: \"export clari copilot calls\", \"build conversation analytics\", \"load copilot scorecards\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "clari-cost-tuning",
       "slug": "clari-cost-tuning",
       "name": "clari-cost-tuning",
-      "description": "Optimize Clari API usage and integration costs. Use when reducing API call volume, optimizing export frequency, or evaluating Clari license utilization. Trigger with phrases like \"clari cost\", \"clari api usage\", \"reduce clari calls\", \"clari optimization\".",
+      "description": "Analyze and optimize Clari integration consumption across export quota, Copilot requests, transfer, storage, and warehouse work. Use when reducing unnecessary runs. Trigger with: \"reduce Clari cost\", \"budget Clari exports\", \"tune Clari retention\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "clari-pack",
         "category": "saas-packs"
       },
-      "searchText": "clari-cost-tuning optimize clari api usage and integration costs. use when reducing api call volume, optimizing export frequency, or evaluating clari license utilization. trigger with phrases like \"clari cost\", \"clari api usage\", \"reduce clari calls\", \"clari optimization\". saas-packs read write edit grep "
+      "searchText": "clari-cost-tuning analyze and optimize clari integration consumption across export quota, copilot requests, transfer, storage, and warehouse work. use when reducing unnecessary runs. trigger with: \"reduce clari cost\", \"budget clari exports\", \"tune clari retention\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "clari-debug-bundle",
       "slug": "clari-debug-bundle",
       "name": "clari-debug-bundle",
-      "description": "Collect Clari API diagnostic info for support cases. Use when preparing a support ticket, collecting API response samples, or documenting integration issues. Trigger with phrases like \"clari debug\", \"clari support bundle\", \"collect clari diagnostics\", \"clari troubleshoot\".",
+      "description": "Analyze a Clari incident and collect a minimal support bundle with job timelines, contract fingerprints, and secret-safe evidence. Use when escalating a provider or pipeline failure. Trigger with: \"collect Clari diagnostics\", \"build a Clari support bundle\", \"redact a Clari incident\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
-        "Bash(curl:*)",
-        "Bash(python3:*)",
-        "Grep"
+        "Grep",
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "clari-pack",
         "category": "saas-packs"
       },
-      "searchText": "clari-debug-bundle collect clari api diagnostic info for support cases. use when preparing a support ticket, collecting api response samples, or documenting integration issues. trigger with phrases like \"clari debug\", \"clari support bundle\", \"collect clari diagnostics\", \"clari troubleshoot\". saas-packs read bash(curl:*) bash(python3:*) grep "
+      "searchText": "clari-debug-bundle analyze a clari incident and collect a minimal support bundle with job timelines, contract fingerprints, and secret-safe evidence. use when escalating a provider or pipeline failure. trigger with: \"collect clari diagnostics\", \"build a clari support bundle\", \"redact a clari incident\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "clari-deploy-integration",
       "slug": "clari-deploy-integration",
       "name": "clari-deploy-integration",
-      "description": "Deploy Clari export pipelines to production with Airflow, Cloud Functions, or Lambda. Use when scheduling automated exports, deploying to cloud platforms, or setting up serverless Clari sync. Trigger with phrases like \"deploy clari\", \"clari airflow\", \"clari lambda\", \"clari cloud function\", \"clari scheduled export\".",
+      "description": "Deploy a single-writer Clari scheduler with durable job state, atomic publication, observability, and rollback. Use when productionizing recurring Revenue or Copilot extraction. Trigger with: \"deploy a Clari pipeline\", \"schedule Clari exports\", \"ship Clari integration\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(gcloud:*)",
-        "Bash(aws:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "clari-pack",
         "category": "saas-packs"
       },
-      "searchText": "clari-deploy-integration deploy clari export pipelines to production with airflow, cloud functions, or lambda. use when scheduling automated exports, deploying to cloud platforms, or setting up serverless clari sync. trigger with phrases like \"deploy clari\", \"clari airflow\", \"clari lambda\", \"clari cloud function\", \"clari scheduled export\". saas-packs read write edit bash(gcloud:*) bash(aws:*) "
+      "searchText": "clari-deploy-integration deploy a single-writer clari scheduler with durable job state, atomic publication, observability, and rollback. use when productionizing recurring revenue or copilot extraction. trigger with: \"deploy a clari pipeline\", \"schedule clari exports\", \"ship clari integration\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "clari-hello-world",
       "slug": "clari-hello-world",
       "name": "clari-hello-world",
-      "description": "Export your first Clari forecast and pipeline snapshot. Use when testing Clari API connectivity, pulling forecast data, or learning the export API structure. Trigger with phrases like \"clari hello world\", \"clari first export\", \"clari test api\", \"clari forecast export\".",
+      "description": "Run one bounded Clari forecast export through request, status polling, and result retrieval. Use when proving Revenue API connectivity or learning the job lifecycle. Trigger with: \"run my first Clari export\", \"test Clari connectivity\", \"export a forecast snapshot\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(curl:*)",
-        "Bash(python3:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "clari-pack",
         "category": "saas-packs"
       },
-      "searchText": "clari-hello-world export your first clari forecast and pipeline snapshot. use when testing clari api connectivity, pulling forecast data, or learning the export api structure. trigger with phrases like \"clari hello world\", \"clari first export\", \"clari test api\", \"clari forecast export\". saas-packs read write edit bash(curl:*) bash(python3:*) "
+      "searchText": "clari-hello-world run one bounded clari forecast export through request, status polling, and result retrieval. use when proving revenue api connectivity or learning the job lifecycle. trigger with: \"run my first clari export\", \"test clari connectivity\", \"export a forecast snapshot\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "clari-install-auth",
       "slug": "clari-install-auth",
       "name": "clari-install-auth",
-      "description": "Configure Clari API authentication with API key and set up export access. Use when connecting to the Clari API, generating API tokens, or configuring forecast data exports. Trigger with phrases like \"install clari\", \"setup clari api\", \"clari auth\", \"clari api key\", \"configure clari\".",
+      "description": "Configure a least-privilege Clari identity and validate Revenue API or Copilot credentials without exposing secrets. Use when starting an integration or rotating access. Trigger with: \"set up Clari auth\", \"configure a Clari token\", \"test Copilot credentials\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(curl:*)",
-        "Bash(pip:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "clari-pack",
         "category": "saas-packs"
       },
-      "searchText": "clari-install-auth configure clari api authentication with api key and set up export access. use when connecting to the clari api, generating api tokens, or configuring forecast data exports. trigger with phrases like \"install clari\", \"setup clari api\", \"clari auth\", \"clari api key\", \"configure clari\". saas-packs read write edit bash(curl:*) bash(pip:*) grep "
+      "searchText": "clari-install-auth configure a least-privilege clari identity and validate revenue api or copilot credentials without exposing secrets. use when starting an integration or rotating access. trigger with: \"set up clari auth\", \"configure a clari token\", \"test copilot credentials\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "clari-local-dev-loop",
       "slug": "clari-local-dev-loop",
       "name": "clari-local-dev-loop",
-      "description": "Set up local development for Clari API integrations with mock data. Use when building forecast dashboards, testing export pipelines, or iterating on Clari data transformations locally. Trigger with phrases like \"clari dev setup\", \"clari local testing\", \"develop with clari\", \"clari mock data\".",
+      "description": "Build and test a Clari integration locally with redacted fixtures and a deterministic job simulator. Use when developing without spending quota or exposing customer data. Trigger with: \"mock Clari locally\", \"build Clari fixtures\", \"test Clari offline\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(python3:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "clari-pack",
         "category": "saas-packs"
       },
-      "searchText": "clari-local-dev-loop set up local development for clari api integrations with mock data. use when building forecast dashboards, testing export pipelines, or iterating on clari data transformations locally. trigger with phrases like \"clari dev setup\", \"clari local testing\", \"develop with clari\", \"clari mock data\". saas-packs read write edit bash(npm:*) bash(python3:*) grep "
+      "searchText": "clari-local-dev-loop build and test a clari integration locally with redacted fixtures and a deterministic job simulator. use when developing without spending quota or exposing customer data. trigger with: \"mock clari locally\", \"build clari fixtures\", \"test clari offline\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "clari-performance-tuning",
       "slug": "clari-performance-tuning",
       "name": "clari-performance-tuning",
-      "description": "Optimize Clari API performance with caching, batch exports, and data pipeline efficiency. Use when exports take too long, optimizing data warehouse load times, or reducing API calls in multi-forecast environments. Trigger with phrases like \"clari performance\", \"clari slow export\", \"optimize clari pipeline\", \"clari caching\".",
+      "description": "Optimize Clari integration latency without violating concurrency, quota, correctness, or duplicate-work controls. Use when exports or Copilot extraction miss an SLO. Trigger with: \"speed up Clari exports\", \"tune Clari polling\", \"reduce Clari pipeline latency\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "clari-pack",
         "category": "saas-packs"
       },
-      "searchText": "clari-performance-tuning optimize clari api performance with caching, batch exports, and data pipeline efficiency. use when exports take too long, optimizing data warehouse load times, or reducing api calls in multi-forecast environments. trigger with phrases like \"clari performance\", \"clari slow export\", \"optimize clari pipeline\", \"clari caching\". saas-packs read write edit "
+      "searchText": "clari-performance-tuning optimize clari integration latency without violating concurrency, quota, correctness, or duplicate-work controls. use when exports or copilot extraction miss an slo. trigger with: \"speed up clari exports\", \"tune clari polling\", \"reduce clari pipeline latency\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "clari-prod-checklist",
       "slug": "clari-prod-checklist",
       "name": "clari-prod-checklist",
-      "description": "Production readiness checklist for Clari API integrations. Use when launching a Clari data pipeline, validating export automation, or preparing for production forecast sync. Trigger with phrases like \"clari production\", \"clari go-live\", \"clari checklist\", \"clari launch\".",
+      "description": "Analyze and gate a Clari integration for production with evidence for access, correctness, resilience, privacy, rollback, and ownership. Use when approving a launch or material change. Trigger with: \"review Clari readiness\", \"approve Clari production\", \"run the Clari launch checklist\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
-        "Bash(curl:*)",
-        "Grep"
+        "Grep",
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "clari-pack",
         "category": "saas-packs"
       },
-      "searchText": "clari-prod-checklist production readiness checklist for clari api integrations. use when launching a clari data pipeline, validating export automation, or preparing for production forecast sync. trigger with phrases like \"clari production\", \"clari go-live\", \"clari checklist\", \"clari launch\". saas-packs read bash(curl:*) grep "
+      "searchText": "clari-prod-checklist analyze and gate a clari integration for production with evidence for access, correctness, resilience, privacy, rollback, and ownership. use when approving a launch or material change. trigger with: \"review clari readiness\", \"approve clari production\", \"run the clari launch checklist\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "clari-rate-limits",
       "slug": "clari-rate-limits",
       "name": "clari-rate-limits",
-      "description": "Handle Clari API rate limits with backoff and export job scheduling. Use when hitting 429 errors, optimizing export frequency, or scheduling bulk forecast exports. Trigger with phrases like \"clari rate limit\", \"clari 429\", \"clari throttle\", \"clari api limits\".",
+      "description": "Analyze and schedule Clari exports, ingestion jobs, and Copilot reads within provider concurrency and quota controls. Use when preventing 429 responses or coordinating workers. Trigger with: \"handle Clari rate limits\", \"schedule Clari jobs\", \"recover from Clari 429\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "clari-pack",
         "category": "saas-packs"
       },
-      "searchText": "clari-rate-limits handle clari api rate limits with backoff and export job scheduling. use when hitting 429 errors, optimizing export frequency, or scheduling bulk forecast exports. trigger with phrases like \"clari rate limit\", \"clari 429\", \"clari throttle\", \"clari api limits\". saas-packs read write edit "
+      "searchText": "clari-rate-limits analyze and schedule clari exports, ingestion jobs, and copilot reads within provider concurrency and quota controls. use when preventing 429 responses or coordinating workers. trigger with: \"handle clari rate limits\", \"schedule clari jobs\", \"recover from clari 429\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "clari-reference-architecture",
       "slug": "clari-reference-architecture",
       "name": "clari-reference-architecture",
-      "description": "Reference architecture for Clari revenue intelligence integrations. Use when designing a forecast data platform, planning Clari integration architecture, or establishing team patterns for revenue analytics. Trigger with phrases like \"clari architecture\", \"clari data platform\", \"clari integration design\", \"clari best practices\".",
+      "description": "Design a Clari architecture that separates Revenue exports, v2 ingestion, Copilot, control state, landing, validation, and publication. Use when defining or reviewing a platform boundary. Trigger with: \"design Clari architecture\", \"review a Clari topology\", \"map Clari data flow\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "clari-pack",
         "category": "saas-packs"
       },
-      "searchText": "clari-reference-architecture reference architecture for clari revenue intelligence integrations. use when designing a forecast data platform, planning clari integration architecture, or establishing team patterns for revenue analytics. trigger with phrases like \"clari architecture\", \"clari data platform\", \"clari integration design\", \"clari best practices\". saas-packs read write edit grep "
+      "searchText": "clari-reference-architecture design a clari architecture that separates revenue exports, v2 ingestion, copilot, control state, landing, validation, and publication. use when defining or reviewing a platform boundary. trigger with: \"design clari architecture\", \"review a clari topology\", \"map clari data flow\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "clari-sdk-patterns",
       "slug": "clari-sdk-patterns",
       "name": "clari-sdk-patterns",
-      "description": "Production-ready Clari API client patterns in Python and TypeScript. Use when building reusable Clari clients, implementing export pipelines, or wrapping the Clari v4 API for team use. Trigger with phrases like \"clari API patterns\", \"clari client wrapper\", \"clari Python client\", \"clari TypeScript client\".",
+      "description": "Build and validate a typed local Clari REST client with bounded retries, job polling, pagination, and redaction. Use when standardizing application code around public contracts. Trigger with: \"build a Clari client\", \"wrap the Clari API\", \"type Clari responses\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "clari-pack",
         "category": "saas-packs"
       },
-      "searchText": "clari-sdk-patterns production-ready clari api client patterns in python and typescript. use when building reusable clari clients, implementing export pipelines, or wrapping the clari v4 api for team use. trigger with phrases like \"clari api patterns\", \"clari client wrapper\", \"clari python client\", \"clari typescript client\". saas-packs read write edit "
+      "searchText": "clari-sdk-patterns build and validate a typed local clari rest client with bounded retries, job polling, pagination, and redaction. use when standardizing application code around public contracts. trigger with: \"build a clari client\", \"wrap the clari api\", \"type clari responses\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "clari-security-basics",
       "slug": "clari-security-basics",
       "name": "clari-security-basics",
-      "description": "Secure Clari API tokens and implement data handling best practices. Use when managing API tokens, restricting data access, or implementing PII handling for exported forecast data. Trigger with phrases like \"clari security\", \"clari api key rotation\", \"secure clari\", \"clari pii handling\".",
+      "description": "Secure Clari identities, credentials, exported revenue data, Copilot content, and ingestion mutations. Use when threat-modeling or reviewing least privilege and data handling. Trigger with: \"secure Clari\", \"threat-model Clari\", \"review Clari access\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "clari-pack",
         "category": "saas-packs"
       },
-      "searchText": "clari-security-basics secure clari api tokens and implement data handling best practices. use when managing api tokens, restricting data access, or implementing pii handling for exported forecast data. trigger with phrases like \"clari security\", \"clari api key rotation\", \"secure clari\", \"clari pii handling\". saas-packs read write edit grep "
+      "searchText": "clari-security-basics secure clari identities, credentials, exported revenue data, copilot content, and ingestion mutations. use when threat-modeling or reviewing least privilege and data handling. trigger with: \"secure clari\", \"threat-model clari\", \"review clari access\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "clari-upgrade-migration",
       "slug": "clari-upgrade-migration",
       "name": "clari-upgrade-migration",
-      "description": "Handle Clari API version changes and export schema migrations. Use when Clari updates their API, export format changes, or migrating from v3 to v4 API. Trigger with phrases like \"upgrade clari\", \"clari api migration\", \"clari schema change\", \"clari v4 migration\".",
+      "description": "Migrate a Clari integration across hosts, versions, endpoint contracts, or export schemas with dual-read comparison and rollback. Use when retiring legacy clients or mappings. Trigger with: \"upgrade Clari API\", \"migrate a Clari client\", \"handle Clari schema drift\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "clari-pack",
         "category": "saas-packs"
       },
-      "searchText": "clari-upgrade-migration handle clari api version changes and export schema migrations. use when clari updates their api, export format changes, or migrating from v3 to v4 api. trigger with phrases like \"upgrade clari\", \"clari api migration\", \"clari schema change\", \"clari v4 migration\". saas-packs read write edit bash(curl:*) grep "
+      "searchText": "clari-upgrade-migration migrate a clari integration across hosts, versions, endpoint contracts, or export schemas with dual-read comparison and rollback. use when retiring legacy clients or mappings. trigger with: \"upgrade clari api\", \"migrate a clari client\", \"handle clari schema drift\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "clari-webhooks-events",
       "slug": "clari-webhooks-events",
       "name": "clari-webhooks-events",
-      "description": "Monitor Clari forecast changes using export job polling and change detection. Use when tracking forecast submission changes, building alerts for significant forecast movements, or syncing Clari data in near-real-time. Trigger with phrases like \"clari webhooks\", \"clari notifications\", \"clari forecast alerts\", \"clari change detection\".",
+      "description": "Detect Clari changes through supported paginated audit reads and asynchronous activity exports instead of assuming webhooks. Use when building an administrative or sales-activity feed. Trigger with: \"monitor Clari changes\", \"stream Clari audit events\", \"replace Clari webhooks\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(curl:*)",
-        "Bash(python3:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "clari-pack",
         "category": "saas-packs"
       },
-      "searchText": "clari-webhooks-events monitor clari forecast changes using export job polling and change detection. use when tracking forecast submission changes, building alerts for significant forecast movements, or syncing clari data in near-real-time. trigger with phrases like \"clari webhooks\", \"clari notifications\", \"clari forecast alerts\", \"clari change detection\". saas-packs read write edit bash(curl:*) bash(python3:*) "
+      "searchText": "clari-webhooks-events detect clari changes through supported paginated audit reads and asynchronous activity exports instead of assuming webhooks. use when building an administrative or sales-activity feed. trigger with: \"monitor clari changes\", \"stream clari audit events\", \"replace clari webhooks\". saas-packs read grep write edit "
     },
     {
       "type": "skill",

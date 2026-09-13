@@ -22,9 +22,9 @@
       "error_files": 315,
       "error_total": 2836,
       "grade_distribution": {
-        "A": 2807,
-        "B": 393,
-        "C": 133,
+        "A": 2823,
+        "B": 378,
+        "C": 132,
         "D": 154,
         "F": 4
       },
@@ -42,7 +42,7 @@
       "values": {
         "plugin_agent_files": 352,
         "raw_tracked_plugin_skill_files": 2991,
-        "tracked_files": 25762
+        "tracked_files": 25803
       }
     },
     "2": {
@@ -91,7 +91,7 @@
         },
         "marketplace_terminal": {
           "error_total_all_validated_surfaces": 3073,
-          "fully_compliant_surfaces": 1992,
+          "fully_compliant_surfaces": 2010,
           "terminal_denominator": {
             "agents": 363,
             "commands": 370,
@@ -101,7 +101,7 @@
             "skills": 3491
           },
           "validated_plugin_manifests": 595,
-          "validator_reported_mixed_denominator_percent": 41.4
+          "validator_reported_mixed_denominator_percent": 41.8
         },
         "skill_rows": {
           "a_error_total": 25,
@@ -112,9 +112,9 @@
           "error_files": 315,
           "error_total": 2836,
           "grade_distribution": {
-            "A": 2807,
-            "B": 393,
-            "C": 133,
+            "A": 2823,
+            "B": 378,
+            "C": 132,
             "D": 154,
             "F": 4
           },
@@ -131,15 +131,15 @@
       "values": {
         "average_score": 91.6,
         "grade_distribution": {
-          "A": 2807,
-          "B": 393,
-          "C": 133,
+          "A": 2823,
+          "B": 378,
+          "C": 132,
           "D": 154,
           "F": 4
         },
         "grade_percentages": {
-          "A": 80.4,
-          "B": 11.3,
+          "A": 80.9,
+          "B": 10.8,
           "C": 3.8,
           "D": 4.4,
           "F": 0.1
@@ -286,7 +286,7 @@
       "source": ["scripts/validate-skills-schema.py"],
       "status": "measured",
       "values": {
-        "distinct_values": 403,
+        "distinct_values": 421,
         "invalid_or_empty": 0,
         "target_free_text_values": 0,
         "values": [
@@ -391,7 +391,7 @@
             "value": "Cross-platform — talks WebDriver HTTP directly via Node's built-in node:https; no platform-specific binary dependency. Requires Node.js >= 18, a persistent local filesystem (the observe-decide-act loop passes state through local turn files), and ~/.kobiton/.credentials written by /automate:setup — scripts/appium.js reads that file directly and never calls the MCP getCredential tool, so it is required, not a fallback. An authenticated Kobiton MCP connection is additionally useful for device selection."
           },
           {
-            "count": 2303,
+            "count": 2285,
             "value": "Designed for Claude Code"
           },
           {
@@ -1388,11 +1388,23 @@
           },
           {
             "count": 1,
+            "value": "Requires Revenue API access to the chosen audit or activity surface, durable checkpoint or window state, and an approved downstream event sink."
+          },
+          {
+            "count": 1,
+            "value": "Requires Revenue API export entitlement, an existing Forecast Tab, an approved warehouse target, and governed handling of revenue data."
+          },
+          {
+            "count": 1,
             "value": "Requires Vast.ai Serverless access, a tested template, a scoped API key, representative load, and endpoint observability."
           },
           {
             "count": 1,
             "value": "Requires a CI runner, sanitized fixtures, and optional isolated Procore Developer Sandbox credentials for protected provider tests."
+          },
+          {
+            "count": 1,
+            "value": "Requires a CI runner, synthetic fixtures, a pinned first-party contract fingerprint, and a separately gated non-production credential for optional smoke tests."
           },
           {
             "count": 1,
@@ -1433,6 +1445,10 @@
           {
             "count": 1,
             "value": "Requires a QuickNode account; Admin API and advanced endpoint-security features depend on the account plan"
+          },
+          {
+            "count": 1,
+            "value": "Requires a Revenue API token, access to an existing Forecast Tab, and permission to export its hierarchy."
           },
           {
             "count": 1,
@@ -1484,11 +1500,19 @@
           },
           {
             "count": 1,
+            "value": "Requires a local test runner, approved synthetic or irreversibly redacted fixtures, and a pinned provider contract snapshot."
+          },
+          {
+            "count": 1,
             "value": "Requires a managed HTTPS destination, an approved Bright Data snapshot, and durable streaming storage"
           },
           {
             "count": 1,
             "value": "Requires a pinned Canva OpenAPI snapshot and a backend credential/policy service; generated code is application-owned."
+          },
+          {
+            "count": 1,
+            "value": "Requires a pinned Clari API contract and an HTTP client with timeout, retry, TLS, and structured logging controls; no official public Clari SDK is assumed."
           },
           {
             "count": 1,
@@ -1508,11 +1532,19 @@
           },
           {
             "count": 1,
+            "value": "Requires a redacted request manifest, provider response status, correlation or error identifiers, and access to the matching first-party contract."
+          },
+          {
+            "count": 1,
             "value": "Requires a redacted response receipt with surface, operation, HTTP or JSON-RPC status, and correlation metadata."
           },
           {
             "count": 1,
             "value": "Requires a release candidate, Procore app version, sandbox evidence, operational owners, and production approval authority."
+          },
+          {
+            "count": 1,
+            "value": "Requires a release candidate, non-production test evidence, named owners, and an approved production change window."
           },
           {
             "count": 1,
@@ -1580,6 +1612,10 @@
           },
           {
             "count": 1,
+            "value": "Requires an approved orchestrator, secret manager, durable state store, destination, capacity plan, and rollback environment."
+          },
+          {
+            "count": 1,
             "value": "Requires an approved organizational privacy/security policy and resource-owner authorization; this skill is not legal advice."
           },
           {
@@ -1616,6 +1652,10 @@
           },
           {
             "count": 1,
+            "value": "Requires an entitled Clari tenant, an approved integration owner, and access to the relevant Revenue API or conversation-intelligence workspace settings."
+          },
+          {
+            "count": 1,
             "value": "Requires an exact release artifact, controlled production integration, current feature-status evidence, and rollback authority."
           },
           {
@@ -1640,6 +1680,10 @@
           },
           {
             "count": 1,
+            "value": "Requires an incident identifier, authorized time window, redaction policy, and an encrypted evidence destination."
+          },
+          {
+            "count": 1,
             "value": "Requires an incident workspace, approved redaction policy, and a named recipient for the diagnostic manifest."
           },
           {
@@ -1649,6 +1693,10 @@
           {
             "count": 1,
             "value": "Requires application architecture, data classification, permission inventory, and access to the Procore app configuration."
+          },
+          {
+            "count": 1,
+            "value": "Requires approved Clari products, destination systems, data classifications, service objectives, and platform ownership."
           },
           {
             "count": 1,
@@ -1716,6 +1764,10 @@
           },
           {
             "count": 1,
+            "value": "Requires current and target contract fingerprints, representative non-production data, a compatibility mapping, and a retained rollback path."
+          },
+          {
+            "count": 1,
             "value": "Requires current endpoint rate metadata, observed response evidence, and an application operation ledger."
           },
           {
@@ -1729,6 +1781,10 @@
           {
             "count": 1,
             "value": "Requires endpoint-scoped Flexport credentials, approved trade data, and any account enablement required for commercial invoices."
+          },
+          {
+            "count": 1,
+            "value": "Requires entitlement to the Clari conversation-intelligence API, workspace integration credentials, and approval to process recordings, transcripts, and participant data."
           },
           {
             "count": 1,
@@ -1804,6 +1860,10 @@
           },
           {
             "count": 1,
+            "value": "Requires security ownership, a data-classification policy, approved secret storage, and an inventory of Clari surfaces and destinations."
+          },
+          {
+            "count": 1,
             "value": "Requires source-provider inventory, portable workload artifacts, Vast.ai capacity, external storage, and an approved rollback window."
           },
           {
@@ -1840,7 +1900,15 @@
           },
           {
             "count": 1,
+            "value": "Requires timing telemetry by stage, provider capacity evidence, representative workloads, and a rollbackable tuning boundary."
+          },
+          {
+            "count": 1,
             "value": "Requires workload and data classification, Vast.ai account design, immutable artifacts, external storage, observability, and incident ownership."
+          },
+          {
+            "count": 1,
+            "value": "Requires workload inventory, organization limit evidence, destination usage metrics, and an approved freshness and retention policy."
           },
           {
             "count": 1,
@@ -1849,6 +1917,10 @@
           {
             "count": 1,
             "value": "Requires workload telemetry, SLOs, and read access to effective CAST AI and Kubernetes scaling configuration"
+          },
+          {
+            "count": 1,
+            "value": "Requires workload volume estimates, retained job or pagination state, and access to organization limits where the provider exposes them."
           },
           {
             "count": 1,
@@ -2584,7 +2656,7 @@
         "answers": [
           {
             "cohort": "curated-mirror",
-            "value": 2627
+            "value": 2628
           },
           {
             "cohort": "curriculum",
@@ -3324,7 +3396,7 @@
         "invalid_patterns": 0,
         "invisible_files": 5,
         "target_invisible_files": 0,
-        "tracked_files": 25762
+        "tracked_files": 25803
       }
     },
     "47": {
@@ -3409,15 +3481,15 @@
       "dimension": "Inventory header versus rows",
       "reproduce": "pnpm run measure:e1 --row=52 --stdout",
       "source": [
-        "freshie/reports/run-delta-128.json",
+        "freshie/reports/run-delta-131.json",
         "freshie/scripts/dolt-sync.py",
         "freshie/scripts/run-delta.py"
       ],
       "status": "target_met",
       "values": {
-        "dolt_commit": "gmm15f3sh0ell48fjhpn73s3ju8m4hna",
+        "dolt_commit": "tu9mqfp3qsu0ap98adhdvtnjonufqifq",
         "header_total_skills": 2914,
-        "run_id": 128,
+        "run_id": 131,
         "skill_row_delta": 0,
         "skill_rows": 2914,
         "target_skill_row_delta": 0
@@ -3430,32 +3502,32 @@
       "source": [
         "freshie/grade-histogram.json",
         "freshie/grades.csv",
-        "freshie/reports/run-delta-128.json"
+        "freshie/reports/run-delta-131.json"
       ],
       "status": "target_met",
       "values": {
         "compliance_rows": 3491,
-        "export_dolt_commit": "gmm15f3sh0ell48fjhpn73s3ju8m4hna",
-        "export_run_id": 128,
+        "export_dolt_commit": "tu9mqfp3qsu0ap98adhdvtnjonufqifq",
+        "export_run_id": 131,
         "grades_csv_rows": 3491,
-        "grades_csv_sha256": "95614376cb91ead807a9412ce19672baa06be9288ee30b44b4ba030b00d5510f",
+        "grades_csv_sha256": "716f9be0fb5167d36af8b59df287674cfc084a743707f80c7e3f289b206eb313",
         "histogram_grades": {
-          "A": 2807,
-          "B": 393,
-          "C": 133,
+          "A": 2823,
+          "B": 378,
+          "C": 132,
           "D": 154,
           "F": 4
         },
         "histogram_total": 3491,
         "immutable_grade_counts": {
-          "A": 2807,
-          "B": 393,
-          "C": 133,
+          "A": 2823,
+          "B": 378,
+          "C": 132,
           "D": 154,
           "F": 4
         },
-        "inventory_dolt_commit": "gmm15f3sh0ell48fjhpn73s3ju8m4hna",
-        "inventory_run_id": 128,
+        "inventory_dolt_commit": "tu9mqfp3qsu0ap98adhdvtnjonufqifq",
+        "inventory_run_id": 131,
         "target_lag_runs": 0
       }
     },
@@ -3465,7 +3537,7 @@
       "reproduce": "pnpm run measure:e1 --row=54 --stdout",
       "source": [
         "freshie/reports/legacy-forge-proofs-demotion.json",
-        "freshie/reports/run-delta-128.json",
+        "freshie/reports/run-delta-131.json",
         "freshie/reports/run-delta-19.json",
         "freshie/scripts/dolt-sync.py",
         "freshie/scripts/run-delta.py",
@@ -3479,7 +3551,7 @@
           "E2": 0,
           "E3": 0
         },
-        "current_run_id": 128,
+        "current_run_id": 131,
         "invalid_identities": 0,
         "legacy_e0_records": 3,
         "retained_e2_e3": 0,
@@ -3503,7 +3575,7 @@
       "source": [
         "000-docs/807-DR-STND-evaluation-evidence.md",
         "freshie/reports/legacy-forge-proofs-demotion.json",
-        "freshie/reports/run-delta-128.json",
+        "freshie/reports/run-delta-131.json",
         "freshie/reports/run-delta-19.json",
         "freshie/scripts/dolt-sync.py",
         "freshie/scripts/run-delta.py"
