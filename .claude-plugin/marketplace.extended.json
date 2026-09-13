@@ -9105,15 +9105,16 @@
     {
       "name": "flyio-pack",
       "source": "./plugins/saas-packs/flyio-pack",
-      "description": "Claude Code skill pack for Fly.io (18 skills)",
-      "version": "1.7.0",
+      "description": "Operator-grade Fly.io skill pack for controlled app, Machine, data, security, deployment, and observability workflows (18 skills)",
+      "version": "2.0.0",
       "category": "saas-packs",
       "keywords": [
         "flyio",
         "fly.io",
         "saas",
-        "sdk",
-        "integration"
+        "machines-api",
+        "deployment",
+        "operations"
       ],
       "author": {
         "name": "Jeremy Longshore",
@@ -9124,10 +9125,10 @@
         "skills": 18
       },
       "verification": {
-        "score": 86,
-        "grade": "B",
-        "badge": "silver",
-        "lastValidated": "2026-09-11T00:00:00.000Z"
+        "score": 95,
+        "grade": "A",
+        "badge": "gold",
+        "lastValidated": "2026-09-13T00:00:00.000Z"
       }
     },
     {

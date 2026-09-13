@@ -1083,6 +1083,7 @@
       "lpu",
       "lucidchart",
       "machine-learning",
+      "machines-api",
       "macroeconomics",
       "maintainx",
       "maintenance",
@@ -12468,14 +12469,15 @@
       "slug": "flyio-pack",
       "name": "flyio-pack",
       "displayName": "flyio pack",
-      "description": "Claude Code skill pack for Fly.io (18 skills)",
+      "description": "Operator-grade Fly.io skill pack for controlled app, Machine, data, security, deployment, and observability workflows (18 skills)",
       "category": "saas-packs",
       "keywords": [
         "flyio",
         "fly.io",
         "saas",
-        "sdk",
-        "integration"
+        "machines-api",
+        "deployment",
+        "operations"
       ],
       "author": {
         "name": "Jeremy Longshore",
@@ -12483,15 +12485,15 @@
         "url": "https://github.com/jeremylongshore"
       },
       "authorType": "official",
-      "version": "1.7.0",
+      "version": "2.0.0",
       "isFeatured": false,
       "isNew": false,
       "badges": [],
       "skillCount": 18,
-      "verificationScore": 86,
-      "verificationGrade": "B",
-      "verificationBadge": "silver",
-      "searchText": "flyio pack claude code skill pack for fly.io (18 skills) saas-packs flyio fly.io saas sdk integration"
+      "verificationScore": 95,
+      "verificationGrade": "A",
+      "verificationBadge": "gold",
+      "searchText": "flyio pack operator-grade fly.io skill pack for controlled app, machine, data, security, deployment, and observability workflows (18 skills) saas-packs flyio fly.io saas machines-api deployment operations"
     },
     {
       "type": "plugin",
@@ -40008,391 +40010,378 @@
       "id": "flyio-ci-integration",
       "slug": "flyio-ci-integration",
       "name": "flyio-ci-integration",
-      "description": "Configure CI/CD pipelines for Fly.io with GitHub Actions, Docker builds, deploy tokens, and automated deployment workflows. Trigger: \"fly.io CI\", \"fly.io GitHub Actions\", \"fly deploy CI/CD\".",
+      "description": "Design a least-privilege Fly.io CI lane with deterministic validation, deployment, and rollback evidence. Use when wiring or auditing automated deployments. Trigger with: \"add Fly.io CI\", \"harden Fly deploy workflow\", \"rotate Fly CI token\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(fly:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.7.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "flyio-pack",
         "category": "saas-packs"
       },
-      "searchText": "flyio-ci-integration configure ci/cd pipelines for fly.io with github actions, docker builds, deploy tokens, and automated deployment workflows. trigger: \"fly.io ci\", \"fly.io github actions\", \"fly deploy ci/cd\". saas-packs read write edit bash(fly:*) grep "
+      "searchText": "flyio-ci-integration design a least-privilege fly.io ci lane with deterministic validation, deployment, and rollback evidence. use when wiring or auditing automated deployments. trigger with: \"add fly.io ci\", \"harden fly deploy workflow\", \"rotate fly ci token\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "flyio-common-errors",
       "slug": "flyio-common-errors",
       "name": "flyio-common-errors",
-      "description": "Diagnose and fix common Fly.io errors including deployment failures, health check failures, machine issues, and networking problems. Trigger: \"fly.io error\", \"fly deploy failed\", \"fly.io not working\", \"fly health check\".",
+      "description": "Diagnose Fly.io deployment, routing, health, Machine, volume, and private-network failures with evidence-first triage. Use when an app is unhealthy or a release stalls. Trigger with: \"debug Fly deploy\", \"why is my Fly app down\", \"triage Fly Machine\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
-        "Bash(fly:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Grep",
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.7.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "flyio-pack",
         "category": "saas-packs"
       },
-      "searchText": "flyio-common-errors diagnose and fix common fly.io errors including deployment failures, health check failures, machine issues, and networking problems. trigger: \"fly.io error\", \"fly deploy failed\", \"fly.io not working\", \"fly health check\". saas-packs read bash(fly:*) bash(curl:*) grep "
+      "searchText": "flyio-common-errors diagnose fly.io deployment, routing, health, machine, volume, and private-network failures with evidence-first triage. use when an app is unhealthy or a release stalls. trigger with: \"debug fly deploy\", \"why is my fly app down\", \"triage fly machine\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "flyio-core-workflow-a",
       "slug": "flyio-core-workflow-a",
       "name": "flyio-core-workflow-a",
-      "description": "Execute Fly.io primary workflow: deploy, scale, and manage apps with flyctl and fly.toml. Use when deploying applications, configuring regions, setting secrets, or managing the app lifecycle on Fly.io. Trigger: \"fly deploy\", \"fly.io app management\", \"fly scale\", \"fly.io regions\".",
+      "description": "Operate a Fly.io application release from configuration review through deploy, scale, secret change, and rollback. Use when shipping or changing a Fly Launch app. Trigger with: \"deploy Fly app\", \"scale Fly Machines\", \"roll back Fly release\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(fly:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.7.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "flyio-pack",
         "category": "saas-packs"
       },
-      "searchText": "flyio-core-workflow-a execute fly.io primary workflow: deploy, scale, and manage apps with flyctl and fly.toml. use when deploying applications, configuring regions, setting secrets, or managing the app lifecycle on fly.io. trigger: \"fly deploy\", \"fly.io app management\", \"fly scale\", \"fly.io regions\". saas-packs read write edit bash(fly:*) bash(curl:*) grep "
+      "searchText": "flyio-core-workflow-a operate a fly.io application release from configuration review through deploy, scale, secret change, and rollback. use when shipping or changing a fly launch app. trigger with: \"deploy fly app\", \"scale fly machines\", \"roll back fly release\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "flyio-core-workflow-b",
       "slug": "flyio-core-workflow-b",
       "name": "flyio-core-workflow-b",
-      "description": "Execute Fly.io secondary workflow: Postgres clusters, persistent volumes, and private networking. Use when adding databases, persistent storage, or internal service communication. Trigger: \"fly postgres\", \"fly volumes\", \"fly.io database\", \"fly.io persistent storage\".",
+      "description": "Design Fly.io Managed Postgres, Fly Volumes, and private 6PN connectivity with explicit durability boundaries. Use when an app needs persistent data or private service access. Trigger with: \"add Fly Managed Postgres\", \"plan Fly volume storage\", \"connect Fly apps privately\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(fly:*)",
-        "Bash(psql:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.7.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "flyio-pack",
         "category": "saas-packs"
       },
-      "searchText": "flyio-core-workflow-b execute fly.io secondary workflow: postgres clusters, persistent volumes, and private networking. use when adding databases, persistent storage, or internal service communication. trigger: \"fly postgres\", \"fly volumes\", \"fly.io database\", \"fly.io persistent storage\". saas-packs read write edit bash(fly:*) bash(psql:*) grep "
+      "searchText": "flyio-core-workflow-b design fly.io managed postgres, fly volumes, and private 6pn connectivity with explicit durability boundaries. use when an app needs persistent data or private service access. trigger with: \"add fly managed postgres\", \"plan fly volume storage\", \"connect fly apps privately\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "flyio-cost-tuning",
       "slug": "flyio-cost-tuning",
       "name": "flyio-cost-tuning",
-      "description": "Optimize Fly.io costs with auto-stop/suspend, right-sizing VMs, volume management, and monitoring spend across apps and regions. Trigger: \"fly.io costs\", \"fly.io pricing\", \"fly.io billing\", \"reduce fly.io spend\".",
+      "description": "Analyze Fly.io Machine, volume, network, IP, and Managed Postgres cost drivers without freezing volatile prices. Use when reducing spend or forecasting capacity. Trigger with: \"audit Fly bill\", \"right-size Fly Machines\", \"reduce Fly idle cost\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(fly:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.7.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "flyio-pack",
         "category": "saas-packs"
       },
-      "searchText": "flyio-cost-tuning optimize fly.io costs with auto-stop/suspend, right-sizing vms, volume management, and monitoring spend across apps and regions. trigger: \"fly.io costs\", \"fly.io pricing\", \"fly.io billing\", \"reduce fly.io spend\". saas-packs read write edit bash(fly:*) "
+      "searchText": "flyio-cost-tuning analyze fly.io machine, volume, network, ip, and managed postgres cost drivers without freezing volatile prices. use when reducing spend or forecasting capacity. trigger with: \"audit fly bill\", \"right-size fly machines\", \"reduce fly idle cost\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "flyio-debug-bundle",
       "slug": "flyio-debug-bundle",
       "name": "flyio-debug-bundle",
-      "description": "Collect Fly.io debug evidence for support tickets including machine status, logs, health checks, volume state, and networking diagnostics. Trigger: \"fly.io debug\", \"fly.io support\", \"fly.io diagnostic\", \"fly doctor\".",
+      "description": "Collect a bounded, redacted Fly.io support bundle for release, Machine, health, volume, network, and platform incidents. Use when escalating a reproducible problem. Trigger with: \"build Fly debug bundle\", \"collect Fly support evidence\", \"sanitize Fly incident data\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
-        "Bash(fly:*)",
-        "Bash(curl:*)",
-        "Bash(tar:*)",
-        "Grep"
+        "Grep",
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.7.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "flyio-pack",
         "category": "saas-packs"
       },
-      "searchText": "flyio-debug-bundle collect fly.io debug evidence for support tickets including machine status, logs, health checks, volume state, and networking diagnostics. trigger: \"fly.io debug\", \"fly.io support\", \"fly.io diagnostic\", \"fly doctor\". saas-packs read bash(fly:*) bash(curl:*) bash(tar:*) grep "
+      "searchText": "flyio-debug-bundle collect a bounded, redacted fly.io support bundle for release, machine, health, volume, network, and platform incidents. use when escalating a reproducible problem. trigger with: \"build fly debug bundle\", \"collect fly support evidence\", \"sanitize fly incident data\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "flyio-deploy-integration",
       "slug": "flyio-deploy-integration",
       "name": "flyio-deploy-integration",
-      "description": "Advanced Fly.io deployment strategies including blue-green deployments, canary releases, multi-region rollouts, and Machines API orchestration. Trigger: \"fly.io blue-green\", \"fly.io canary deploy\", \"fly.io rolling update\".",
+      "description": "Plan a Fly.io rolling, canary, or blue-green release with health, capacity, storage, and rollback constraints. Use when a release needs progressive exposure. Trigger with: \"canary deploy on Fly\", \"use Fly blue-green\", \"design Fly rollout\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(fly:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.7.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "flyio-pack",
         "category": "saas-packs"
       },
-      "searchText": "flyio-deploy-integration advanced fly.io deployment strategies including blue-green deployments, canary releases, multi-region rollouts, and machines api orchestration. trigger: \"fly.io blue-green\", \"fly.io canary deploy\", \"fly.io rolling update\". saas-packs read write edit bash(fly:*) bash(curl:*) grep "
+      "searchText": "flyio-deploy-integration plan a fly.io rolling, canary, or blue-green release with health, capacity, storage, and rollback constraints. use when a release needs progressive exposure. trigger with: \"canary deploy on fly\", \"use fly blue-green\", \"design fly rollout\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "flyio-hello-world",
       "slug": "flyio-hello-world",
       "name": "flyio-hello-world",
-      "description": "Deploy your first app to Fly.io with flyctl launch and the Machines API. Use when starting a new Fly.io project, deploying a container globally, or testing edge compute deployment. Trigger: \"fly.io hello world\", \"fly launch\", \"deploy to fly.io\", \"first fly app\".",
+      "description": "Prepare and verify a minimal Fly.io application launch with reviewable configuration and a safe first deployment. Use when onboarding a new service. Trigger with: \"launch first Fly app\", \"deploy hello world to Fly\", \"create Fly launch plan\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(fly:*)",
-        "Bash(curl:*)",
-        "Bash(docker:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.7.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "flyio-pack",
         "category": "saas-packs"
       },
-      "searchText": "flyio-hello-world deploy your first app to fly.io with flyctl launch and the machines api. use when starting a new fly.io project, deploying a container globally, or testing edge compute deployment. trigger: \"fly.io hello world\", \"fly launch\", \"deploy to fly.io\", \"first fly app\". saas-packs read write edit bash(fly:*) bash(curl:*) bash(docker:*) "
+      "searchText": "flyio-hello-world prepare and verify a minimal fly.io application launch with reviewable configuration and a safe first deployment. use when onboarding a new service. trigger with: \"launch first fly app\", \"deploy hello world to fly\", \"create fly launch plan\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "flyio-install-auth",
       "slug": "flyio-install-auth",
       "name": "flyio-install-auth",
-      "description": "Install flyctl CLI and configure Fly.io authentication with API tokens. Use when setting up a new Fly.io project, configuring deploy tokens, or initializing the Machines API for edge compute deployments. Trigger: \"install fly.io\", \"setup flyctl\", \"fly.io auth\", \"fly.io API token\".",
+      "description": "Install or upgrade flyctl and establish least-privilege Fly.io authentication with expiry and rotation evidence. Use when onboarding an operator or automation identity. Trigger with: \"install flyctl\", \"create Fly deploy token\", \"test Fly API auth\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(fly:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.7.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "flyio-pack",
         "category": "saas-packs"
       },
-      "searchText": "flyio-install-auth install flyctl cli and configure fly.io authentication with api tokens. use when setting up a new fly.io project, configuring deploy tokens, or initializing the machines api for edge compute deployments. trigger: \"install fly.io\", \"setup flyctl\", \"fly.io auth\", \"fly.io api token\". saas-packs read write edit bash(fly:*) bash(curl:*) grep "
+      "searchText": "flyio-install-auth install or upgrade flyctl and establish least-privilege fly.io authentication with expiry and rotation evidence. use when onboarding an operator or automation identity. trigger with: \"install flyctl\", \"create fly deploy token\", \"test fly api auth\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "flyio-local-dev-loop",
       "slug": "flyio-local-dev-loop",
       "name": "flyio-local-dev-loop",
-      "description": "Configure Fly.io local development with Docker, proxy, and SSH console. Use when setting up local dev against Fly services, testing Dockerfiles, or establishing a fast iteration cycle. Trigger: \"fly.io dev setup\", \"fly.io local development\", \"fly proxy\".",
+      "description": "Build a repeatable local Fly.io development loop with containers, config validation, private-service access, and disposable remote verification. Use when aligning local behavior with Fly Machines. Trigger with: \"develop Fly app locally\", \"proxy Fly database\", \"test fly.toml before deploy\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(fly:*)",
-        "Bash(docker:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.7.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "flyio-pack",
         "category": "saas-packs"
       },
-      "searchText": "flyio-local-dev-loop configure fly.io local development with docker, proxy, and ssh console. use when setting up local dev against fly services, testing dockerfiles, or establishing a fast iteration cycle. trigger: \"fly.io dev setup\", \"fly.io local development\", \"fly proxy\". saas-packs read write edit bash(fly:*) bash(docker:*) grep "
+      "searchText": "flyio-local-dev-loop build a repeatable local fly.io development loop with containers, config validation, private-service access, and disposable remote verification. use when aligning local behavior with fly machines. trigger with: \"develop fly app locally\", \"proxy fly database\", \"test fly.toml before deploy\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "flyio-performance-tuning",
       "slug": "flyio-performance-tuning",
       "name": "flyio-performance-tuning",
-      "description": "Optimize Fly.io application performance with auto-stop/start tuning, VM sizing, multi-region latency optimization, and connection pooling. Trigger: \"fly.io performance\", \"fly.io cold start\", \"fly.io latency\", \"fly.io VM sizing\".",
+      "description": "Analyze and tune Fly.io placement, VM resources, concurrency, autostart behavior, networking, and data locality from measured service objectives. Use when latency or saturation is unacceptable. Trigger with: \"speed up Fly app\", \"tune Fly concurrency\", \"reduce Fly cold starts\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(fly:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.7.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "flyio-pack",
         "category": "saas-packs"
       },
-      "searchText": "flyio-performance-tuning optimize fly.io application performance with auto-stop/start tuning, vm sizing, multi-region latency optimization, and connection pooling. trigger: \"fly.io performance\", \"fly.io cold start\", \"fly.io latency\", \"fly.io vm sizing\". saas-packs read write edit bash(fly:*) "
+      "searchText": "flyio-performance-tuning analyze and tune fly.io placement, vm resources, concurrency, autostart behavior, networking, and data locality from measured service objectives. use when latency or saturation is unacceptable. trigger with: \"speed up fly app\", \"tune fly concurrency\", \"reduce fly cold starts\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "flyio-prod-checklist",
       "slug": "flyio-prod-checklist",
       "name": "flyio-prod-checklist",
-      "description": "Execute Fly.io production deployment checklist with health checks, auto-scaling, monitoring, and rollback procedures. Trigger: \"fly.io production\", \"fly.io go-live\", \"fly.io prod checklist\".",
+      "description": "Gate a Fly.io production release across ownership, configuration, identity, health, capacity, data, observability, cost, and rollback. Use when reviewing a first launch or material change. Trigger with: \"review Fly production readiness\", \"approve Fly launch\", \"run Fly go-live checklist\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
-        "Bash(fly:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Grep",
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.7.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "flyio-pack",
         "category": "saas-packs"
       },
-      "searchText": "flyio-prod-checklist execute fly.io production deployment checklist with health checks, auto-scaling, monitoring, and rollback procedures. trigger: \"fly.io production\", \"fly.io go-live\", \"fly.io prod checklist\". saas-packs read bash(fly:*) bash(curl:*) grep "
+      "searchText": "flyio-prod-checklist gate a fly.io production release across ownership, configuration, identity, health, capacity, data, observability, cost, and rollback. use when reviewing a first launch or material change. trigger with: \"review fly production readiness\", \"approve fly launch\", \"run fly go-live checklist\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "flyio-rate-limits",
       "slug": "flyio-rate-limits",
       "name": "flyio-rate-limits",
-      "description": "Handle Fly.io Machines API rate limits with backoff, concurrency control, and request batching for machine management operations. Trigger: \"fly.io rate limit\", \"fly.io 429\", \"fly.io throttling\", \"machines API limit\".",
+      "description": "Implement Fly.io Machines API pacing, per-resource serialization, retry, and reconciliation from the documented action limits. Use when automating Machine or app operations. Trigger with: \"handle Fly 429\", \"throttle Machines API\", \"batch Fly Machine updates\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.7.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "flyio-pack",
         "category": "saas-packs"
       },
-      "searchText": "flyio-rate-limits handle fly.io machines api rate limits with backoff, concurrency control, and request batching for machine management operations. trigger: \"fly.io rate limit\", \"fly.io 429\", \"fly.io throttling\", \"machines api limit\". saas-packs read write edit "
+      "searchText": "flyio-rate-limits implement fly.io machines api pacing, per-resource serialization, retry, and reconciliation from the documented action limits. use when automating machine or app operations. trigger with: \"handle fly 429\", \"throttle machines api\", \"batch fly machine updates\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "flyio-reference-architecture",
       "slug": "flyio-reference-architecture",
       "name": "flyio-reference-architecture",
-      "description": "Implement Fly.io reference architecture with multi-region apps, Postgres, Redis, background workers, and private networking. Trigger: \"fly.io architecture\", \"fly.io system design\", \"fly.io multi-region\".",
+      "description": "Design a Fly.io multi-region architecture with explicit routing, Machine, data, private-network, observability, and recovery boundaries. Use when reviewing a production topology. Trigger with: \"architect app on Fly\", \"design multi-region Fly service\", \"review Fly platform topology\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.7.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "flyio-pack",
         "category": "saas-packs"
       },
-      "searchText": "flyio-reference-architecture implement fly.io reference architecture with multi-region apps, postgres, redis, background workers, and private networking. trigger: \"fly.io architecture\", \"fly.io system design\", \"fly.io multi-region\". saas-packs read write edit "
+      "searchText": "flyio-reference-architecture design a fly.io multi-region architecture with explicit routing, machine, data, private-network, observability, and recovery boundaries. use when reviewing a production topology. trigger with: \"architect app on fly\", \"design multi-region fly service\", \"review fly platform topology\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "flyio-sdk-patterns",
       "slug": "flyio-sdk-patterns",
       "name": "flyio-sdk-patterns",
-      "description": "Apply production-ready Fly.io Machines API patterns for TypeScript with typed clients, machine lifecycle management, and multi-region orchestration. Trigger: \"fly.io Machines API\", \"fly.io SDK patterns\", \"fly.io API client\".",
+      "description": "Build a typed local adapter for the Fly.io Machines REST API with scoped auth, state waits, limits, reconciliation, and contract tests. Use when code must manage Machines or volumes. Trigger with: \"wrap Machines API\", \"build Fly API client\", \"type Fly Machine states\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.7.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "flyio-pack",
         "category": "saas-packs"
       },
-      "searchText": "flyio-sdk-patterns apply production-ready fly.io machines api patterns for typescript with typed clients, machine lifecycle management, and multi-region orchestration. trigger: \"fly.io machines api\", \"fly.io sdk patterns\", \"fly.io api client\". saas-packs read write edit "
+      "searchText": "flyio-sdk-patterns build a typed local adapter for the fly.io machines rest api with scoped auth, state waits, limits, reconciliation, and contract tests. use when code must manage machines or volumes. trigger with: \"wrap machines api\", \"build fly api client\", \"type fly machine states\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "flyio-security-basics",
       "slug": "flyio-security-basics",
       "name": "flyio-security-basics",
-      "description": "Apply Fly.io security best practices for secrets management, private networking, TLS certificates, and deploy token scoping. Trigger: \"fly.io security\", \"fly secrets\", \"fly.io TLS\", \"fly.io private network\".",
+      "description": "Harden Fly.io tokens, deploy authority, App secrets, private networking, images, and operational evidence with least privilege. Use when establishing or reviewing platform security. Trigger with: \"secure Fly app\", \"audit Fly tokens\", \"harden Fly private network\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(fly:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.7.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "flyio-pack",
         "category": "saas-packs"
       },
-      "searchText": "flyio-security-basics apply fly.io security best practices for secrets management, private networking, tls certificates, and deploy token scoping. trigger: \"fly.io security\", \"fly secrets\", \"fly.io tls\", \"fly.io private network\". saas-packs read write edit bash(fly:*) "
+      "searchText": "flyio-security-basics harden fly.io tokens, deploy authority, app secrets, private networking, images, and operational evidence with least privilege. use when establishing or reviewing platform security. trigger with: \"secure fly app\", \"audit fly tokens\", \"harden fly private network\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "flyio-upgrade-migration",
       "slug": "flyio-upgrade-migration",
       "name": "flyio-upgrade-migration",
-      "description": "Migrate between Fly.io platform versions including Apps v1 to v2 (Machines), flyctl upgrades, and Postgres major version upgrades. Trigger: \"fly.io upgrade\", \"fly.io migration\", \"fly apps v2\", \"fly postgres upgrade\".",
+      "description": "Migrate Fly.io app configuration, runtime images, Machine resources, regions, volumes, or Managed Postgres through staged change control. Use when upgrading a live workload. Trigger with: \"upgrade Fly app\", \"migrate Fly region\", \"change Fly runtime safely\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(fly:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.7.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "flyio-pack",
         "category": "saas-packs"
       },
-      "searchText": "flyio-upgrade-migration migrate between fly.io platform versions including apps v1 to v2 (machines), flyctl upgrades, and postgres major version upgrades. trigger: \"fly.io upgrade\", \"fly.io migration\", \"fly apps v2\", \"fly postgres upgrade\". saas-packs read write edit bash(fly:*) grep "
+      "searchText": "flyio-upgrade-migration migrate fly.io app configuration, runtime images, machine resources, regions, volumes, or managed postgres through staged change control. use when upgrading a live workload. trigger with: \"upgrade fly app\", \"migrate fly region\", \"change fly runtime safely\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "flyio-webhooks-events",
       "slug": "flyio-webhooks-events",
       "name": "flyio-webhooks-events",
-      "description": "Implement Fly.io machine events, health check monitoring, and log-based event processing for deployment automation and alerting. Trigger: \"fly.io events\", \"fly.io machine status\", \"fly.io health monitoring\".",
+      "description": "Detect Fly.io Machine, health, release, and log changes through supported reads, waits, and log export without claiming general app webhooks. Use when building operational event automation. Trigger with: \"monitor Fly Machine changes\", \"replace Fly webhook\", \"stream Fly health events\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(fly:*)",
-        "Bash(curl:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.7.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "flyio-pack",
         "category": "saas-packs"
       },
-      "searchText": "flyio-webhooks-events implement fly.io machine events, health check monitoring, and log-based event processing for deployment automation and alerting. trigger: \"fly.io events\", \"fly.io machine status\", \"fly.io health monitoring\". saas-packs read write edit bash(fly:*) bash(curl:*) "
+      "searchText": "flyio-webhooks-events detect fly.io machine, health, release, and log changes through supported reads, waits, and log export without claiming general app webhooks. use when building operational event automation. trigger with: \"monitor fly machine changes\", \"replace fly webhook\", \"stream fly health events\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
