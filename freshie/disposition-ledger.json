@@ -3,7 +3,7 @@
   "authority": "Blueprint 727 §8; Freshie graded export",
   "source": {
     "path": "freshie/grades.csv",
-    "sha256": "95614376cb91ead807a9412ce19672baa06be9288ee30b44b4ba030b00d5510f",
+    "sha256": "716f9be0fb5167d36af8b59df287674cfc084a743707f80c7e3f289b206eb313",
     "artifact_count": 3491
   },
   "rule_order": [
@@ -13226,8 +13226,8 @@
     },
     {
       "path": "plugins/saas-packs/clari-pack/skills/clari-ci-integration/SKILL.md",
-      "grade": "B",
-      "score": 89,
+      "grade": "A",
+      "score": 94,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -13237,8 +13237,8 @@
     },
     {
       "path": "plugins/saas-packs/clari-pack/skills/clari-common-errors/SKILL.md",
-      "grade": "B",
-      "score": 85,
+      "grade": "A",
+      "score": 95,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -13248,8 +13248,8 @@
     },
     {
       "path": "plugins/saas-packs/clari-pack/skills/clari-core-workflow-a/SKILL.md",
-      "grade": "B",
-      "score": 84,
+      "grade": "A",
+      "score": 93,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -13259,8 +13259,8 @@
     },
     {
       "path": "plugins/saas-packs/clari-pack/skills/clari-core-workflow-b/SKILL.md",
-      "grade": "B",
-      "score": 84,
+      "grade": "A",
+      "score": 93,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -13270,8 +13270,8 @@
     },
     {
       "path": "plugins/saas-packs/clari-pack/skills/clari-cost-tuning/SKILL.md",
-      "grade": "B",
-      "score": 86,
+      "grade": "A",
+      "score": 96,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -13281,8 +13281,8 @@
     },
     {
       "path": "plugins/saas-packs/clari-pack/skills/clari-debug-bundle/SKILL.md",
-      "grade": "B",
-      "score": 89,
+      "grade": "A",
+      "score": 96,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -13292,8 +13292,8 @@
     },
     {
       "path": "plugins/saas-packs/clari-pack/skills/clari-deploy-integration/SKILL.md",
-      "grade": "B",
-      "score": 86,
+      "grade": "A",
+      "score": 94,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -13303,8 +13303,8 @@
     },
     {
       "path": "plugins/saas-packs/clari-pack/skills/clari-hello-world/SKILL.md",
-      "grade": "B",
-      "score": 87,
+      "grade": "A",
+      "score": 94,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -13315,7 +13315,7 @@
     {
       "path": "plugins/saas-packs/clari-pack/skills/clari-install-auth/SKILL.md",
       "grade": "A",
-      "score": 90,
+      "score": 96,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -13325,8 +13325,8 @@
     },
     {
       "path": "plugins/saas-packs/clari-pack/skills/clari-local-dev-loop/SKILL.md",
-      "grade": "B",
-      "score": 88,
+      "grade": "A",
+      "score": 96,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -13336,8 +13336,8 @@
     },
     {
       "path": "plugins/saas-packs/clari-pack/skills/clari-performance-tuning/SKILL.md",
-      "grade": "B",
-      "score": 86,
+      "grade": "A",
+      "score": 94,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -13347,8 +13347,8 @@
     },
     {
       "path": "plugins/saas-packs/clari-pack/skills/clari-prod-checklist/SKILL.md",
-      "grade": "B",
-      "score": 87,
+      "grade": "A",
+      "score": 95,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -13358,8 +13358,8 @@
     },
     {
       "path": "plugins/saas-packs/clari-pack/skills/clari-rate-limits/SKILL.md",
-      "grade": "B",
-      "score": 86,
+      "grade": "A",
+      "score": 94,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -13369,8 +13369,8 @@
     },
     {
       "path": "plugins/saas-packs/clari-pack/skills/clari-reference-architecture/SKILL.md",
-      "grade": "B",
-      "score": 85,
+      "grade": "A",
+      "score": 95,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -13380,8 +13380,8 @@
     },
     {
       "path": "plugins/saas-packs/clari-pack/skills/clari-sdk-patterns/SKILL.md",
-      "grade": "C",
-      "score": 79,
+      "grade": "A",
+      "score": 94,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -13392,7 +13392,7 @@
     {
       "path": "plugins/saas-packs/clari-pack/skills/clari-security-basics/SKILL.md",
       "grade": "A",
-      "score": 90,
+      "score": 94,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -13402,8 +13402,8 @@
     },
     {
       "path": "plugins/saas-packs/clari-pack/skills/clari-upgrade-migration/SKILL.md",
-      "grade": "B",
-      "score": 86,
+      "grade": "A",
+      "score": 94,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -13413,8 +13413,8 @@
     },
     {
       "path": "plugins/saas-packs/clari-pack/skills/clari-webhooks-events/SKILL.md",
-      "grade": "B",
-      "score": 84,
+      "grade": "A",
+      "score": 94,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",

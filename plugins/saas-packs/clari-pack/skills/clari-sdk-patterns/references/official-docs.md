@@ -24,4 +24,3 @@ This skill turns the relevant public provider contracts into one bounded operato
 - Preserve exact forecast, job, event, call, workspace, and entity identifiers while redacting credentials and customer payloads.
 - Never include `apikey`, `partnerkey`, `X-Api-Key`, `X-Api-Password`, revenue values, participant data, transcripts, recordings, or signed URLs in evidence.
 - Treat export submission, job cancellation, ingestion, Copilot CRM writes, credential lifecycle changes, and downstream publication as explicit operator-approved mutations.
-
