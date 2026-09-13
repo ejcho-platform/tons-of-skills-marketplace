@@ -3,7 +3,7 @@
   "authority": "Blueprint 727 §8; Freshie graded export",
   "source": {
     "path": "freshie/grades.csv",
-    "sha256": "dfc2caf3c9817fc0026a048cc354bab7f57f0d9e19989c3922d59e993d201cef",
+    "sha256": "95614376cb91ead807a9412ce19672baa06be9288ee30b44b4ba030b00d5510f",
     "artifact_count": 3491
   },
   "rule_order": [
@@ -33599,8 +33599,8 @@
     },
     {
       "path": "plugins/saas-packs/vastai-pack/skills/vastai-ci-integration/SKILL.md",
-      "grade": "B",
-      "score": 82,
+      "grade": "A",
+      "score": 93,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -33611,7 +33611,7 @@
     {
       "path": "plugins/saas-packs/vastai-pack/skills/vastai-common-errors/SKILL.md",
       "grade": "A",
-      "score": 90,
+      "score": 95,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -33621,8 +33621,8 @@
     },
     {
       "path": "plugins/saas-packs/vastai-pack/skills/vastai-core-workflow-a/SKILL.md",
-      "grade": "B",
-      "score": 84,
+      "grade": "A",
+      "score": 94,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -33632,8 +33632,8 @@
     },
     {
       "path": "plugins/saas-packs/vastai-pack/skills/vastai-core-workflow-b/SKILL.md",
-      "grade": "B",
-      "score": 84,
+      "grade": "A",
+      "score": 95,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -33643,8 +33643,8 @@
     },
     {
       "path": "plugins/saas-packs/vastai-pack/skills/vastai-cost-tuning/SKILL.md",
-      "grade": "B",
-      "score": 88,
+      "grade": "A",
+      "score": 92,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -33654,8 +33654,8 @@
     },
     {
       "path": "plugins/saas-packs/vastai-pack/skills/vastai-data-handling/SKILL.md",
-      "grade": "B",
-      "score": 87,
+      "grade": "A",
+      "score": 95,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -33665,8 +33665,8 @@
     },
     {
       "path": "plugins/saas-packs/vastai-pack/skills/vastai-debug-bundle/SKILL.md",
-      "grade": "B",
-      "score": 87,
+      "grade": "A",
+      "score": 93,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -33676,8 +33676,8 @@
     },
     {
       "path": "plugins/saas-packs/vastai-pack/skills/vastai-deploy-integration/SKILL.md",
-      "grade": "B",
-      "score": 86,
+      "grade": "A",
+      "score": 92,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -33687,8 +33687,8 @@
     },
     {
       "path": "plugins/saas-packs/vastai-pack/skills/vastai-enterprise-rbac/SKILL.md",
-      "grade": "B",
-      "score": 82,
+      "grade": "A",
+      "score": 92,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -33698,50 +33698,6 @@
     },
     {
       "path": "plugins/saas-packs/vastai-pack/skills/vastai-hello-world/SKILL.md",
-      "grade": "B",
-      "score": 83,
-      "diagnostics": [],
-      "disposition": "CERTIFY-PENDING-EVIDENCE",
-      "gate": "G7",
-      "reason_codes": [
-        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
-      ]
-    },
-    {
-      "path": "plugins/saas-packs/vastai-pack/skills/vastai-incident-runbook/SKILL.md",
-      "grade": "B",
-      "score": 84,
-      "diagnostics": [],
-      "disposition": "CERTIFY-PENDING-EVIDENCE",
-      "gate": "G7",
-      "reason_codes": [
-        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
-      ]
-    },
-    {
-      "path": "plugins/saas-packs/vastai-pack/skills/vastai-install-auth/SKILL.md",
-      "grade": "B",
-      "score": 86,
-      "diagnostics": [],
-      "disposition": "CERTIFY-PENDING-EVIDENCE",
-      "gate": "G7",
-      "reason_codes": [
-        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
-      ]
-    },
-    {
-      "path": "plugins/saas-packs/vastai-pack/skills/vastai-local-dev-loop/SKILL.md",
-      "grade": "B",
-      "score": 88,
-      "diagnostics": [],
-      "disposition": "CERTIFY-PENDING-EVIDENCE",
-      "gate": "G7",
-      "reason_codes": [
-        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
-      ]
-    },
-    {
-      "path": "plugins/saas-packs/vastai-pack/skills/vastai-migration-deep-dive/SKILL.md",
       "grade": "A",
       "score": 90,
       "diagnostics": [],
@@ -33752,9 +33708,53 @@
       ]
     },
     {
+      "path": "plugins/saas-packs/vastai-pack/skills/vastai-incident-runbook/SKILL.md",
+      "grade": "A",
+      "score": 93,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
+      "reason_codes": [
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
+      ]
+    },
+    {
+      "path": "plugins/saas-packs/vastai-pack/skills/vastai-install-auth/SKILL.md",
+      "grade": "A",
+      "score": 93,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
+      "reason_codes": [
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
+      ]
+    },
+    {
+      "path": "plugins/saas-packs/vastai-pack/skills/vastai-local-dev-loop/SKILL.md",
+      "grade": "A",
+      "score": 95,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
+      "reason_codes": [
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
+      ]
+    },
+    {
+      "path": "plugins/saas-packs/vastai-pack/skills/vastai-migration-deep-dive/SKILL.md",
+      "grade": "A",
+      "score": 94,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
+      "reason_codes": [
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
+      ]
+    },
+    {
       "path": "plugins/saas-packs/vastai-pack/skills/vastai-multi-env-setup/SKILL.md",
-      "grade": "B",
-      "score": 83,
+      "grade": "A",
+      "score": 93,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -33764,8 +33764,8 @@
     },
     {
       "path": "plugins/saas-packs/vastai-pack/skills/vastai-observability/SKILL.md",
-      "grade": "B",
-      "score": 87,
+      "grade": "A",
+      "score": 94,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -33775,8 +33775,8 @@
     },
     {
       "path": "plugins/saas-packs/vastai-pack/skills/vastai-performance-tuning/SKILL.md",
-      "grade": "B",
-      "score": 85,
+      "grade": "A",
+      "score": 95,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -33786,8 +33786,8 @@
     },
     {
       "path": "plugins/saas-packs/vastai-pack/skills/vastai-prod-checklist/SKILL.md",
-      "grade": "B",
-      "score": 88,
+      "grade": "A",
+      "score": 94,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -33797,8 +33797,8 @@
     },
     {
       "path": "plugins/saas-packs/vastai-pack/skills/vastai-rate-limits/SKILL.md",
-      "grade": "B",
-      "score": 88,
+      "grade": "A",
+      "score": 92,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -33808,8 +33808,8 @@
     },
     {
       "path": "plugins/saas-packs/vastai-pack/skills/vastai-reference-architecture/SKILL.md",
-      "grade": "B",
-      "score": 85,
+      "grade": "A",
+      "score": 92,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -33819,8 +33819,8 @@
     },
     {
       "path": "plugins/saas-packs/vastai-pack/skills/vastai-sdk-patterns/SKILL.md",
-      "grade": "B",
-      "score": 84,
+      "grade": "A",
+      "score": 93,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -33830,8 +33830,8 @@
     },
     {
       "path": "plugins/saas-packs/vastai-pack/skills/vastai-security-basics/SKILL.md",
-      "grade": "B",
-      "score": 87,
+      "grade": "A",
+      "score": 93,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -33841,8 +33841,8 @@
     },
     {
       "path": "plugins/saas-packs/vastai-pack/skills/vastai-upgrade-migration/SKILL.md",
-      "grade": "B",
-      "score": 88,
+      "grade": "A",
+      "score": 93,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -33852,8 +33852,8 @@
     },
     {
       "path": "plugins/saas-packs/vastai-pack/skills/vastai-webhooks-events/SKILL.md",
-      "grade": "B",
-      "score": 84,
+      "grade": "A",
+      "score": 92,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",

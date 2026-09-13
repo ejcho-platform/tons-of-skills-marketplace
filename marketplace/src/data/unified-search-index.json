@@ -248,7 +248,6 @@
       "Bash(ruff*)",
       "Bash(rum:*)",
       "Bash(scan:*)",
-      "Bash(scp:*)",
       "Bash(scrapy*)",
       "Bash(scripts/run-jrig-eval.sh:*)",
       "Bash(security-check:*)",
@@ -308,7 +307,6 @@
       "Bash(util:*)",
       "Bash(uv*)",
       "Bash(uv:*)",
-      "Bash(vastai:*)",
       "Bash(vault:*)",
       "Bash(vercel:*)",
       "Bash(vmstat:*)",
@@ -577,6 +575,7 @@
       "chaos-engineering",
       "charts",
       "chatops",
+      "checkpoint-recovery",
       "checkpointing",
       "chromatic",
       "ci-cd",
@@ -632,7 +631,6 @@
       "compliance",
       "component-generation",
       "composer",
-      "compute",
       "concurrency",
       "config",
       "configuration",
@@ -670,6 +668,7 @@
       "corpus-linguistics",
       "correlation",
       "cost",
+      "cost-control",
       "cost-optimization",
       "coverage",
       "cpu",
@@ -1120,7 +1119,6 @@
       "miro",
       "mistral",
       "ml",
-      "ml-infrastructure",
       "mlflow",
       "mlops",
       "mobile",
@@ -1459,6 +1457,7 @@
       "shopify",
       "signals",
       "signature",
+      "signed-webhooks",
       "simulation",
       "sinon",
       "skill",
@@ -1550,6 +1549,7 @@
       "tax",
       "tdd",
       "team-behavior",
+      "teams-rbac",
       "tech-debt",
       "technical-analysis",
       "technical-debt",
@@ -10702,16 +10702,18 @@
       "slug": "vastai-pack",
       "name": "vastai-pack",
       "displayName": "vastai pack",
-      "description": "Complete Vast.ai integration skill pack with 24 skills covering GPU marketplace, cloud compute, and ML infrastructure. Flagship tier vendor pack.",
+      "description": "Evidence-gated Vast.ai operator pack for GPU rentals, Serverless, governance, recovery, and cost control (24 skills)",
       "category": "saas-packs",
       "keywords": [
         "vastai",
         "vast-ai",
         "gpu-marketplace",
         "cloud-gpu",
-        "ml-infrastructure",
-        "compute",
-        "training"
+        "serverless",
+        "checkpoint-recovery",
+        "signed-webhooks",
+        "teams-rbac",
+        "cost-control"
       ],
       "author": {
         "name": "Jeremy Longshore",
@@ -10719,15 +10721,15 @@
         "url": "https://github.com/jeremylongshore"
       },
       "authorType": "official",
-      "version": "1.11.0",
+      "version": "2.0.0",
       "isFeatured": false,
       "isNew": false,
       "badges": [],
       "skillCount": 24,
-      "verificationScore": 86,
-      "verificationGrade": "B",
-      "verificationBadge": "silver",
-      "searchText": "vastai pack complete vast.ai integration skill pack with 24 skills covering gpu marketplace, cloud compute, and ml infrastructure. flagship tier vendor pack. saas-packs vastai vast-ai gpu-marketplace cloud-gpu ml-infrastructure compute training"
+      "verificationScore": 93,
+      "verificationGrade": "A",
+      "verificationBadge": "gold",
+      "searchText": "vastai pack evidence-gated vast.ai operator pack for gpu rentals, serverless, governance, recovery, and cost control (24 skills) saas-packs vastai vast-ai gpu-marketplace cloud-gpu serverless checkpoint-recovery signed-webhooks teams-rbac cost-control"
     },
     {
       "type": "plugin",
@@ -76343,528 +76345,504 @@
       "id": "vastai-ci-integration",
       "slug": "vastai-ci-integration",
       "name": "vastai-ci-integration",
-      "description": "Configure Vast.ai CI/CD integration with GitHub Actions and automated GPU testing. Use when setting up automated testing on GPU instances, or integrating Vast.ai provisioning into CI/CD pipelines. Trigger with phrases like \"vastai CI\", \"vastai github actions\", \"vastai automated testing\", \"vastai pipeline\".",
+      "description": "Run a credential-safe disposable Vast.ai GPU CI job with a scoped key, immutable image, cost ceiling, terminal-state deadline, and guaranteed destruction. Use when GPU-only acceptance must run in CI. Trigger with: \"run GPU tests in CI\", \"add Vast.ai to GitHub Actions\", \"make Vast.ai CI clean up\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(vastai:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "vastai-pack",
         "category": "saas-packs"
       },
-      "searchText": "vastai-ci-integration configure vast.ai ci/cd integration with github actions and automated gpu testing. use when setting up automated testing on gpu instances, or integrating vast.ai provisioning into ci/cd pipelines. trigger with phrases like \"vastai ci\", \"vastai github actions\", \"vastai automated testing\", \"vastai pipeline\". saas-packs read write edit bash(vastai:*) grep "
+      "searchText": "vastai-ci-integration run a credential-safe disposable vast.ai gpu ci job with a scoped key, immutable image, cost ceiling, terminal-state deadline, and guaranteed destruction. use when gpu-only acceptance must run in ci. trigger with: \"run gpu tests in ci\", \"add vast.ai to github actions\", \"make vast.ai ci clean up\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "vastai-common-errors",
       "slug": "vastai-common-errors",
       "name": "vastai-common-errors",
-      "description": "Diagnose and fix Vast.ai common errors and exceptions. Use when encountering Vast.ai errors, debugging failed instances, or troubleshooting GPU rental issues. Trigger with phrases like \"vastai error\", \"fix vastai\", \"vastai not working\", \"debug vastai\", \"vastai instance failed\".",
+      "description": "Classify Vast.ai authentication, offer, instance-state, SSH, image, credit, and API failures before choosing a recovery action. Use when automation is stuck or a GPU workload cannot start. Trigger with: \"diagnose Vast.ai\", \"why is my instance scheduling\", \"fix a Vast.ai CLI error\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
         "Grep",
-        "Bash(vastai:*)",
-        "Bash(curl:*)"
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "vastai-pack",
         "category": "saas-packs"
       },
-      "searchText": "vastai-common-errors diagnose and fix vast.ai common errors and exceptions. use when encountering vast.ai errors, debugging failed instances, or troubleshooting gpu rental issues. trigger with phrases like \"vastai error\", \"fix vastai\", \"vastai not working\", \"debug vastai\", \"vastai instance failed\". saas-packs read grep bash(vastai:*) bash(curl:*) "
+      "searchText": "vastai-common-errors classify vast.ai authentication, offer, instance-state, ssh, image, credit, and api failures before choosing a recovery action. use when automation is stuck or a gpu workload cannot start. trigger with: \"diagnose vast.ai\", \"why is my instance scheduling\", \"fix a vast.ai cli error\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "vastai-core-workflow-a",
       "slug": "vastai-core-workflow-a",
       "name": "vastai-core-workflow-a",
-      "description": "Execute Vast.ai primary workflow: GPU instance provisioning and job execution. Use when renting GPUs for training, searching offers by price and specs, or managing the full instance lifecycle from search to teardown. Trigger with phrases like \"vastai rent gpu\", \"vastai training job\", \"vastai provision instance\", \"run job on vastai\".",
+      "description": "Analyze and execute a checkpointed Vast.ai training job from offer policy through artifact recovery and destruction. Use when a repeatable single-job GPU run needs budget and interruption controls. Trigger with: \"run training on Vast.ai\", \"checkpoint a Vast.ai job\", \"recover Vast.ai training artifacts\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(vastai:*)",
-        "Bash(curl:*)",
-        "Bash(ssh:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "vastai-pack",
         "category": "saas-packs"
       },
-      "searchText": "vastai-core-workflow-a execute vast.ai primary workflow: gpu instance provisioning and job execution. use when renting gpus for training, searching offers by price and specs, or managing the full instance lifecycle from search to teardown. trigger with phrases like \"vastai rent gpu\", \"vastai training job\", \"vastai provision instance\", \"run job on vastai\". saas-packs read write edit bash(vastai:*) bash(curl:*) bash(ssh:*) grep "
+      "searchText": "vastai-core-workflow-a analyze and execute a checkpointed vast.ai training job from offer policy through artifact recovery and destruction. use when a repeatable single-job gpu run needs budget and interruption controls. trigger with: \"run training on vast.ai\", \"checkpoint a vast.ai job\", \"recover vast.ai training artifacts\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "vastai-core-workflow-b",
       "slug": "vastai-core-workflow-b",
       "name": "vastai-core-workflow-b",
-      "description": "Execute Vast.ai secondary workflow: multi-instance orchestration, spot recovery, and cost optimization. Use when running distributed training, handling spot preemption, or optimizing GPU spend across multiple instances. Trigger with phrases like \"vastai distributed training\", \"vastai spot recovery\", \"vastai multi-gpu\", \"vastai cost optimization\".",
+      "description": "Build and roll out a Vast.ai Serverless endpoint with measured autoscaling, a canary template, and a zero-downtime worker update. Use when production inference capacity or model bytes change. Trigger with: \"deploy Vast.ai Serverless\", \"tune a Vast.ai worker group\", \"roll a model without downtime\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(vastai:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "vastai-pack",
         "category": "saas-packs"
       },
-      "searchText": "vastai-core-workflow-b execute vast.ai secondary workflow: multi-instance orchestration, spot recovery, and cost optimization. use when running distributed training, handling spot preemption, or optimizing gpu spend across multiple instances. trigger with phrases like \"vastai distributed training\", \"vastai spot recovery\", \"vastai multi-gpu\", \"vastai cost optimization\". saas-packs read write edit bash(vastai:*) bash(curl:*) grep "
+      "searchText": "vastai-core-workflow-b build and roll out a vast.ai serverless endpoint with measured autoscaling, a canary template, and a zero-downtime worker update. use when production inference capacity or model bytes change. trigger with: \"deploy vast.ai serverless\", \"tune a vast.ai worker group\", \"roll a model without downtime\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "vastai-cost-tuning",
       "slug": "vastai-cost-tuning",
       "name": "vastai-cost-tuning",
-      "description": "Optimize Vast.ai GPU cloud costs through smart instance selection and lifecycle management. Use when analyzing GPU spending, reducing training costs, or implementing budget controls for Vast.ai workloads. Trigger with phrases like \"vastai cost\", \"vastai billing\", \"reduce vastai costs\", \"vastai pricing\", \"vastai budget\".",
+      "description": "Reduce Vast.ai GPU, storage, and bandwidth spend without weakening workload requirements or leaving stopped resources billable. Use when selecting offers, setting spot policy, cleaning idle resources, or reconciling invoices. Trigger with: \"optimize Vast.ai cost\", \"find Vast.ai cost leaks\", \"compare Vast.ai offers\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(vastai:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "vastai-pack",
         "category": "saas-packs"
       },
-      "searchText": "vastai-cost-tuning optimize vast.ai gpu cloud costs through smart instance selection and lifecycle management. use when analyzing gpu spending, reducing training costs, or implementing budget controls for vast.ai workloads. trigger with phrases like \"vastai cost\", \"vastai billing\", \"reduce vastai costs\", \"vastai pricing\", \"vastai budget\". saas-packs read write edit bash(vastai:*) grep "
+      "searchText": "vastai-cost-tuning reduce vast.ai gpu, storage, and bandwidth spend without weakening workload requirements or leaving stopped resources billable. use when selecting offers, setting spot policy, cleaning idle resources, or reconciling invoices. trigger with: \"optimize vast.ai cost\", \"find vast.ai cost leaks\", \"compare vast.ai offers\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "vastai-data-handling",
       "slug": "vastai-data-handling",
       "name": "vastai-data-handling",
-      "description": "Manage training data and model artifacts securely on Vast.ai GPU instances. Use when transferring data to instances, managing checkpoints, or implementing secure data lifecycle on rented hardware. Trigger with phrases like \"vastai data\", \"vastai upload data\", \"vastai checkpoints\", \"vastai data security\", \"vastai artifacts\".",
+      "description": "Manage datasets, checkpoints, models, and artifacts through Vast.ai instances, volumes, and cloud connections with integrity and teardown controls. Use when data must move to, from, or between Vast.ai resources. Trigger with: \"copy data to Vast.ai\", \"protect Vast.ai checkpoints\", \"recover data before destroying an instance\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(vastai:*)",
-        "Bash(ssh:*)",
-        "Bash(scp:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "vastai-pack",
         "category": "saas-packs"
       },
-      "searchText": "vastai-data-handling manage training data and model artifacts securely on vast.ai gpu instances. use when transferring data to instances, managing checkpoints, or implementing secure data lifecycle on rented hardware. trigger with phrases like \"vastai data\", \"vastai upload data\", \"vastai checkpoints\", \"vastai data security\", \"vastai artifacts\". saas-packs read write edit bash(vastai:*) bash(ssh:*) bash(scp:*) "
+      "searchText": "vastai-data-handling manage datasets, checkpoints, models, and artifacts through vast.ai instances, volumes, and cloud connections with integrity and teardown controls. use when data must move to, from, or between vast.ai resources. trigger with: \"copy data to vast.ai\", \"protect vast.ai checkpoints\", \"recover data before destroying an instance\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "vastai-debug-bundle",
       "slug": "vastai-debug-bundle",
       "name": "vastai-debug-bundle",
-      "description": "Collect Vast.ai debug evidence for support tickets and troubleshooting. Use when encountering persistent issues, preparing support tickets, or collecting diagnostic information for Vast.ai problems. Trigger with phrases like \"vastai debug\", \"vastai support bundle\", \"collect vastai logs\", \"vastai diagnostic\".",
+      "description": "Collect a minimal, redacted Vast.ai diagnostic manifest that support can act on without exposing API keys, SSH material, workload secrets, or unnecessary customer data. Use when escalating a platform or workload fault. Trigger with: \"build a Vast.ai debug bundle\", \"collect Vast.ai support evidence\", \"redact Vast.ai diagnostics\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
-        "Bash(vastai:*)",
-        "Bash(curl:*)",
-        "Bash(ssh:*)",
-        "Grep"
+        "Grep",
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "vastai-pack",
         "category": "saas-packs"
       },
-      "searchText": "vastai-debug-bundle collect vast.ai debug evidence for support tickets and troubleshooting. use when encountering persistent issues, preparing support tickets, or collecting diagnostic information for vast.ai problems. trigger with phrases like \"vastai debug\", \"vastai support bundle\", \"collect vastai logs\", \"vastai diagnostic\". saas-packs read bash(vastai:*) bash(curl:*) bash(ssh:*) grep "
+      "searchText": "vastai-debug-bundle collect a minimal, redacted vast.ai diagnostic manifest that support can act on without exposing api keys, ssh material, workload secrets, or unnecessary customer data. use when escalating a platform or workload fault. trigger with: \"build a vast.ai debug bundle\", \"collect vast.ai support evidence\", \"redact vast.ai diagnostics\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "vastai-deploy-integration",
       "slug": "vastai-deploy-integration",
       "name": "vastai-deploy-integration",
-      "description": "Deploy ML training jobs and inference services on Vast.ai GPU cloud. Use when deploying GPU workloads, configuring Docker images, or setting up automated deployment scripts. Trigger with phrases like \"deploy vastai\", \"vastai deployment\", \"vastai docker\", \"vastai production deploy\".",
+      "description": "Deploy an immutable service or batch worker to a Vast.ai instance with template, health, artifact, rollback, and cleanup controls. Use when shipping an instance-based workload rather than Serverless. Trigger with: \"deploy to a Vast.ai instance\", \"release a Vast.ai template\", \"roll back a Vast.ai deployment\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(vastai:*)",
-        "Bash(docker:*)",
-        "Bash(ssh:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "vastai-pack",
         "category": "saas-packs"
       },
-      "searchText": "vastai-deploy-integration deploy ml training jobs and inference services on vast.ai gpu cloud. use when deploying gpu workloads, configuring docker images, or setting up automated deployment scripts. trigger with phrases like \"deploy vastai\", \"vastai deployment\", \"vastai docker\", \"vastai production deploy\". saas-packs read write edit bash(vastai:*) bash(docker:*) bash(ssh:*) "
+      "searchText": "vastai-deploy-integration deploy an immutable service or batch worker to a vast.ai instance with template, health, artifact, rollback, and cleanup controls. use when shipping an instance-based workload rather than serverless. trigger with: \"deploy to a vast.ai instance\", \"release a vast.ai template\", \"roll back a vast.ai deployment\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "vastai-enterprise-rbac",
       "slug": "vastai-enterprise-rbac",
       "name": "vastai-enterprise-rbac",
-      "description": "Implement team access control and spending governance for Vast.ai GPU cloud. Use when managing multi-team GPU access, implementing spending controls, or setting up API key separation for different teams. Trigger with phrases like \"vastai team access\", \"vastai RBAC\", \"vastai enterprise\", \"vastai spending controls\", \"vastai permissions\".",
+      "description": "Design and verify native Vast.ai Teams roles plus scoped API keys for least-privilege renter operations. Use when onboarding members, separating duties, or constraining automation. Trigger with: \"configure Vast.ai RBAC\", \"create a Vast.ai team role\", \"scope a Vast.ai API key\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(vastai:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "vastai-pack",
         "category": "saas-packs"
       },
-      "searchText": "vastai-enterprise-rbac implement team access control and spending governance for vast.ai gpu cloud. use when managing multi-team gpu access, implementing spending controls, or setting up api key separation for different teams. trigger with phrases like \"vastai team access\", \"vastai rbac\", \"vastai enterprise\", \"vastai spending controls\", \"vastai permissions\". saas-packs read write edit bash(vastai:*) "
+      "searchText": "vastai-enterprise-rbac design and verify native vast.ai teams roles plus scoped api keys for least-privilege renter operations. use when onboarding members, separating duties, or constraining automation. trigger with: \"configure vast.ai rbac\", \"create a vast.ai team role\", \"scope a vast.ai api key\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "vastai-hello-world",
       "slug": "vastai-hello-world",
       "name": "vastai-hello-world",
-      "description": "Rent your first GPU instance on Vast.ai and run a workload. Use when starting a new Vast.ai integration, testing your setup, or learning basic Vast.ai GPU rental patterns. Trigger with phrases like \"vastai hello world\", \"vastai example\", \"vastai quick start\", \"rent first gpu\", \"vastai first instance\".",
+      "description": "Rent, verify, use, and destroy a first Vast.ai GPU instance with bounded cost and explicit failure cleanup. Use when running a safe platform canary or onboarding exercise. Trigger with: \"rent my first Vast.ai GPU\", \"run a Vast.ai canary\", \"test Vast.ai end to end\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(vastai:*)",
-        "Bash(curl:*)",
-        "Bash(ssh:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "vastai-pack",
         "category": "saas-packs"
       },
-      "searchText": "vastai-hello-world rent your first gpu instance on vast.ai and run a workload. use when starting a new vast.ai integration, testing your setup, or learning basic vast.ai gpu rental patterns. trigger with phrases like \"vastai hello world\", \"vastai example\", \"vastai quick start\", \"rent first gpu\", \"vastai first instance\". saas-packs read write edit bash(vastai:*) bash(curl:*) bash(ssh:*) "
+      "searchText": "vastai-hello-world rent, verify, use, and destroy a first vast.ai gpu instance with bounded cost and explicit failure cleanup. use when running a safe platform canary or onboarding exercise. trigger with: \"rent my first vast.ai gpu\", \"run a vast.ai canary\", \"test vast.ai end to end\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "vastai-incident-runbook",
       "slug": "vastai-incident-runbook",
       "name": "vastai-incident-runbook",
-      "description": "Execute Vast.ai incident response for GPU instance failures and outages. Use when responding to instance failures, investigating training crashes, or handling spot preemption emergencies. Trigger with phrases like \"vastai incident\", \"vastai outage\", \"vastai down\", \"vastai emergency\", \"vastai instance failed\".",
+      "description": "Analyze, diagnose, and recover a Vast.ai renter workload from outbid, exited, offline, scheduling, low-credit, or data-risk incidents while controlling billing and destructive actions. Use when a Vast.ai workload or account enters an incident state. Trigger with: \"Vast.ai incident\", \"recover an offline Vast.ai job\", \"stop emergency Vast.ai spend\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
         "Grep",
-        "Bash(vastai:*)",
-        "Bash(curl:*)",
-        "Bash(ssh:*)"
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "vastai-pack",
         "category": "saas-packs"
       },
-      "searchText": "vastai-incident-runbook execute vast.ai incident response for gpu instance failures and outages. use when responding to instance failures, investigating training crashes, or handling spot preemption emergencies. trigger with phrases like \"vastai incident\", \"vastai outage\", \"vastai down\", \"vastai emergency\", \"vastai instance failed\". saas-packs read grep bash(vastai:*) bash(curl:*) bash(ssh:*) "
+      "searchText": "vastai-incident-runbook analyze, diagnose, and recover a vast.ai renter workload from outbid, exited, offline, scheduling, low-credit, or data-risk incidents while controlling billing and destructive actions. use when a vast.ai workload or account enters an incident state. trigger with: \"vast.ai incident\", \"recover an offline vast.ai job\", \"stop emergency vast.ai spend\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "vastai-install-auth",
       "slug": "vastai-install-auth",
       "name": "vastai-install-auth",
-      "description": "Install and configure Vast.ai CLI and REST API authentication. Use when setting up a new Vast.ai integration, configuring API keys, or initializing Vast.ai GPU cloud access in your project. Trigger with phrases like \"install vastai\", \"setup vastai\", \"vastai auth\", \"configure vastai API key\", \"vastai gpu setup\".",
+      "description": "Install the supported Vast.ai CLI and establish a least-privilege authentication boundary without leaking or persisting the wrong key. Use when bootstrapping a workstation, CI runner, or automation account. Trigger with: \"install Vast.ai\", \"configure VAST_API_KEY\", \"create a scoped Vast.ai key\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(pip:*)",
-        "Bash(vastai:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "vastai-pack",
         "category": "saas-packs"
       },
-      "searchText": "vastai-install-auth install and configure vast.ai cli and rest api authentication. use when setting up a new vast.ai integration, configuring api keys, or initializing vast.ai gpu cloud access in your project. trigger with phrases like \"install vastai\", \"setup vastai\", \"vastai auth\", \"configure vastai api key\", \"vastai gpu setup\". saas-packs read write edit bash(pip:*) bash(vastai:*) bash(curl:*) grep "
+      "searchText": "vastai-install-auth install the supported vast.ai cli and establish a least-privilege authentication boundary without leaking or persisting the wrong key. use when bootstrapping a workstation, ci runner, or automation account. trigger with: \"install vast.ai\", \"configure vast_api_key\", \"create a scoped vast.ai key\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "vastai-local-dev-loop",
       "slug": "vastai-local-dev-loop",
       "name": "vastai-local-dev-loop",
-      "description": "Configure Vast.ai local development with testing and fast iteration. Use when setting up a development environment, testing instance provisioning, or building a fast iteration cycle for GPU workloads. Trigger with phrases like \"vastai dev setup\", \"vastai local development\", \"vastai dev environment\", \"develop with vastai\".",
+      "description": "Build a fast local development loop that promotes a CPU-tested change to one disposable Vast.ai GPU canary and always tears it down. Use when iterating on images, startup scripts, or training code. Trigger with: \"test locally then on Vast.ai\", \"build a GPU canary loop\", \"shorten Vast.ai iteration\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(vastai:*)",
-        "Bash(pip:*)",
-        "Bash(docker:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "vastai-pack",
         "category": "saas-packs"
       },
-      "searchText": "vastai-local-dev-loop configure vast.ai local development with testing and fast iteration. use when setting up a development environment, testing instance provisioning, or building a fast iteration cycle for gpu workloads. trigger with phrases like \"vastai dev setup\", \"vastai local development\", \"vastai dev environment\", \"develop with vastai\". saas-packs read write edit bash(vastai:*) bash(pip:*) bash(docker:*) grep "
+      "searchText": "vastai-local-dev-loop build a fast local development loop that promotes a cpu-tested change to one disposable vast.ai gpu canary and always tears it down. use when iterating on images, startup scripts, or training code. trigger with: \"test locally then on vast.ai\", \"build a gpu canary loop\", \"shorten vast.ai iteration\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "vastai-migration-deep-dive",
       "slug": "vastai-migration-deep-dive",
       "name": "vastai-migration-deep-dive",
-      "description": "Migrate GPU workloads to or from Vast.ai, or between GPU providers. Use when switching from AWS/GCP/Azure GPU instances to Vast.ai, migrating between GPU types, or re-platforming ML infrastructure. Trigger with phrases like \"migrate to vastai\", \"vastai migration\", \"switch to vastai\", \"vastai from aws\", \"vastai from lambda\".",
+      "description": "Migrate a GPU workload from another provider to Vast.ai through inventory, container and data parity, a checkpointed canary, measured comparison, and rollback. Use when planning or executing a provider cutover. Trigger with: \"migrate Runpod to Vast.ai\", \"move GPU jobs to Vast.ai\", \"validate a Vast.ai migration\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(vastai:*)",
-        "Bash(docker:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "vastai-pack",
         "category": "saas-packs"
       },
-      "searchText": "vastai-migration-deep-dive migrate gpu workloads to or from vast.ai, or between gpu providers. use when switching from aws/gcp/azure gpu instances to vast.ai, migrating between gpu types, or re-platforming ml infrastructure. trigger with phrases like \"migrate to vastai\", \"vastai migration\", \"switch to vastai\", \"vastai from aws\", \"vastai from lambda\". saas-packs read write edit bash(vastai:*) bash(docker:*) grep "
+      "searchText": "vastai-migration-deep-dive migrate a gpu workload from another provider to vast.ai through inventory, container and data parity, a checkpointed canary, measured comparison, and rollback. use when planning or executing a provider cutover. trigger with: \"migrate runpod to vast.ai\", \"move gpu jobs to vast.ai\", \"validate a vast.ai migration\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "vastai-multi-env-setup",
       "slug": "vastai-multi-env-setup",
       "name": "vastai-multi-env-setup",
-      "description": "Configure Vast.ai GPU cloud across dev, staging, and production environments. Use when isolating GPU pools per team, managing API key separation by env, or implementing spending controls per deployment tier. Trigger with phrases like \"vastai environments\", \"vastai staging\", \"vastai dev prod\", \"vastai multi-env\".",
+      "description": "Separate development, staging, and production Vast.ai identities, templates, labels, budgets, data, and evidence so one environment cannot mutate another. Use when establishing or auditing environment isolation. Trigger with: \"set up Vast.ai environments\", \"separate Vast.ai prod and dev\", \"govern Vast.ai templates by environment\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(vastai:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "vastai-pack",
         "category": "saas-packs"
       },
-      "searchText": "vastai-multi-env-setup configure vast.ai gpu cloud across dev, staging, and production environments. use when isolating gpu pools per team, managing api key separation by env, or implementing spending controls per deployment tier. trigger with phrases like \"vastai environments\", \"vastai staging\", \"vastai dev prod\", \"vastai multi-env\". saas-packs read write edit bash(vastai:*) grep "
+      "searchText": "vastai-multi-env-setup separate development, staging, and production vast.ai identities, templates, labels, budgets, data, and evidence so one environment cannot mutate another. use when establishing or auditing environment isolation. trigger with: \"set up vast.ai environments\", \"separate vast.ai prod and dev\", \"govern vast.ai templates by environment\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "vastai-observability",
       "slug": "vastai-observability",
       "name": "vastai-observability",
-      "description": "Monitor Vast.ai GPU instance health, utilization, and costs. Use when setting up monitoring dashboards, configuring alerts, or tracking GPU utilization and spending. Trigger with phrases like \"vastai monitoring\", \"vastai metrics\", \"vastai observability\", \"monitor vastai\", \"vastai alerts\".",
+      "description": "Observe Vast.ai renter instances and Serverless resources using actionable state, logs, queue, utilization, balance, and cost signals. Use when building dashboards, alerts, or release telemetry. Trigger with: \"monitor Vast.ai\", \"alert on Vast.ai instances\", \"observe Vast.ai Serverless\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(vastai:*)",
-        "Bash(curl:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "vastai-pack",
         "category": "saas-packs"
       },
-      "searchText": "vastai-observability monitor vast.ai gpu instance health, utilization, and costs. use when setting up monitoring dashboards, configuring alerts, or tracking gpu utilization and spending. trigger with phrases like \"vastai monitoring\", \"vastai metrics\", \"vastai observability\", \"monitor vastai\", \"vastai alerts\". saas-packs read write edit bash(vastai:*) bash(curl:*) "
+      "searchText": "vastai-observability observe vast.ai renter instances and serverless resources using actionable state, logs, queue, utilization, balance, and cost signals. use when building dashboards, alerts, or release telemetry. trigger with: \"monitor vast.ai\", \"alert on vast.ai instances\", \"observe vast.ai serverless\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "vastai-performance-tuning",
       "slug": "vastai-performance-tuning",
       "name": "vastai-performance-tuning",
-      "description": "Optimize Vast.ai GPU instance selection, startup time, and training throughput. Use when optimizing instance selection, reducing startup latency, or maximizing GPU utilization on rented hardware. Trigger with phrases like \"vastai performance\", \"optimize vastai\", \"vastai slow\", \"vastai gpu utilization\", \"vastai throughput\".",
+      "description": "Tune Vast.ai offer selection, startup, data feeding, GPU memory, and scaling from measured useful-work throughput. Use when jobs are slow, GPUs are underutilized, or faster offers cost more. Trigger with: \"tune Vast.ai performance\", \"improve GPU utilization\", \"compare Vast.ai throughput\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(vastai:*)",
-        "Bash(ssh:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "vastai-pack",
         "category": "saas-packs"
       },
-      "searchText": "vastai-performance-tuning optimize vast.ai gpu instance selection, startup time, and training throughput. use when optimizing instance selection, reducing startup latency, or maximizing gpu utilization on rented hardware. trigger with phrases like \"vastai performance\", \"optimize vastai\", \"vastai slow\", \"vastai gpu utilization\", \"vastai throughput\". saas-packs read write edit bash(vastai:*) bash(ssh:*) "
+      "searchText": "vastai-performance-tuning tune vast.ai offer selection, startup, data feeding, gpu memory, and scaling from measured useful-work throughput. use when jobs are slow, gpus are underutilized, or faster offers cost more. trigger with: \"tune vast.ai performance\", \"improve gpu utilization\", \"compare vast.ai throughput\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "vastai-prod-checklist",
       "slug": "vastai-prod-checklist",
       "name": "vastai-prod-checklist",
-      "description": "Execute Vast.ai production deployment checklist for GPU workloads. Use when deploying training pipelines to production, preparing for large-scale GPU jobs, or auditing production readiness. Trigger with phrases like \"vastai production\", \"deploy vastai\", \"vastai go-live\", \"vastai launch checklist\".",
+      "description": "Analyze readiness and issue a production go/no-go decision for a Vast.ai renter workload using retained evidence for cost, capacity, security, recovery, observability, and teardown. Use when a release needs production approval. Trigger with: \"approve Vast.ai production\", \"run the Vast.ai launch checklist\", \"is this Vast.ai workload production ready\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
-        "Bash(vastai:*)",
-        "Bash(curl:*)",
-        "Grep"
+        "Grep",
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "vastai-pack",
         "category": "saas-packs"
       },
-      "searchText": "vastai-prod-checklist execute vast.ai production deployment checklist for gpu workloads. use when deploying training pipelines to production, preparing for large-scale gpu jobs, or auditing production readiness. trigger with phrases like \"vastai production\", \"deploy vastai\", \"vastai go-live\", \"vastai launch checklist\". saas-packs read bash(vastai:*) bash(curl:*) grep "
+      "searchText": "vastai-prod-checklist analyze readiness and issue a production go/no-go decision for a vast.ai renter workload using retained evidence for cost, capacity, security, recovery, observability, and teardown. use when a release needs production approval. trigger with: \"approve vast.ai production\", \"run the vast.ai launch checklist\", \"is this vast.ai workload production ready\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "vastai-rate-limits",
       "slug": "vastai-rate-limits",
       "name": "vastai-rate-limits",
-      "description": "Handle Vast.ai API rate limits with backoff and request optimization. Use when encountering 429 errors, implementing retry logic, or optimizing API request throughput. Trigger with phrases like \"vastai rate limit\", \"vastai throttling\", \"vastai 429\", \"vastai retry\", \"vastai backoff\".",
+      "description": "Diagnose and design bounded Vast.ai CLI and REST traffic around per-endpoint, per-identity rate limits and the absence of Retry-After headers. Use when implementing polling, batch automation, or 429 recovery. Trigger with: \"handle Vast.ai 429\", \"reduce Vast.ai polling\", \"set Vast.ai retry policy\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "vastai-pack",
         "category": "saas-packs"
       },
-      "searchText": "vastai-rate-limits handle vast.ai api rate limits with backoff and request optimization. use when encountering 429 errors, implementing retry logic, or optimizing api request throughput. trigger with phrases like \"vastai rate limit\", \"vastai throttling\", \"vastai 429\", \"vastai retry\", \"vastai backoff\". saas-packs read write edit "
+      "searchText": "vastai-rate-limits diagnose and design bounded vast.ai cli and rest traffic around per-endpoint, per-identity rate limits and the absence of retry-after headers. use when implementing polling, batch automation, or 429 recovery. trigger with: \"handle vast.ai 429\", \"reduce vast.ai polling\", \"set vast.ai retry policy\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "vastai-reference-architecture",
       "slug": "vastai-reference-architecture",
       "name": "vastai-reference-architecture",
-      "description": "Implement Vast.ai reference architecture for GPU compute workflows. Use when designing ML training pipelines, structuring GPU orchestration, or establishing architecture patterns for Vast.ai applications. Trigger with phrases like \"vastai architecture\", \"vastai design pattern\", \"vastai project structure\", \"vastai ml pipeline\".",
+      "description": "Design a governed Vast.ai GPU control plane that separates planning, paid mutation, execution, recovery, evidence, and teardown. Use when reviewing a production architecture spanning instances or Serverless. Trigger with: \"design a Vast.ai architecture\", \"govern GPU workload lifecycles\", \"review a Vast.ai platform\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
-        "Grep"
+        "Grep",
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "vastai-pack",
         "category": "saas-packs"
       },
-      "searchText": "vastai-reference-architecture implement vast.ai reference architecture for gpu compute workflows. use when designing ml training pipelines, structuring gpu orchestration, or establishing architecture patterns for vast.ai applications. trigger with phrases like \"vastai architecture\", \"vastai design pattern\", \"vastai project structure\", \"vastai ml pipeline\". saas-packs read grep "
+      "searchText": "vastai-reference-architecture design a governed vast.ai gpu control plane that separates planning, paid mutation, execution, recovery, evidence, and teardown. use when reviewing a production architecture spanning instances or serverless. trigger with: \"design a vast.ai architecture\", \"govern gpu workload lifecycles\", \"review a vast.ai platform\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "vastai-sdk-patterns",
       "slug": "vastai-sdk-patterns",
       "name": "vastai-sdk-patterns",
-      "description": "Apply production-ready Vast.ai SDK patterns for Python and REST API. Use when implementing Vast.ai integrations, refactoring SDK usage, or establishing coding standards for GPU cloud operations. Trigger with phrases like \"vastai SDK patterns\", \"vastai best practices\", \"vastai code patterns\", \"idiomatic vastai\".",
+      "description": "Choose the correct Vast.ai Python client and implement typed, bounded, ownership-safe GPU lifecycles. Use when integrating the high-level SDK, SyncClient, AsyncClient, or Serverless client. Trigger with: \"use the Vast.ai SDK\", \"wrap a Vast.ai instance lifecycle\", \"choose SyncClient or AsyncClient\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "vastai-pack",
         "category": "saas-packs"
       },
-      "searchText": "vastai-sdk-patterns apply production-ready vast.ai sdk patterns for python and rest api. use when implementing vast.ai integrations, refactoring sdk usage, or establishing coding standards for gpu cloud operations. trigger with phrases like \"vastai sdk patterns\", \"vastai best practices\", \"vastai code patterns\", \"idiomatic vastai\". saas-packs read write edit grep "
+      "searchText": "vastai-sdk-patterns choose the correct vast.ai python client and implement typed, bounded, ownership-safe gpu lifecycles. use when integrating the high-level sdk, syncclient, asyncclient, or serverless client. trigger with: \"use the vast.ai sdk\", \"wrap a vast.ai instance lifecycle\", \"choose syncclient or asyncclient\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "vastai-security-basics",
       "slug": "vastai-security-basics",
       "name": "vastai-security-basics",
-      "description": "Apply Vast.ai security best practices for API keys and instance access. Use when securing API keys, hardening SSH access to GPU instances, or auditing Vast.ai security configuration. Trigger with phrases like \"vastai security\", \"vastai secrets\", \"secure vastai\", \"vastai API key security\", \"vastai ssh security\".",
+      "description": "Harden Vast.ai renter access across scoped API keys, SSH, images, hosts, data, and teardown. Use when reviewing security before placing workloads on marketplace hardware. Trigger with: \"secure Vast.ai\", \"review Vast.ai credentials\", \"protect data on a rented GPU\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "vastai-pack",
         "category": "saas-packs"
       },
-      "searchText": "vastai-security-basics apply vast.ai security best practices for api keys and instance access. use when securing api keys, hardening ssh access to gpu instances, or auditing vast.ai security configuration. trigger with phrases like \"vastai security\", \"vastai secrets\", \"secure vastai\", \"vastai api key security\", \"vastai ssh security\". saas-packs read write grep "
+      "searchText": "vastai-security-basics harden vast.ai renter access across scoped api keys, ssh, images, hosts, data, and teardown. use when reviewing security before placing workloads on marketplace hardware. trigger with: \"secure vast.ai\", \"review vast.ai credentials\", \"protect data on a rented gpu\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "vastai-upgrade-migration",
       "slug": "vastai-upgrade-migration",
       "name": "vastai-upgrade-migration",
-      "description": "Upgrade Vast.ai CLI, migrate API versions, and handle breaking changes. Use when upgrading vastai CLI, detecting deprecations, or migrating between API versions. Trigger with phrases like \"upgrade vastai\", \"vastai migration\", \"vastai breaking changes\", \"update vastai CLI\".",
+      "description": "Upgrade or roll back the Vast.ai CLI, Python SDK import surface, and workload template without speculative API-version changes. Use when changing a client pin, SDK import, or production template. Trigger with: \"upgrade Vast.ai CLI\", \"migrate from vastai_sdk\", \"roll a Vast.ai template update\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(pip:*)",
-        "Bash(vastai:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "vastai-pack",
         "category": "saas-packs"
       },
-      "searchText": "vastai-upgrade-migration upgrade vast.ai cli, migrate api versions, and handle breaking changes. use when upgrading vastai cli, detecting deprecations, or migrating between api versions. trigger with phrases like \"upgrade vastai\", \"vastai migration\", \"vastai breaking changes\", \"update vastai cli\". saas-packs read write edit bash(pip:*) bash(vastai:*) "
+      "searchText": "vastai-upgrade-migration upgrade or roll back the vast.ai cli, python sdk import surface, and workload template without speculative api-version changes. use when changing a client pin, sdk import, or production template. trigger with: \"upgrade vast.ai cli\", \"migrate from vastai_sdk\", \"roll a vast.ai template update\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "vastai-webhooks-events",
       "slug": "vastai-webhooks-events",
       "name": "vastai-webhooks-events",
-      "description": "Build event-driven workflows around Vast.ai instance lifecycle events. Use when monitoring instance status changes, implementing auto-recovery, or building event-driven GPU orchestration. Trigger with phrases like \"vastai events\", \"vastai instance monitoring\", \"vastai status changes\", \"vastai lifecycle events\".",
+      "description": "Analyze, verify, and operate Vast.ai notification webhooks with exact-body HMAC, replay protection, deduplication, durable enqueue, and failure-aware acknowledgment. Use when notification events must drive automation. Trigger with: \"receive Vast.ai webhooks\", \"verify X-Vast-Signature-256\", \"handle duplicate Vast.ai events\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(vastai:*)",
-        "Bash(curl:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.11.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "vastai-pack",
         "category": "saas-packs"
       },
-      "searchText": "vastai-webhooks-events build event-driven workflows around vast.ai instance lifecycle events. use when monitoring instance status changes, implementing auto-recovery, or building event-driven gpu orchestration. trigger with phrases like \"vastai events\", \"vastai instance monitoring\", \"vastai status changes\", \"vastai lifecycle events\". saas-packs read write edit bash(vastai:*) bash(curl:*) "
+      "searchText": "vastai-webhooks-events analyze, verify, and operate vast.ai notification webhooks with exact-body hmac, replay protection, deduplication, durable enqueue, and failure-aware acknowledgment. use when notification events must drive automation. trigger with: \"receive vast.ai webhooks\", \"verify x-vast-signature-256\", \"handle duplicate vast.ai events\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
