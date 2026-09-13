@@ -3,7 +3,7 @@
   "authority": "Blueprint 727 §8; Freshie graded export",
   "source": {
     "path": "freshie/grades.csv",
-    "sha256": "4b1e9bf973b575d6290827ef9f7032149f4e8f7b66d40da500cd79951865e92e",
+    "sha256": "5b22ab61101133aaa93b63bb7844cf219ede7e11323a4985208417bad05f3b1a",
     "artifact_count": 3491
   },
   "rule_order": [
@@ -19,9 +19,9 @@
     "G9"
   ],
   "counts": {
-    "AUTO-MIGRATE": 38,
+    "AUTO-MIGRATE": 20,
     "CERTIFY": 0,
-    "CERTIFY-PENDING-EVIDENCE": 3107,
+    "CERTIFY-PENDING-EVIDENCE": 3125,
     "CERTIFY-UPSTREAM": 0,
     "DEEP-REMEDIATE": 1,
     "QUARANTINE": 345
@@ -28309,236 +28309,200 @@
     },
     {
       "path": "plugins/saas-packs/persona-pack/skills/persona-ci-integration/SKILL.md",
-      "grade": "B",
-      "score": 85,
-      "diagnostics": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
-      ],
-      "disposition": "AUTO-MIGRATE",
-      "gate": "G5",
+      "grade": "A",
+      "score": 95,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
       "reason_codes": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
       ]
     },
     {
       "path": "plugins/saas-packs/persona-pack/skills/persona-common-errors/SKILL.md",
-      "grade": "B",
-      "score": 87,
-      "diagnostics": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
-      ],
-      "disposition": "AUTO-MIGRATE",
-      "gate": "G5",
+      "grade": "A",
+      "score": 94,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
       "reason_codes": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
       ]
     },
     {
       "path": "plugins/saas-packs/persona-pack/skills/persona-core-workflow-a/SKILL.md",
-      "grade": "B",
-      "score": 82,
-      "diagnostics": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
-      ],
-      "disposition": "AUTO-MIGRATE",
-      "gate": "G5",
+      "grade": "A",
+      "score": 96,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
       "reason_codes": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
       ]
     },
     {
       "path": "plugins/saas-packs/persona-pack/skills/persona-core-workflow-b/SKILL.md",
-      "grade": "B",
-      "score": 86,
-      "diagnostics": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
-      ],
-      "disposition": "AUTO-MIGRATE",
-      "gate": "G5",
+      "grade": "A",
+      "score": 96,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
       "reason_codes": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
       ]
     },
     {
       "path": "plugins/saas-packs/persona-pack/skills/persona-cost-tuning/SKILL.md",
-      "grade": "B",
-      "score": 87,
-      "diagnostics": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
-      ],
-      "disposition": "AUTO-MIGRATE",
-      "gate": "G5",
+      "grade": "A",
+      "score": 97,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
       "reason_codes": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
       ]
     },
     {
       "path": "plugins/saas-packs/persona-pack/skills/persona-debug-bundle/SKILL.md",
-      "grade": "B",
-      "score": 87,
-      "diagnostics": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
-      ],
-      "disposition": "AUTO-MIGRATE",
-      "gate": "G5",
+      "grade": "A",
+      "score": 95,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
       "reason_codes": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
       ]
     },
     {
       "path": "plugins/saas-packs/persona-pack/skills/persona-deploy-integration/SKILL.md",
-      "grade": "B",
-      "score": 86,
-      "diagnostics": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
-      ],
-      "disposition": "AUTO-MIGRATE",
-      "gate": "G5",
+      "grade": "A",
+      "score": 95,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
       "reason_codes": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
       ]
     },
     {
       "path": "plugins/saas-packs/persona-pack/skills/persona-hello-world/SKILL.md",
-      "grade": "B",
-      "score": 86,
-      "diagnostics": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
-      ],
-      "disposition": "AUTO-MIGRATE",
-      "gate": "G5",
+      "grade": "A",
+      "score": 96,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
       "reason_codes": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
       ]
     },
     {
       "path": "plugins/saas-packs/persona-pack/skills/persona-install-auth/SKILL.md",
-      "grade": "B",
-      "score": 88,
-      "diagnostics": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
-      ],
-      "disposition": "AUTO-MIGRATE",
-      "gate": "G5",
+      "grade": "A",
+      "score": 95,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
       "reason_codes": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
       ]
     },
     {
       "path": "plugins/saas-packs/persona-pack/skills/persona-local-dev-loop/SKILL.md",
-      "grade": "B",
-      "score": 89,
-      "diagnostics": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
-      ],
-      "disposition": "AUTO-MIGRATE",
-      "gate": "G5",
+      "grade": "A",
+      "score": 95,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
       "reason_codes": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
       ]
     },
     {
       "path": "plugins/saas-packs/persona-pack/skills/persona-performance-tuning/SKILL.md",
-      "grade": "B",
-      "score": 87,
-      "diagnostics": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
-      ],
-      "disposition": "AUTO-MIGRATE",
-      "gate": "G5",
+      "grade": "A",
+      "score": 96,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
       "reason_codes": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
       ]
     },
     {
       "path": "plugins/saas-packs/persona-pack/skills/persona-prod-checklist/SKILL.md",
-      "grade": "B",
-      "score": 87,
-      "diagnostics": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
-      ],
-      "disposition": "AUTO-MIGRATE",
-      "gate": "G5",
+      "grade": "A",
+      "score": 96,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
       "reason_codes": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
       ]
     },
     {
       "path": "plugins/saas-packs/persona-pack/skills/persona-rate-limits/SKILL.md",
-      "grade": "B",
-      "score": 86,
-      "diagnostics": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
-      ],
-      "disposition": "AUTO-MIGRATE",
-      "gate": "G5",
+      "grade": "A",
+      "score": 94,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
       "reason_codes": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
       ]
     },
     {
       "path": "plugins/saas-packs/persona-pack/skills/persona-reference-architecture/SKILL.md",
-      "grade": "B",
-      "score": 86,
-      "diagnostics": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
-      ],
-      "disposition": "AUTO-MIGRATE",
-      "gate": "G5",
+      "grade": "A",
+      "score": 95,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
       "reason_codes": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
       ]
     },
     {
       "path": "plugins/saas-packs/persona-pack/skills/persona-sdk-patterns/SKILL.md",
-      "grade": "B",
-      "score": 83,
-      "diagnostics": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
-      ],
-      "disposition": "AUTO-MIGRATE",
-      "gate": "G5",
+      "grade": "A",
+      "score": 95,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
       "reason_codes": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
       ]
     },
     {
       "path": "plugins/saas-packs/persona-pack/skills/persona-security-basics/SKILL.md",
-      "grade": "B",
-      "score": 86,
-      "diagnostics": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
-      ],
-      "disposition": "AUTO-MIGRATE",
-      "gate": "G5",
+      "grade": "A",
+      "score": 96,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
       "reason_codes": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
       ]
     },
     {
       "path": "plugins/saas-packs/persona-pack/skills/persona-upgrade-migration/SKILL.md",
-      "grade": "B",
-      "score": 86,
-      "diagnostics": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
-      ],
-      "disposition": "AUTO-MIGRATE",
-      "gate": "G5",
+      "grade": "A",
+      "score": 94,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
       "reason_codes": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
       ]
     },
     {
       "path": "plugins/saas-packs/persona-pack/skills/persona-webhooks-events/SKILL.md",
-      "grade": "B",
-      "score": 88,
-      "diagnostics": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
-      ],
-      "disposition": "AUTO-MIGRATE",
-      "gate": "G5",
+      "grade": "A",
+      "score": 95,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
       "reason_codes": [
-        "[body] Required section missing: '## Examples' (or an equivalent heading: ## Example, ## Sample, ## Samples, ## Usage examples, ## Example usage) (marketplace tier)"
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
       ]
     },
     {

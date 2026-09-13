@@ -13058,7 +13058,7 @@
       "slug": "persona-pack",
       "name": "persona-pack",
       "displayName": "persona pack",
-      "description": "Claude Code skill pack for Persona (18 skills)",
+      "description": "Operator-grade Persona identity workflow pack with 18 skills for inquiry lifecycles, authentic webhooks, privacy, reliability, and governed production delivery",
       "category": "saas-packs",
       "keywords": [
         "persona",
@@ -13072,15 +13072,15 @@
         "url": "https://github.com/jeremylongshore"
       },
       "authorType": "official",
-      "version": "1.4.0",
+      "version": "2.0.0",
       "isFeatured": false,
       "isNew": false,
       "badges": [],
       "skillCount": 18,
-      "verificationScore": 86,
-      "verificationGrade": "B",
-      "verificationBadge": "silver",
-      "searchText": "persona pack claude code skill pack for persona (18 skills) saas-packs persona saas sdk integration"
+      "verificationScore": 95,
+      "verificationGrade": "A",
+      "verificationBadge": "gold",
+      "searchText": "persona pack operator-grade persona identity workflow pack with 18 skills for inquiry lifecycles, authentic webhooks, privacy, reliability, and governed production delivery saas-packs persona saas sdk integration"
     },
     {
       "type": "plugin",
@@ -62173,375 +62173,378 @@
       "id": "persona-ci-integration",
       "slug": "persona-ci-integration",
       "name": "persona-ci-integration",
-      "description": "CI/CD pipeline for Persona integrations with sandbox API testing. Use when working with Persona identity verification. Trigger with phrases like \"persona ci-integration\", \"persona ci-integration\".",
+      "description": "Build Persona CI around offline contract fixtures and bounded sandbox smoke tests without production identity data. Use when adding integration gates. Trigger with: \"test Persona in CI\", \"Persona contract tests\", \"Persona GitHub Actions\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(gh:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "persona-pack",
         "category": "saas-packs"
       },
-      "searchText": "persona-ci-integration ci/cd pipeline for persona integrations with sandbox api testing. use when working with persona identity verification. trigger with phrases like \"persona ci-integration\", \"persona ci-integration\". saas-packs read write edit bash(gh:*) "
+      "searchText": "persona-ci-integration build persona ci around offline contract fixtures and bounded sandbox smoke tests without production identity data. use when adding integration gates. trigger with: \"test persona in ci\", \"persona contract tests\", \"persona github actions\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "persona-common-errors",
       "slug": "persona-common-errors",
       "name": "persona-common-errors",
-      "description": "Fix top Persona API errors: 401, 422, webhook signature failures, inquiry state issues. Use when working with Persona identity verification. Trigger with phrases like \"persona common-errors\", \"persona common-errors\".",
+      "description": "Triage Persona authentication, JSON:API, inquiry, session, webhook, and throttle failures with redacted evidence. Use when an integration is failing. Trigger with: \"debug Persona error\", \"Persona 401\", \"Persona inquiry failed\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
         "Grep",
-        "Bash(curl:*)"
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "persona-pack",
         "category": "saas-packs"
       },
-      "searchText": "persona-common-errors fix top persona api errors: 401, 422, webhook signature failures, inquiry state issues. use when working with persona identity verification. trigger with phrases like \"persona common-errors\", \"persona common-errors\". saas-packs read grep bash(curl:*) "
+      "searchText": "persona-common-errors triage persona authentication, json:api, inquiry, session, webhook, and throttle failures with redacted evidence. use when an integration is failing. trigger with: \"debug persona error\", \"persona 401\", \"persona inquiry failed\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "persona-core-workflow-a",
       "slug": "persona-core-workflow-a",
       "name": "persona-core-workflow-a",
-      "description": "Build a complete KYC verification flow with Persona inquiries and embedded UI. Use when implementing identity verification, building KYC onboarding, or integrating Persona's hosted flow into your application. Trigger with phrases like \"persona KYC flow\", \"identity verification\", \"persona inquiry workflow\", \"onboarding verification\".",
+      "description": "Operate the account-linked Persona inquiry and session lifecycle from creation through safe resume. Use when implementing a customer verification journey. Trigger with: \"create Persona inquiry\", \"resume Persona inquiry\", \"link Persona account\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "persona-pack",
         "category": "saas-packs"
       },
-      "searchText": "persona-core-workflow-a build a complete kyc verification flow with persona inquiries and embedded ui. use when implementing identity verification, building kyc onboarding, or integrating persona's hosted flow into your application. trigger with phrases like \"persona kyc flow\", \"identity verification\", \"persona inquiry workflow\", \"onboarding verification\". saas-packs read write edit bash(npm:*) grep "
+      "searchText": "persona-core-workflow-a operate the account-linked persona inquiry and session lifecycle from creation through safe resume. use when implementing a customer verification journey. trigger with: \"create persona inquiry\", \"resume persona inquiry\", \"link persona account\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "persona-core-workflow-b",
       "slug": "persona-core-workflow-b",
       "name": "persona-core-workflow-b",
-      "description": "Work with Persona verification types: government ID, selfie, database checks. Use when implementing specific verification checks, reviewing verification results, or building custom verification workflows. Trigger with phrases like \"persona verification\", \"government ID check\", \"selfie verification\", \"persona database check\", \"verification results\".",
+      "description": "Interpret Persona verification resources without collapsing provider evidence into an automatic business decision. Use when mapping checks to review outcomes. Trigger with: \"evaluate Persona verification\", \"map KYC result\", \"handle Persona checks\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(curl:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "persona-pack",
         "category": "saas-packs"
       },
-      "searchText": "persona-core-workflow-b work with persona verification types: government id, selfie, database checks. use when implementing specific verification checks, reviewing verification results, or building custom verification workflows. trigger with phrases like \"persona verification\", \"government id check\", \"selfie verification\", \"persona database check\", \"verification results\". saas-packs read write edit bash(curl:*) grep "
+      "searchText": "persona-core-workflow-b interpret persona verification resources without collapsing provider evidence into an automatic business decision. use when mapping checks to review outcomes. trigger with: \"evaluate persona verification\", \"map kyc result\", \"handle persona checks\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "persona-cost-tuning",
       "slug": "persona-cost-tuning",
       "name": "persona-cost-tuning",
-      "description": "Optimize Persona verification costs with template selection and caching. Use when working with Persona identity verification. Trigger with phrases like \"persona cost-tuning\", \"persona cost-tuning\".",
+      "description": "Review Persona cost drivers through template policy, duplicate prevention, sandbox use, and measured product quotas. Use when reducing spend without weakening controls. Trigger with: \"optimize Persona cost\", \"Persona usage review\", \"reduce duplicate inquiries\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
-        "Grep"
+        "Grep",
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "persona-pack",
         "category": "saas-packs"
       },
-      "searchText": "persona-cost-tuning optimize persona verification costs with template selection and caching. use when working with persona identity verification. trigger with phrases like \"persona cost-tuning\", \"persona cost-tuning\". saas-packs read grep "
+      "searchText": "persona-cost-tuning review persona cost drivers through template policy, duplicate prevention, sandbox use, and measured product quotas. use when reducing spend without weakening controls. trigger with: \"optimize persona cost\", \"persona usage review\", \"reduce duplicate inquiries\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "persona-debug-bundle",
       "slug": "persona-debug-bundle",
       "name": "persona-debug-bundle",
-      "description": "Collect Persona diagnostic info: inquiry IDs, API responses, webhook logs. Use when working with Persona identity verification. Trigger with phrases like \"persona debug-bundle\", \"persona debug-bundle\".",
+      "description": "Assemble a minimal, verifiable Persona diagnostic bundle without exporting secrets or identity payloads. Use when escalating an incident. Trigger with: \"collect Persona debug bundle\", \"escalate Persona issue\", \"Persona support evidence\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
-        "Bash(grep:*)",
-        "Bash(curl:*)",
-        "Bash(tar:*)",
-        "Grep"
+        "Grep",
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "persona-pack",
         "category": "saas-packs"
       },
-      "searchText": "persona-debug-bundle collect persona diagnostic info: inquiry ids, api responses, webhook logs. use when working with persona identity verification. trigger with phrases like \"persona debug-bundle\", \"persona debug-bundle\". saas-packs read bash(grep:*) bash(curl:*) bash(tar:*) grep "
+      "searchText": "persona-debug-bundle assemble a minimal, verifiable persona diagnostic bundle without exporting secrets or identity payloads. use when escalating an incident. trigger with: \"collect persona debug bundle\", \"escalate persona issue\", \"persona support evidence\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "persona-deploy-integration",
       "slug": "persona-deploy-integration",
       "name": "persona-deploy-integration",
-      "description": "Deploy Persona verification service to cloud platforms. Use when working with Persona identity verification. Trigger with phrases like \"persona deploy-integration\", \"persona deploy-integration\".",
+      "description": "Deploy a Persona integration with immutable configuration, event compatibility, canary evidence, and lossless rollback. Use when releasing service changes. Trigger with: \"deploy Persona service\", \"release Persona integration\", \"rollback Persona change\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(gcloud:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "persona-pack",
         "category": "saas-packs"
       },
-      "searchText": "persona-deploy-integration deploy persona verification service to cloud platforms. use when working with persona identity verification. trigger with phrases like \"persona deploy-integration\", \"persona deploy-integration\". saas-packs read write edit bash(gcloud:*) "
+      "searchText": "persona-deploy-integration deploy a persona integration with immutable configuration, event compatibility, canary evidence, and lossless rollback. use when releasing service changes. trigger with: \"deploy persona service\", \"release persona integration\", \"rollback persona change\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "persona-hello-world",
       "slug": "persona-hello-world",
       "name": "persona-hello-world",
-      "description": "Create your first Persona identity verification inquiry and check its status. Use when learning Persona API basics, testing inquiry creation, or building a simple verification flow. Trigger with phrases like \"persona hello world\", \"first persona inquiry\", \"persona quick start\", \"test identity verification\".",
+      "description": "Create and inspect one replay-safe Persona sandbox inquiry without implying a completed verification. Use when proving a new integration path. Trigger with: \"test Persona inquiry\", \"Persona hello world\", \"smoke test Persona sandbox\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(curl:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "persona-pack",
         "category": "saas-packs"
       },
-      "searchText": "persona-hello-world create your first persona identity verification inquiry and check its status. use when learning persona api basics, testing inquiry creation, or building a simple verification flow. trigger with phrases like \"persona hello world\", \"first persona inquiry\", \"persona quick start\", \"test identity verification\". saas-packs read write edit bash(curl:*) "
+      "searchText": "persona-hello-world create and inspect one replay-safe persona sandbox inquiry without implying a completed verification. use when proving a new integration path. trigger with: \"test persona inquiry\", \"persona hello world\", \"smoke test persona sandbox\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "persona-install-auth",
       "slug": "persona-install-auth",
       "name": "persona-install-auth",
-      "description": "Configure Persona API authentication with sandbox and production API keys. Use when setting up identity verification, configuring API credentials, or initializing Persona in your project. Trigger with phrases like \"install persona\", \"setup persona\", \"persona auth\", \"persona API key\", \"KYC setup\".",
+      "description": "Configure sandbox and production Persona API keys, dated API-version headers, and a least-privilege client boundary. Use when bootstrapping or rotating Persona credentials. Trigger with: \"set up Persona auth\", \"rotate Persona API key\", \"configure Persona environment\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(pip:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "persona-pack",
         "category": "saas-packs"
       },
-      "searchText": "persona-install-auth configure persona api authentication with sandbox and production api keys. use when setting up identity verification, configuring api credentials, or initializing persona in your project. trigger with phrases like \"install persona\", \"setup persona\", \"persona auth\", \"persona api key\", \"kyc setup\". saas-packs read write edit bash(npm:*) bash(pip:*) grep "
+      "searchText": "persona-install-auth configure sandbox and production persona api keys, dated api-version headers, and a least-privilege client boundary. use when bootstrapping or rotating persona credentials. trigger with: \"set up persona auth\", \"rotate persona api key\", \"configure persona environment\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "persona-local-dev-loop",
       "slug": "persona-local-dev-loop",
       "name": "persona-local-dev-loop",
-      "description": "Local development with Persona sandbox, ngrok for webhooks, mock verifications. Use when working with Persona identity verification. Trigger with phrases like \"persona local-dev-loop\", \"persona local-dev-loop\".",
+      "description": "Run a deterministic local Persona sandbox loop with synthetic inquiries, raw webhook fixtures, and replay checks. Use when developing without production PII. Trigger with: \"develop Persona locally\", \"test Persona webhook\", \"mock Persona flow\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "persona-pack",
         "category": "saas-packs"
       },
-      "searchText": "persona-local-dev-loop local development with persona sandbox, ngrok for webhooks, mock verifications. use when working with persona identity verification. trigger with phrases like \"persona local-dev-loop\", \"persona local-dev-loop\". saas-packs read write edit bash(npm:*) grep "
+      "searchText": "persona-local-dev-loop run a deterministic local persona sandbox loop with synthetic inquiries, raw webhook fixtures, and replay checks. use when developing without production pii. trigger with: \"develop persona locally\", \"test persona webhook\", \"mock persona flow\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "persona-performance-tuning",
       "slug": "persona-performance-tuning",
       "name": "persona-performance-tuning",
-      "description": "Optimize Persona API performance with batching and caching. Use when working with Persona identity verification. Trigger with phrases like \"persona performance-tuning\", \"persona performance-tuning\".",
+      "description": "Improve Persona integration latency and throughput with event-driven processing, bounded reconciliation, and evidence-based measurement. Use when reducing polling or queue lag. Trigger with: \"speed up Persona\", \"reduce inquiry polling\", \"tune Persona webhooks\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "persona-pack",
         "category": "saas-packs"
       },
-      "searchText": "persona-performance-tuning optimize persona api performance with batching and caching. use when working with persona identity verification. trigger with phrases like \"persona performance-tuning\", \"persona performance-tuning\". saas-packs read write edit "
+      "searchText": "persona-performance-tuning improve persona integration latency and throughput with event-driven processing, bounded reconciliation, and evidence-based measurement. use when reducing polling or queue lag. trigger with: \"speed up persona\", \"reduce inquiry polling\", \"tune persona webhooks\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "persona-prod-checklist",
       "slug": "persona-prod-checklist",
       "name": "persona-prod-checklist",
-      "description": "Production deployment checklist for Persona identity verification. Use when working with Persona identity verification. Trigger with phrases like \"persona prod-checklist\", \"persona prod-checklist\".",
+      "description": "Validate a Persona integration for production with evidence across identity flow, privacy, security, reliability, and rollback. Use when preparing a go-live. Trigger with: \"launch Persona\", \"Persona production checklist\", \"approve Persona go-live\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
-        "Bash(curl:*)",
-        "Grep"
+        "Grep",
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "persona-pack",
         "category": "saas-packs"
       },
-      "searchText": "persona-prod-checklist production deployment checklist for persona identity verification. use when working with persona identity verification. trigger with phrases like \"persona prod-checklist\", \"persona prod-checklist\". saas-packs read bash(curl:*) grep "
+      "searchText": "persona-prod-checklist validate a persona integration for production with evidence across identity flow, privacy, security, reliability, and rollback. use when preparing a go-live. trigger with: \"launch persona\", \"persona production checklist\", \"approve persona go-live\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "persona-rate-limits",
       "slug": "persona-rate-limits",
       "name": "persona-rate-limits",
-      "description": "Handle Persona API rate limits with exponential backoff and request queuing. Use when working with Persona identity verification. Trigger with phrases like \"persona rate-limits\", \"persona rate-limits\".",
+      "description": "Analyze and control Persona request rate and product quotas from live headers, Dashboard limits, and durable retry state. Use when scaling or handling 429 responses. Trigger with: \"Persona rate limit\", \"throttle Persona API\", \"handle Persona 429\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "persona-pack",
         "category": "saas-packs"
       },
-      "searchText": "persona-rate-limits handle persona api rate limits with exponential backoff and request queuing. use when working with persona identity verification. trigger with phrases like \"persona rate-limits\", \"persona rate-limits\". saas-packs read write edit "
+      "searchText": "persona-rate-limits analyze and control persona request rate and product quotas from live headers, dashboard limits, and durable retry state. use when scaling or handling 429 responses. trigger with: \"persona rate limit\", \"throttle persona api\", \"handle persona 429\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "persona-reference-architecture",
       "slug": "persona-reference-architecture",
       "name": "persona-reference-architecture",
-      "description": "KYC service architecture with Persona as verification provider. Use when working with Persona identity verification. Trigger with phrases like \"persona reference-architecture\", \"persona reference-architecture\".",
+      "description": "Design an account-linked KYC control plane around Persona with explicit trust, data, event, and decision boundaries. Use when conducting an architecture review. Trigger with: \"architect Persona integration\", \"Persona KYC design\", \"design identity workflow\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
-        "Grep"
+        "Grep",
+        "Write",
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "persona-pack",
         "category": "saas-packs"
       },
-      "searchText": "persona-reference-architecture kyc service architecture with persona as verification provider. use when working with persona identity verification. trigger with phrases like \"persona reference-architecture\", \"persona reference-architecture\". saas-packs read grep "
+      "searchText": "persona-reference-architecture design an account-linked kyc control plane around persona with explicit trust, data, event, and decision boundaries. use when conducting an architecture review. trigger with: \"architect persona integration\", \"persona kyc design\", \"design identity workflow\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "persona-sdk-patterns",
       "slug": "persona-sdk-patterns",
       "name": "persona-sdk-patterns",
-      "description": "Production Persona API client wrapper with retry, pagination, typed responses. Use when working with Persona identity verification. Trigger with phrases like \"persona sdk-patterns\", \"persona sdk-patterns\".",
+      "description": "Design a typed Persona REST adapter that preserves JSON:API envelopes, request evidence, and compatible additions. Use when building a reusable client. Trigger with: \"wrap Persona API\", \"type Persona responses\", \"Persona SDK pattern\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "persona-pack",
         "category": "saas-packs"
       },
-      "searchText": "persona-sdk-patterns production persona api client wrapper with retry, pagination, typed responses. use when working with persona identity verification. trigger with phrases like \"persona sdk-patterns\", \"persona sdk-patterns\". saas-packs read write edit "
+      "searchText": "persona-sdk-patterns design a typed persona rest adapter that preserves json:api envelopes, request evidence, and compatible additions. use when building a reusable client. trigger with: \"wrap persona api\", \"type persona responses\", \"persona sdk pattern\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "persona-security-basics",
       "slug": "persona-security-basics",
       "name": "persona-security-basics",
-      "description": "Secure Persona API keys, webhook secrets, PII handling in verification data. Use when working with Persona identity verification. Trigger with phrases like \"persona security-basics\", \"persona security-basics\".",
+      "description": "Harden Persona API keys, identity data, inquiry sessions, webhook verification, and destructive redaction. Use when conducting a security review. Trigger with: \"secure Persona integration\", \"Persona PII controls\", \"audit Persona webhook security\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Grep"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "persona-pack",
         "category": "saas-packs"
       },
-      "searchText": "persona-security-basics secure persona api keys, webhook secrets, pii handling in verification data. use when working with persona identity verification. trigger with phrases like \"persona security-basics\", \"persona security-basics\". saas-packs read write grep "
+      "searchText": "persona-security-basics harden persona api keys, identity data, inquiry sessions, webhook verification, and destructive redaction. use when conducting a security review. trigger with: \"secure persona integration\", \"persona pii controls\", \"audit persona webhook security\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "persona-upgrade-migration",
       "slug": "persona-upgrade-migration",
       "name": "persona-upgrade-migration",
-      "description": "Upgrade Persona API versions and handle breaking changes. Use when working with Persona identity verification. Trigger with phrases like \"persona upgrade-migration\", \"persona upgrade-migration\".",
+      "description": "Migrate between dated Persona API versions using inventory, contract fixtures, dual-read evidence, and rollback. Use when changing Persona-Version. Trigger with: \"upgrade Persona API\", \"migrate Persona version\", \"update Persona-Version\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(npm:*)",
-        "Bash(git:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "persona-pack",
         "category": "saas-packs"
       },
-      "searchText": "persona-upgrade-migration upgrade persona api versions and handle breaking changes. use when working with persona identity verification. trigger with phrases like \"persona upgrade-migration\", \"persona upgrade-migration\". saas-packs read write edit bash(npm:*) bash(git:*) "
+      "searchText": "persona-upgrade-migration migrate between dated persona api versions using inventory, contract fixtures, dual-read evidence, and rollback. use when changing persona-version. trigger with: \"upgrade persona api\", \"migrate persona version\", \"update persona-version\". saas-packs read grep write edit "
     },
     {
       "type": "skill",
       "id": "persona-webhooks-events",
       "slug": "persona-webhooks-events",
       "name": "persona-webhooks-events",
-      "description": "Handle Persona webhook events for inquiry and verification status changes. Use when working with Persona identity verification. Trigger with phrases like \"persona webhooks-events\", \"persona webhooks-events\".",
+      "description": "Verify, persist, deduplicate, order, and reconcile Persona webhook events from exact raw bytes. Use when implementing webhook consumers. Trigger with: \"handle Persona webhook\", \"verify Persona-Signature\", \"dedupe Persona events\".",
       "category": "saas-packs",
       "allowedTools": [
         "Read",
+        "Grep",
         "Write",
-        "Edit",
-        "Bash(curl:*)"
+        "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.4.0",
+      "version": "2.0.0",
       "parentPlugin": {
         "name": "persona-pack",
         "category": "saas-packs"
       },
-      "searchText": "persona-webhooks-events handle persona webhook events for inquiry and verification status changes. use when working with persona identity verification. trigger with phrases like \"persona webhooks-events\", \"persona webhooks-events\". saas-packs read write edit bash(curl:*) "
+      "searchText": "persona-webhooks-events verify, persist, deduplicate, order, and reconcile persona webhook events from exact raw bytes. use when implementing webhook consumers. trigger with: \"handle persona webhook\", \"verify persona-signature\", \"dedupe persona events\". saas-packs read grep write edit "
     },
     {
       "type": "skill",

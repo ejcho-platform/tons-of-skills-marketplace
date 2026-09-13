@@ -9637,8 +9637,8 @@
     {
       "name": "persona-pack",
       "source": "./plugins/saas-packs/persona-pack",
-      "description": "Claude Code skill pack for Persona (18 skills)",
-      "version": "1.4.0",
+      "description": "Operator-grade Persona identity workflow pack with 18 skills for inquiry lifecycles, authentic webhooks, privacy, reliability, and governed production delivery",
+      "version": "2.0.0",
       "category": "saas-packs",
       "keywords": [
         "persona",
@@ -9655,10 +9655,10 @@
         "skills": 18
       },
       "verification": {
-        "score": 86,
-        "grade": "B",
-        "badge": "silver",
-        "lastValidated": "2026-09-11T00:00:00.000Z"
+        "score": 95,
+        "grade": "A",
+        "badge": "gold",
+        "lastValidated": "2026-09-13T00:00:00.000Z"
       }
     },
     {
