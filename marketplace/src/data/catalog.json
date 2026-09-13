@@ -9427,14 +9427,15 @@
       "slug": "flexport-pack",
       "name": "flexport-pack",
       "displayName": "flexport pack",
-      "description": "Claude Code skill pack for Flexport (24 skills)",
-      "version": "1.6.0",
+      "description": "24 governed Flexport v3 and MCP operator workflows for freight, trade data, webhooks, and secure integrations",
+      "version": "2.0.0",
       "category": "saas-packs",
       "keywords": [
         "flexport",
-        "saas",
-        "sdk",
-        "integration"
+        "freight",
+        "supply-chain",
+        "mcp",
+        "operations"
       ],
       "hasSkills": true,
       "skillCount": 24,

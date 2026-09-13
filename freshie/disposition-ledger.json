@@ -3,7 +3,7 @@
   "authority": "Blueprint 727 §8; Freshie graded export",
   "source": {
     "path": "freshie/grades.csv",
-    "sha256": "932820f205ae478fd6400b59c17731f146dc040a1195cf41a490849cb064af64",
+    "sha256": "660041dd340a5550a8f2cf7bea353d3cf1b2fe81938b4142e5c901018e31c7c1",
     "artifact_count": 3491
   },
   "rule_order": [
@@ -18968,8 +18968,8 @@
     },
     {
       "path": "plugins/saas-packs/flexport-pack/skills/flexport-ci-integration/SKILL.md",
-      "grade": "B",
-      "score": 89,
+      "grade": "A",
+      "score": 95,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -18979,8 +18979,8 @@
     },
     {
       "path": "plugins/saas-packs/flexport-pack/skills/flexport-common-errors/SKILL.md",
-      "grade": "B",
-      "score": 86,
+      "grade": "A",
+      "score": 94,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -18990,8 +18990,8 @@
     },
     {
       "path": "plugins/saas-packs/flexport-pack/skills/flexport-core-workflow-a/SKILL.md",
-      "grade": "B",
-      "score": 87,
+      "grade": "A",
+      "score": 94,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -19001,8 +19001,8 @@
     },
     {
       "path": "plugins/saas-packs/flexport-pack/skills/flexport-core-workflow-b/SKILL.md",
-      "grade": "B",
-      "score": 83,
+      "grade": "A",
+      "score": 93,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -19012,8 +19012,8 @@
     },
     {
       "path": "plugins/saas-packs/flexport-pack/skills/flexport-cost-tuning/SKILL.md",
-      "grade": "B",
-      "score": 85,
+      "grade": "A",
+      "score": 95,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -19023,8 +19023,8 @@
     },
     {
       "path": "plugins/saas-packs/flexport-pack/skills/flexport-data-handling/SKILL.md",
-      "grade": "B",
-      "score": 89,
+      "grade": "A",
+      "score": 95,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -19034,8 +19034,8 @@
     },
     {
       "path": "plugins/saas-packs/flexport-pack/skills/flexport-debug-bundle/SKILL.md",
-      "grade": "B",
-      "score": 87,
+      "grade": "A",
+      "score": 95,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -19045,8 +19045,8 @@
     },
     {
       "path": "plugins/saas-packs/flexport-pack/skills/flexport-deploy-integration/SKILL.md",
-      "grade": "B",
-      "score": 89,
+      "grade": "A",
+      "score": 94,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -19056,105 +19056,6 @@
     },
     {
       "path": "plugins/saas-packs/flexport-pack/skills/flexport-enterprise-rbac/SKILL.md",
-      "grade": "B",
-      "score": 84,
-      "diagnostics": [],
-      "disposition": "CERTIFY-PENDING-EVIDENCE",
-      "gate": "G7",
-      "reason_codes": [
-        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
-      ]
-    },
-    {
-      "path": "plugins/saas-packs/flexport-pack/skills/flexport-hello-world/SKILL.md",
-      "grade": "B",
-      "score": 85,
-      "diagnostics": [],
-      "disposition": "CERTIFY-PENDING-EVIDENCE",
-      "gate": "G7",
-      "reason_codes": [
-        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
-      ]
-    },
-    {
-      "path": "plugins/saas-packs/flexport-pack/skills/flexport-incident-runbook/SKILL.md",
-      "grade": "B",
-      "score": 88,
-      "diagnostics": [],
-      "disposition": "CERTIFY-PENDING-EVIDENCE",
-      "gate": "G7",
-      "reason_codes": [
-        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
-      ]
-    },
-    {
-      "path": "plugins/saas-packs/flexport-pack/skills/flexport-install-auth/SKILL.md",
-      "grade": "B",
-      "score": 83,
-      "diagnostics": [],
-      "disposition": "CERTIFY-PENDING-EVIDENCE",
-      "gate": "G7",
-      "reason_codes": [
-        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
-      ]
-    },
-    {
-      "path": "plugins/saas-packs/flexport-pack/skills/flexport-local-dev-loop/SKILL.md",
-      "grade": "B",
-      "score": 81,
-      "diagnostics": [],
-      "disposition": "CERTIFY-PENDING-EVIDENCE",
-      "gate": "G7",
-      "reason_codes": [
-        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
-      ]
-    },
-    {
-      "path": "plugins/saas-packs/flexport-pack/skills/flexport-migration-deep-dive/SKILL.md",
-      "grade": "B",
-      "score": 82,
-      "diagnostics": [],
-      "disposition": "CERTIFY-PENDING-EVIDENCE",
-      "gate": "G7",
-      "reason_codes": [
-        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
-      ]
-    },
-    {
-      "path": "plugins/saas-packs/flexport-pack/skills/flexport-multi-env-setup/SKILL.md",
-      "grade": "B",
-      "score": 83,
-      "diagnostics": [],
-      "disposition": "CERTIFY-PENDING-EVIDENCE",
-      "gate": "G7",
-      "reason_codes": [
-        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
-      ]
-    },
-    {
-      "path": "plugins/saas-packs/flexport-pack/skills/flexport-observability/SKILL.md",
-      "grade": "B",
-      "score": 85,
-      "diagnostics": [],
-      "disposition": "CERTIFY-PENDING-EVIDENCE",
-      "gate": "G7",
-      "reason_codes": [
-        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
-      ]
-    },
-    {
-      "path": "plugins/saas-packs/flexport-pack/skills/flexport-performance-tuning/SKILL.md",
-      "grade": "B",
-      "score": 82,
-      "diagnostics": [],
-      "disposition": "CERTIFY-PENDING-EVIDENCE",
-      "gate": "G7",
-      "reason_codes": [
-        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
-      ]
-    },
-    {
-      "path": "plugins/saas-packs/flexport-pack/skills/flexport-prod-checklist/SKILL.md",
       "grade": "A",
       "score": 92,
       "diagnostics": [],
@@ -19165,9 +19066,108 @@
       ]
     },
     {
+      "path": "plugins/saas-packs/flexport-pack/skills/flexport-hello-world/SKILL.md",
+      "grade": "A",
+      "score": 94,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
+      "reason_codes": [
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
+      ]
+    },
+    {
+      "path": "plugins/saas-packs/flexport-pack/skills/flexport-incident-runbook/SKILL.md",
+      "grade": "A",
+      "score": 94,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
+      "reason_codes": [
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
+      ]
+    },
+    {
+      "path": "plugins/saas-packs/flexport-pack/skills/flexport-install-auth/SKILL.md",
+      "grade": "A",
+      "score": 95,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
+      "reason_codes": [
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
+      ]
+    },
+    {
+      "path": "plugins/saas-packs/flexport-pack/skills/flexport-local-dev-loop/SKILL.md",
+      "grade": "A",
+      "score": 95,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
+      "reason_codes": [
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
+      ]
+    },
+    {
+      "path": "plugins/saas-packs/flexport-pack/skills/flexport-migration-deep-dive/SKILL.md",
+      "grade": "A",
+      "score": 93,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
+      "reason_codes": [
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
+      ]
+    },
+    {
+      "path": "plugins/saas-packs/flexport-pack/skills/flexport-multi-env-setup/SKILL.md",
+      "grade": "A",
+      "score": 95,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
+      "reason_codes": [
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
+      ]
+    },
+    {
+      "path": "plugins/saas-packs/flexport-pack/skills/flexport-observability/SKILL.md",
+      "grade": "A",
+      "score": 94,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
+      "reason_codes": [
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
+      ]
+    },
+    {
+      "path": "plugins/saas-packs/flexport-pack/skills/flexport-performance-tuning/SKILL.md",
+      "grade": "A",
+      "score": 95,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
+      "reason_codes": [
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
+      ]
+    },
+    {
+      "path": "plugins/saas-packs/flexport-pack/skills/flexport-prod-checklist/SKILL.md",
+      "grade": "A",
+      "score": 94,
+      "diagnostics": [],
+      "disposition": "CERTIFY-PENDING-EVIDENCE",
+      "gate": "G7",
+      "reason_codes": [
+        "REPRODUCIBLE_EVIDENCE_NOT_RETAINED"
+      ]
+    },
+    {
       "path": "plugins/saas-packs/flexport-pack/skills/flexport-rate-limits/SKILL.md",
-      "grade": "B",
-      "score": 84,
+      "grade": "A",
+      "score": 94,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -19178,7 +19178,7 @@
     {
       "path": "plugins/saas-packs/flexport-pack/skills/flexport-reference-architecture/SKILL.md",
       "grade": "A",
-      "score": 90,
+      "score": 92,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -19188,8 +19188,8 @@
     },
     {
       "path": "plugins/saas-packs/flexport-pack/skills/flexport-sdk-patterns/SKILL.md",
-      "grade": "B",
-      "score": 85,
+      "grade": "A",
+      "score": 93,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -19200,7 +19200,7 @@
     {
       "path": "plugins/saas-packs/flexport-pack/skills/flexport-security-basics/SKILL.md",
       "grade": "A",
-      "score": 90,
+      "score": 95,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -19210,8 +19210,8 @@
     },
     {
       "path": "plugins/saas-packs/flexport-pack/skills/flexport-upgrade-migration/SKILL.md",
-      "grade": "B",
-      "score": 86,
+      "grade": "A",
+      "score": 93,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -19221,8 +19221,8 @@
     },
     {
       "path": "plugins/saas-packs/flexport-pack/skills/flexport-webhooks-events/SKILL.md",
-      "grade": "B",
-      "score": 82,
+      "grade": "A",
+      "score": 93,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",

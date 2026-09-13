@@ -22,8 +22,8 @@
       "error_files": 339,
       "error_total": 2860,
       "grade_distribution": {
-        "A": 2741,
-        "B": 459,
+        "A": 2762,
+        "B": 438,
         "C": 133,
         "D": 154,
         "F": 4
@@ -42,7 +42,7 @@
       "values": {
         "plugin_agent_files": 352,
         "raw_tracked_plugin_skill_files": 2991,
-        "tracked_files": 25612
+        "tracked_files": 25662
       }
     },
     "2": {
@@ -91,7 +91,7 @@
         },
         "marketplace_terminal": {
           "error_total_all_validated_surfaces": 3097,
-          "fully_compliant_surfaces": 1920,
+          "fully_compliant_surfaces": 1944,
           "terminal_denominator": {
             "agents": 363,
             "commands": 370,
@@ -101,7 +101,7 @@
             "skills": 3491
           },
           "validated_plugin_manifests": 595,
-          "validator_reported_mixed_denominator_percent": 39.9
+          "validator_reported_mixed_denominator_percent": 40.4
         },
         "skill_rows": {
           "a_error_total": 26,
@@ -112,8 +112,8 @@
           "error_files": 339,
           "error_total": 2860,
           "grade_distribution": {
-            "A": 2741,
-            "B": 459,
+            "A": 2762,
+            "B": 438,
             "C": 133,
             "D": 154,
             "F": 4
@@ -129,17 +129,17 @@
       "source": ["scripts/validate-skills-schema.py"],
       "status": "measured",
       "values": {
-        "average_score": 91.4,
+        "average_score": 91.5,
         "grade_distribution": {
-          "A": 2741,
-          "B": 459,
+          "A": 2762,
+          "B": 438,
           "C": 133,
           "D": 154,
           "F": 4
         },
         "grade_percentages": {
-          "A": 78.5,
-          "B": 13.1,
+          "A": 79.1,
+          "B": 12.5,
           "C": 3.8,
           "D": 4.4,
           "F": 0.1
@@ -286,7 +286,7 @@
       "source": ["scripts/validate-skills-schema.py"],
       "status": "measured",
       "values": {
-        "distinct_values": 331,
+        "distinct_values": 355,
         "invalid_or_empty": 0,
         "target_free_text_values": 0,
         "values": [
@@ -391,7 +391,7 @@
             "value": "Cross-platform — talks WebDriver HTTP directly via Node's built-in node:https; no platform-specific binary dependency. Requires Node.js >= 18, a persistent local filesystem (the observe-decide-act loop passes state through local turn files), and ~/.kobiton/.credentials written by /automate:setup — scripts/appium.js reads that file directly and never calls the MCP getCredential tool, so it is required, not a fallback. An authenticated Kobiton MCP connection is additionally useful for device selection."
           },
           {
-            "count": 2375,
+            "count": 2351,
             "value": "Designed for Claude Code"
           },
           {
@@ -1363,6 +1363,10 @@
             "value": "Requires Claude Code with the slack-channel plugin installed and paired (state under ~/.claude/channels/slack/), plus Bun to run the in-repo policy validator script."
           },
           {
+            "count": 1,
+            "value": "Requires Flexport administrator involvement, an enterprise identity inventory, and owners for each integration workload."
+          },
+          {
             "count": 2,
             "value": "Requires Hermes Agent plugin support and Xquik API access."
           },
@@ -1372,7 +1376,15 @@
           },
           {
             "count": 1,
+            "value": "Requires a CI system with fork-secret isolation, sanitized fixtures, and optional protected environment credentials."
+          },
+          {
+            "count": 1,
             "value": "Requires a Canva Developer Portal integration, controlled redirect URI, backend secret store, and consent design."
+          },
+          {
+            "count": 1,
+            "value": "Requires a Flexport administrator, an approved secret store, and network access to api.flexport.com."
           },
           {
             "count": 1,
@@ -1400,11 +1412,23 @@
           },
           {
             "count": 1,
+            "value": "Requires a data owner, approved purpose, destination controls, and organization-specific legal/security policy."
+          },
+          {
+            "count": 1,
             "value": "Requires a documented application role model plus current Canva scope and capability evidence."
           },
           {
             "count": 1,
             "value": "Requires a durable operation ledger, current error contract, scoped queues, and explicit failure budgets."
+          },
+          {
+            "count": 1,
+            "value": "Requires a legacy contract inventory, current Flexport account version context, and an authorized cutover owner."
+          },
+          {
+            "count": 1,
+            "value": "Requires a local test runner and sanitized fixtures; live credentials are optional and must use an approved account."
           },
           {
             "count": 1,
@@ -1420,6 +1444,14 @@
           },
           {
             "count": 1,
+            "value": "Requires a public HTTPS receiver, Flexport account Settings access, raw-body access, and a secret store."
+          },
+          {
+            "count": 1,
+            "value": "Requires a redacted response receipt with surface, operation, HTTP or JSON-RPC status, and correlation metadata."
+          },
+          {
+            "count": 1,
             "value": "Requires a repository with CAST AI infrastructure definitions; any live probe requires a protected environment and a dedicated read-only identity"
           },
           {
@@ -1428,7 +1460,15 @@
           },
           {
             "count": 1,
+            "value": "Requires access to current Flexport version documentation, account version context, contract tests, and a rollback owner."
+          },
+          {
+            "count": 1,
             "value": "Requires access to the target cluster, declared infrastructure source, application SLOs, and change-management evidence"
+          },
+          {
+            "count": 1,
+            "value": "Requires accountable engineering, security, data, and business owners plus a tested rollback."
           },
           {
             "count": 12,
@@ -1437,6 +1477,10 @@
           {
             "count": 1,
             "value": "Requires an approved Bright Data workload, managed secrets, queueing, and a deployment platform"
+          },
+          {
+            "count": 1,
+            "value": "Requires an approved delivery platform, secret injection, health checks, and rollback capability."
           },
           {
             "count": 1,
@@ -1452,11 +1496,23 @@
           },
           {
             "count": 1,
+            "value": "Requires an approved secret store, TLS egress/ingress, access review, and incident response."
+          },
+          {
+            "count": 1,
+            "value": "Requires an approved telemetry platform, redaction policy, and business service objectives."
+          },
+          {
+            "count": 1,
             "value": "Requires an approved telemetry schema, retention policy, and SLO derived from the application rather than guessed provider guarantees."
           },
           {
             "count": 1,
             "value": "Requires an approved workload, phase-level telemetry, representative fixtures, and a bounded canary environment"
+          },
+          {
+            "count": 1,
+            "value": "Requires an authenticated Flexport MCP connection, account permission for selected tools, and an authorized freight approver."
           },
           {
             "count": 1,
@@ -1472,6 +1528,22 @@
           },
           {
             "count": 1,
+            "value": "Requires an incident commander, read access to redacted telemetry, and an approved reconciliation credential."
+          },
+          {
+            "count": 1,
+            "value": "Requires an incident workspace, approved redaction policy, and a named recipient for the diagnostic manifest."
+          },
+          {
+            "count": 1,
+            "value": "Requires approved Flexport capabilities, account context, and organizational security/data constraints."
+          },
+          {
+            "count": 1,
+            "value": "Requires approved Flexport credentials and access to a tenant with a non-sensitive testable shipment or empty-list response."
+          },
+          {
+            "count": 1,
             "value": "Requires control of the HTTPS callback domain, approved environment credentials, and a tested rollback artifact."
           },
           {
@@ -1481,6 +1553,10 @@
           {
             "count": 24,
             "value": "Requires current CodeRabbit documentation and approved access for any live organization, repository, billing, or API change"
+          },
+          {
+            "count": 1,
+            "value": "Requires current Flexport v3 and MCP schemas plus a typed application language or runtime validation library."
           },
           {
             "count": 24,
@@ -1512,6 +1588,14 @@
           },
           {
             "count": 1,
+            "value": "Requires endpoint-scoped Flexport credentials, approved trade data, and any account enablement required for commercial invoices."
+          },
+          {
+            "count": 1,
+            "value": "Requires environment owners, separate secret stores, and Flexport/account-executive coordination for any test credential."
+          },
+          {
+            "count": 1,
             "value": "Requires incident authority, approved read-only diagnostics, service ownership, and rollback access."
           },
           {
@@ -1532,11 +1616,23 @@
           },
           {
             "count": 1,
+            "value": "Requires per-operation metrics, bounded queues, and current endpoint documentation or observed provider responses."
+          },
+          {
+            "count": 1,
             "value": "Requires read access to the target kube context; console or API evidence may require an appropriately scoped CAST AI identity"
           },
           {
             "count": 1,
             "value": "Requires read-only access to the selected cluster; collection must follow local data-handling and support-sharing policy"
+          },
+          {
+            "count": 1,
+            "value": "Requires representative sanitized workloads, per-operation metrics, and rollback controls."
+          },
+          {
+            "count": 1,
+            "value": "Requires request metrics, business freshness objectives, and current endpoint pagination/expansion documentation."
           },
           {
             "count": 1,
@@ -3036,7 +3132,7 @@
         "invalid_patterns": 0,
         "invisible_files": 5,
         "target_invisible_files": 0,
-        "tracked_files": 25612
+        "tracked_files": 25662
       }
     },
     "47": {
@@ -3121,15 +3217,15 @@
       "dimension": "Inventory header versus rows",
       "reproduce": "pnpm run measure:e1 --row=52 --stdout",
       "source": [
-        "freshie/reports/run-delta-125.json",
+        "freshie/reports/run-delta-126.json",
         "freshie/scripts/dolt-sync.py",
         "freshie/scripts/run-delta.py"
       ],
       "status": "target_met",
       "values": {
-        "dolt_commit": "tuefkmeolqjmoktio463rot69qoetrmv",
+        "dolt_commit": "lgliudip9rrg5is49rng6iohppcfmaqo",
         "header_total_skills": 2914,
-        "run_id": 125,
+        "run_id": 126,
         "skill_row_delta": 0,
         "skill_rows": 2914,
         "target_skill_row_delta": 0
@@ -3142,32 +3238,32 @@
       "source": [
         "freshie/grade-histogram.json",
         "freshie/grades.csv",
-        "freshie/reports/run-delta-125.json"
+        "freshie/reports/run-delta-126.json"
       ],
       "status": "target_met",
       "values": {
         "compliance_rows": 3491,
-        "export_dolt_commit": "tuefkmeolqjmoktio463rot69qoetrmv",
-        "export_run_id": 125,
+        "export_dolt_commit": "lgliudip9rrg5is49rng6iohppcfmaqo",
+        "export_run_id": 126,
         "grades_csv_rows": 3491,
-        "grades_csv_sha256": "932820f205ae478fd6400b59c17731f146dc040a1195cf41a490849cb064af64",
+        "grades_csv_sha256": "660041dd340a5550a8f2cf7bea353d3cf1b2fe81938b4142e5c901018e31c7c1",
         "histogram_grades": {
-          "A": 2741,
-          "B": 459,
+          "A": 2762,
+          "B": 438,
           "C": 133,
           "D": 154,
           "F": 4
         },
         "histogram_total": 3491,
         "immutable_grade_counts": {
-          "A": 2741,
-          "B": 459,
+          "A": 2762,
+          "B": 438,
           "C": 133,
           "D": 154,
           "F": 4
         },
-        "inventory_dolt_commit": "tuefkmeolqjmoktio463rot69qoetrmv",
-        "inventory_run_id": 125,
+        "inventory_dolt_commit": "lgliudip9rrg5is49rng6iohppcfmaqo",
+        "inventory_run_id": 126,
         "target_lag_runs": 0
       }
     },
@@ -3177,7 +3273,7 @@
       "reproduce": "pnpm run measure:e1 --row=54 --stdout",
       "source": [
         "freshie/reports/legacy-forge-proofs-demotion.json",
-        "freshie/reports/run-delta-125.json",
+        "freshie/reports/run-delta-126.json",
         "freshie/reports/run-delta-19.json",
         "freshie/scripts/dolt-sync.py",
         "freshie/scripts/run-delta.py",
@@ -3191,7 +3287,7 @@
           "E2": 0,
           "E3": 0
         },
-        "current_run_id": 125,
+        "current_run_id": 126,
         "invalid_identities": 0,
         "legacy_e0_records": 3,
         "retained_e2_e3": 0,
@@ -3215,7 +3311,7 @@
       "source": [
         "000-docs/807-DR-STND-evaluation-evidence.md",
         "freshie/reports/legacy-forge-proofs-demotion.json",
-        "freshie/reports/run-delta-125.json",
+        "freshie/reports/run-delta-126.json",
         "freshie/reports/run-delta-19.json",
         "freshie/scripts/dolt-sync.py",
         "freshie/scripts/run-delta.py"
