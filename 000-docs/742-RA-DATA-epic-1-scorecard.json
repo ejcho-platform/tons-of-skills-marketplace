@@ -42,7 +42,7 @@
       "values": {
         "plugin_agent_files": 352,
         "raw_tracked_plugin_skill_files": 2991,
-        "tracked_files": 25802
+        "tracked_files": 25803
       }
     },
     "2": {
@@ -1348,10 +1348,6 @@
           },
           {
             "count": 1,
-            "value": "Requires Clari Copilot API entitlement, workspace integration credentials, and approval to process recordings, transcripts, and participant data."
-          },
-          {
-            "count": 1,
             "value": "Requires Claude Code >= v2.1.80 with a claude.ai login (Channels research preview rejects API-key-only auth), Bun >= 1.0 (Node.js fallback supported), and a Slack workspace where you can create apps. Doctor mode additionally shells out to curl and jq."
           },
           {
@@ -1392,7 +1388,7 @@
           },
           {
             "count": 1,
-            "value": "Requires Revenue API access to the chosen audit or activity surface, durable cursor or window state, and an approved downstream event sink."
+            "value": "Requires Revenue API access to the chosen audit or activity surface, durable checkpoint or window state, and an approved downstream event sink."
           },
           {
             "count": 1,
@@ -1656,7 +1652,7 @@
           },
           {
             "count": 1,
-            "value": "Requires an entitled Clari tenant, an approved integration owner, and access to the relevant Revenue API or Copilot workspace settings."
+            "value": "Requires an entitled Clari tenant, an approved integration owner, and access to the relevant Revenue API or conversation-intelligence workspace settings."
           },
           {
             "count": 1,
@@ -1785,6 +1781,10 @@
           {
             "count": 1,
             "value": "Requires endpoint-scoped Flexport credentials, approved trade data, and any account enablement required for commercial invoices."
+          },
+          {
+            "count": 1,
+            "value": "Requires entitlement to the Clari conversation-intelligence API, workspace integration credentials, and approval to process recordings, transcripts, and participant data."
           },
           {
             "count": 1,
@@ -1920,7 +1920,7 @@
           },
           {
             "count": 1,
-            "value": "Requires workload volume estimates, retained job or cursor state, and access to organization limits where the provider exposes them."
+            "value": "Requires workload volume estimates, retained job or pagination state, and access to organization limits where the provider exposes them."
           },
           {
             "count": 1,
@@ -3396,7 +3396,7 @@
         "invalid_patterns": 0,
         "invisible_files": 5,
         "target_invisible_files": 0,
-        "tracked_files": 25802
+        "tracked_files": 25803
       }
     },
     "47": {
@@ -3481,15 +3481,15 @@
       "dimension": "Inventory header versus rows",
       "reproduce": "pnpm run measure:e1 --row=52 --stdout",
       "source": [
-        "freshie/reports/run-delta-130.json",
+        "freshie/reports/run-delta-131.json",
         "freshie/scripts/dolt-sync.py",
         "freshie/scripts/run-delta.py"
       ],
       "status": "target_met",
       "values": {
-        "dolt_commit": "61slt2k96hsffu9tr10igk3iehhtd56j",
+        "dolt_commit": "tu9mqfp3qsu0ap98adhdvtnjonufqifq",
         "header_total_skills": 2914,
-        "run_id": 130,
+        "run_id": 131,
         "skill_row_delta": 0,
         "skill_rows": 2914,
         "target_skill_row_delta": 0
@@ -3502,13 +3502,13 @@
       "source": [
         "freshie/grade-histogram.json",
         "freshie/grades.csv",
-        "freshie/reports/run-delta-130.json"
+        "freshie/reports/run-delta-131.json"
       ],
       "status": "target_met",
       "values": {
         "compliance_rows": 3491,
-        "export_dolt_commit": "61slt2k96hsffu9tr10igk3iehhtd56j",
-        "export_run_id": 130,
+        "export_dolt_commit": "tu9mqfp3qsu0ap98adhdvtnjonufqifq",
+        "export_run_id": 131,
         "grades_csv_rows": 3491,
         "grades_csv_sha256": "716f9be0fb5167d36af8b59df287674cfc084a743707f80c7e3f289b206eb313",
         "histogram_grades": {
@@ -3526,8 +3526,8 @@
           "D": 154,
           "F": 4
         },
-        "inventory_dolt_commit": "61slt2k96hsffu9tr10igk3iehhtd56j",
-        "inventory_run_id": 130,
+        "inventory_dolt_commit": "tu9mqfp3qsu0ap98adhdvtnjonufqifq",
+        "inventory_run_id": 131,
         "target_lag_runs": 0
       }
     },
@@ -3537,7 +3537,7 @@
       "reproduce": "pnpm run measure:e1 --row=54 --stdout",
       "source": [
         "freshie/reports/legacy-forge-proofs-demotion.json",
-        "freshie/reports/run-delta-130.json",
+        "freshie/reports/run-delta-131.json",
         "freshie/reports/run-delta-19.json",
         "freshie/scripts/dolt-sync.py",
         "freshie/scripts/run-delta.py",
@@ -3551,7 +3551,7 @@
           "E2": 0,
           "E3": 0
         },
-        "current_run_id": 130,
+        "current_run_id": 131,
         "invalid_identities": 0,
         "legacy_e0_records": 3,
         "retained_e2_e3": 0,
@@ -3575,7 +3575,7 @@
       "source": [
         "000-docs/807-DR-STND-evaluation-evidence.md",
         "freshie/reports/legacy-forge-proofs-demotion.json",
-        "freshie/reports/run-delta-130.json",
+        "freshie/reports/run-delta-131.json",
         "freshie/reports/run-delta-19.json",
         "freshie/scripts/dolt-sync.py",
         "freshie/scripts/run-delta.py"
