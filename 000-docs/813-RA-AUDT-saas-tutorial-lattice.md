@@ -24,8 +24,8 @@ A matching skill name proves structural repetition only. It does **not** prove t
 | Candidates admitted by explicit prefix aliases | 78 |
 | Suffix-only names excluded by prefix policy | 1 |
 
-- Catalog SHA-256: `4b6e3cd47fb8b97015b9dcded5eae9943a082671685cadbdead9d2b3fd7d9202`
-- Tracked inventory SHA-256: `a2ae33673d0830fbfc6b9d78b82bbcd980b4b4d5c06b1a41bda5c97b4ca2f1e4`
+- Catalog SHA-256: `c03355e41d3afdb26dae777cac1b58c0894f67eb84b302f330903d427d3af012`
+- Tracked inventory SHA-256: `ab621c16e31b2454db8a6480abc804c1d06f62a28328b07cb171a6aeb0be1b17`
 
 The earlier 2,011-candidate census used 24 base families and literal pack-name stems. This version expands the family set with `advanced-troubleshooting`, `architecture-variants`, `known-pitfalls`, `load-scale`, `policy-guardrails`, and `reliability-patterns`, then applies versioned exact aliases for `anthropic-pack`, `claude-pack`, and `langchain-py-pack`. The current generated counts above are authoritative. Suffix-only near-matches such as `langchain-otel-observability` and the explicitly recorded content-specific Customer.io workflows remain excluded.
 
@@ -78,39 +78,39 @@ Beads is the completion authority. Search direct children before creation, selec
 | Rank | Pack | Candidates | Total | Share | Grade | Score |
 | ---: | --- | ---: | ---: | ---: | :---: | ---: |
 | 1 | `bamboohr-pack` | 18 | 18 | 100.00% | B | 81 |
-| 2 | `vastai-pack` | 24 | 24 | 100.00% | B | 86 |
-| 3 | `clari-pack` | 18 | 18 | 100.00% | B | 86 |
-| 4 | `flyio-pack` | 18 | 18 | 100.00% | B | 86 |
-| 5 | `persona-pack` | 18 | 18 | 100.00% | B | 86 |
-| 6 | `runway-pack` | 18 | 18 | 100.00% | B | 86 |
-| 7 | `clay-pack` | 30 | 30 | 100.00% | B | 87 |
-| 8 | `apple-notes-pack` | 24 | 24 | 100.00% | B | 87 |
-| 9 | `gamma-pack` | 24 | 24 | 100.00% | B | 87 |
-| 10 | `glean-pack` | 24 | 24 | 100.00% | B | 87 |
-| 11 | `langfuse-pack` | 24 | 24 | 100.00% | B | 87 |
-| 12 | `appfolio-pack` | 18 | 18 | 100.00% | B | 87 |
-| 13 | `anthropic-pack` | 30 | 30 | 100.00% | B | 88 |
-| 14 | `fondo-pack` | 18 | 18 | 100.00% | B | 88 |
-| 15 | `framer-pack` | 18 | 18 | 100.00% | B | 88 |
-| 16 | `deepgram-pack` | 24 | 24 | 100.00% | B | 89 |
-| 17 | `lokalise-pack` | 24 | 24 | 100.00% | B | 89 |
-| 18 | `obsidian-pack` | 24 | 24 | 100.00% | A | 90 |
-| 19 | `fathom-pack` | 18 | 18 | 100.00% | A | 90 |
-| 20 | `hootsuite-pack` | 18 | 18 | 100.00% | A | 90 |
-| 21 | `granola-pack` | 24 | 24 | 100.00% | A | 91 |
-| 22 | `maintainx-pack` | 24 | 24 | 100.00% | A | 91 |
-| 23 | `twinmind-pack` | 24 | 24 | 100.00% | A | 91 |
-| 24 | `finta-pack` | 18 | 18 | 100.00% | A | 91 |
-| 25 | `hex-pack` | 18 | 18 | 100.00% | A | 91 |
-| 26 | `figma-pack` | 30 | 30 | 100.00% | A | 92 |
-| 27 | `retellai-pack` | 30 | 30 | 100.00% | A | 92 |
-| 28 | `apollo-pack` | 24 | 24 | 100.00% | A | 92 |
-| 29 | `juicebox-pack` | 24 | 24 | 100.00% | A | 92 |
-| 30 | `castai-pack` | 18 | 18 | 100.00% | A | 92 |
-| 31 | `quicknode-pack` | 18 | 18 | 100.00% | A | 92 |
-| 32 | `clerk-pack` | 24 | 24 | 100.00% | A | 93 |
-| 33 | `flexport-pack` | 24 | 24 | 100.00% | A | 93 |
-| 34 | `posthog-pack` | 24 | 24 | 100.00% | A | 93 |
+| 2 | `clari-pack` | 18 | 18 | 100.00% | B | 86 |
+| 3 | `flyio-pack` | 18 | 18 | 100.00% | B | 86 |
+| 4 | `persona-pack` | 18 | 18 | 100.00% | B | 86 |
+| 5 | `runway-pack` | 18 | 18 | 100.00% | B | 86 |
+| 6 | `clay-pack` | 30 | 30 | 100.00% | B | 87 |
+| 7 | `apple-notes-pack` | 24 | 24 | 100.00% | B | 87 |
+| 8 | `gamma-pack` | 24 | 24 | 100.00% | B | 87 |
+| 9 | `glean-pack` | 24 | 24 | 100.00% | B | 87 |
+| 10 | `langfuse-pack` | 24 | 24 | 100.00% | B | 87 |
+| 11 | `appfolio-pack` | 18 | 18 | 100.00% | B | 87 |
+| 12 | `anthropic-pack` | 30 | 30 | 100.00% | B | 88 |
+| 13 | `fondo-pack` | 18 | 18 | 100.00% | B | 88 |
+| 14 | `framer-pack` | 18 | 18 | 100.00% | B | 88 |
+| 15 | `deepgram-pack` | 24 | 24 | 100.00% | B | 89 |
+| 16 | `lokalise-pack` | 24 | 24 | 100.00% | B | 89 |
+| 17 | `obsidian-pack` | 24 | 24 | 100.00% | A | 90 |
+| 18 | `fathom-pack` | 18 | 18 | 100.00% | A | 90 |
+| 19 | `hootsuite-pack` | 18 | 18 | 100.00% | A | 90 |
+| 20 | `granola-pack` | 24 | 24 | 100.00% | A | 91 |
+| 21 | `maintainx-pack` | 24 | 24 | 100.00% | A | 91 |
+| 22 | `twinmind-pack` | 24 | 24 | 100.00% | A | 91 |
+| 23 | `finta-pack` | 18 | 18 | 100.00% | A | 91 |
+| 24 | `hex-pack` | 18 | 18 | 100.00% | A | 91 |
+| 25 | `figma-pack` | 30 | 30 | 100.00% | A | 92 |
+| 26 | `retellai-pack` | 30 | 30 | 100.00% | A | 92 |
+| 27 | `apollo-pack` | 24 | 24 | 100.00% | A | 92 |
+| 28 | `juicebox-pack` | 24 | 24 | 100.00% | A | 92 |
+| 29 | `castai-pack` | 18 | 18 | 100.00% | A | 92 |
+| 30 | `quicknode-pack` | 18 | 18 | 100.00% | A | 92 |
+| 31 | `clerk-pack` | 24 | 24 | 100.00% | A | 93 |
+| 32 | `flexport-pack` | 24 | 24 | 100.00% | A | 93 |
+| 33 | `posthog-pack` | 24 | 24 | 100.00% | A | 93 |
+| 34 | `vastai-pack` | 24 | 24 | 100.00% | A | 93 |
 | 35 | `brightdata-pack` | 18 | 18 | 100.00% | A | 93 |
 | 36 | `workhuman-pack` | 18 | 18 | 100.00% | A | 93 |
 | 37 | `canva-pack` | 30 | 30 | 100.00% | A | 94 |

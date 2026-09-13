@@ -22,8 +22,8 @@
       "error_files": 315,
       "error_total": 2836,
       "grade_distribution": {
-        "A": 2785,
-        "B": 415,
+        "A": 2807,
+        "B": 393,
         "C": 133,
         "D": 154,
         "F": 4
@@ -42,7 +42,7 @@
       "values": {
         "plugin_agent_files": 352,
         "raw_tracked_plugin_skill_files": 2991,
-        "tracked_files": 25712
+        "tracked_files": 25762
       }
     },
     "2": {
@@ -91,7 +91,7 @@
         },
         "marketplace_terminal": {
           "error_total_all_validated_surfaces": 3073,
-          "fully_compliant_surfaces": 1968,
+          "fully_compliant_surfaces": 1992,
           "terminal_denominator": {
             "agents": 363,
             "commands": 370,
@@ -101,7 +101,7 @@
             "skills": 3491
           },
           "validated_plugin_manifests": 595,
-          "validator_reported_mixed_denominator_percent": 40.9
+          "validator_reported_mixed_denominator_percent": 41.4
         },
         "skill_rows": {
           "a_error_total": 25,
@@ -112,8 +112,8 @@
           "error_files": 315,
           "error_total": 2836,
           "grade_distribution": {
-            "A": 2785,
-            "B": 415,
+            "A": 2807,
+            "B": 393,
             "C": 133,
             "D": 154,
             "F": 4
@@ -129,17 +129,17 @@
       "source": ["scripts/validate-skills-schema.py"],
       "status": "measured",
       "values": {
-        "average_score": 91.5,
+        "average_score": 91.6,
         "grade_distribution": {
-          "A": 2785,
-          "B": 415,
+          "A": 2807,
+          "B": 393,
           "C": 133,
           "D": 154,
           "F": 4
         },
         "grade_percentages": {
-          "A": 79.8,
-          "B": 11.9,
+          "A": 80.4,
+          "B": 11.3,
           "C": 3.8,
           "D": 4.4,
           "F": 0.1
@@ -286,7 +286,7 @@
       "source": ["scripts/validate-skills-schema.py"],
       "status": "measured",
       "values": {
-        "distinct_values": 379,
+        "distinct_values": 403,
         "invalid_or_empty": 0,
         "target_free_text_values": 0,
         "values": [
@@ -391,7 +391,7 @@
             "value": "Cross-platform — talks WebDriver HTTP directly via Node's built-in node:https; no platform-specific binary dependency. Requires Node.js >= 18, a persistent local filesystem (the observe-decide-act loop passes state through local turn files), and ~/.kobiton/.credentials written by /automate:setup — scripts/appium.js reads that file directly and never calls the MCP getCredential tool, so it is required, not a fallback. An authenticated Kobiton MCP connection is additionally useful for device selection."
           },
           {
-            "count": 2327,
+            "count": 2303,
             "value": "Designed for Claude Code"
           },
           {
@@ -1384,7 +1384,19 @@
           },
           {
             "count": 1,
+            "value": "Requires Python 3.9+, the current Vast.ai package, a scoped API key, and tests that can replace network calls."
+          },
+          {
+            "count": 1,
+            "value": "Requires Vast.ai Serverless access, a tested template, a scoped API key, representative load, and endpoint observability."
+          },
+          {
+            "count": 1,
             "value": "Requires a CI runner, sanitized fixtures, and optional isolated Procore Developer Sandbox credentials for protected provider tests."
+          },
+          {
+            "count": 1,
+            "value": "Requires a CI secret store, current Vast.ai CLI, immutable test image, registered SSH key, and a disposable test budget."
           },
           {
             "count": 1,
@@ -1424,6 +1436,14 @@
           },
           {
             "count": 1,
+            "value": "Requires a Vast.ai Team, team administration authority, an actor/action inventory, and an independent access reviewer."
+          },
+          {
+            "count": 1,
+            "value": "Requires a Vast.ai account, an approved secret store, and Linux, macOS, WSL, or Python 3.9+."
+          },
+          {
+            "count": 1,
             "value": "Requires a backend web application, approved secret store, threat owner, and current Canva security documentation."
           },
           {
@@ -1433,6 +1453,10 @@
           {
             "count": 1,
             "value": "Requires a backend-held access token for a dedicated authorized test user."
+          },
+          {
+            "count": 1,
+            "value": "Requires a classified workload, approved secrets and image registries, SSH key management, and a verified-datacenter policy."
           },
           {
             "count": 1,
@@ -1476,6 +1500,10 @@
           },
           {
             "count": 1,
+            "value": "Requires a public HTTPS receiver, durable queue and deduplication store, secret manager, and notification webhook access."
+          },
+          {
+            "count": 1,
             "value": "Requires a public HTTPS receiver, durable queue, reconciliation store, and Webhooks API permissions for the intended Procore scope."
           },
           {
@@ -1489,6 +1517,10 @@
           {
             "count": 1,
             "value": "Requires a repository with CAST AI infrastructure definitions; any live probe requires a protected environment and a dedicated read-only identity"
+          },
+          {
+            "count": 1,
+            "value": "Requires a representative benchmark, structured offer data, GPU telemetry, immutable images, and a cost objective."
           },
           {
             "count": 1,
@@ -1525,6 +1557,10 @@
           {
             "count": 1,
             "value": "Requires accountable engineering, security, data, and business owners plus a tested rollback."
+          },
+          {
+            "count": 1,
+            "value": "Requires affected resource IDs, read access, external checkpoints, incident authority, and a named billing owner."
           },
           {
             "count": 1,
@@ -1588,11 +1624,27 @@
           },
           {
             "count": 1,
+            "value": "Requires an immutable image, Vast.ai template or creation manifest, scoped deployment key, health contract, and rollback artifact."
+          },
+          {
+            "count": 1,
+            "value": "Requires an immutable release candidate, approved Vast.ai account, workload SLOs, security policy, and rollback owner."
+          },
+          {
+            "count": 1,
+            "value": "Requires an immutable training image, reachable checkpoint storage, a scoped Vast.ai key, and an approved GPU budget."
+          },
+          {
+            "count": 1,
             "value": "Requires an incident commander, read access to redacted telemetry, and an approved reconciliation credential."
           },
           {
             "count": 1,
             "value": "Requires an incident workspace, approved redaction policy, and a named recipient for the diagnostic manifest."
+          },
+          {
+            "count": 1,
+            "value": "Requires an inventory of Vast.ai endpoints, calling identities, deadlines, and the current CLI or REST client."
           },
           {
             "count": 1,
@@ -1613,6 +1665,10 @@
           {
             "count": 1,
             "value": "Requires approved source files, Procore resource permissions, encrypted temporary storage, and checksum-capable transfer tooling."
+          },
+          {
+            "count": 1,
+            "value": "Requires approved storage endpoints, Vast.ai copy or cloud-copy access, integrity manifests, and a data-retention policy."
           },
           {
             "count": 1,
@@ -1652,6 +1708,10 @@
           },
           {
             "count": 1,
+            "value": "Requires current and target client versions, a test environment, immutable templates, and retained rollback artifacts."
+          },
+          {
+            "count": 1,
             "value": "Requires current and target contract artifacts, compatibility tests, feature flags, and rollback authority."
           },
           {
@@ -1684,11 +1744,19 @@
           },
           {
             "count": 1,
+            "value": "Requires local container tooling, the Vast.ai CLI, a registry, a scoped API key, and a disposable GPU budget."
+          },
+          {
+            "count": 1,
             "value": "Requires local test tooling and, for provider tests, a Procore Developer Sandbox with sandbox OAuth credentials."
           },
           {
             "count": 1,
             "value": "Requires locally pinned infrastructure tools; optional sandbox checks require an explicitly selected non-production kube context"
+          },
+          {
+            "count": 1,
+            "value": "Requires named environments, Teams or account contexts, scoped keys, immutable templates, secret stores, and cost ownership."
           },
           {
             "count": 1,
@@ -1704,11 +1772,19 @@
           },
           {
             "count": 1,
+            "value": "Requires read access to affected Vast.ai resources, an approved evidence location, and a defined incident window."
+          },
+          {
+            "count": 1,
             "value": "Requires read access to the target kube context; console or API evidence may require an appropriately scoped CAST AI identity"
           },
           {
             "count": 1,
             "value": "Requires read-only access to the selected cluster; collection must follow local data-handling and support-sharing policy"
+          },
+          {
+            "count": 1,
+            "value": "Requires read-scoped Vast.ai access, resource labels, durable telemetry storage, and named responders."
           },
           {
             "count": 1,
@@ -1728,11 +1804,23 @@
           },
           {
             "count": 1,
+            "value": "Requires source-provider inventory, portable workload artifacts, Vast.ai capacity, external storage, and an approved rollback window."
+          },
+          {
+            "count": 1,
             "value": "Requires source/target contracts, content rights, user-consent analysis, rollback authority, and a bounded migration cohort."
           },
           {
             "count": 1,
             "value": "Requires the Procore API Call Activity Report or equivalent route-level request counts plus infrastructure cost telemetry."
+          },
+          {
+            "count": 1,
+            "value": "Requires the Vast.ai CLI, a valid API key, account credit, an SSH public key, and an approved container image."
+          },
+          {
+            "count": 1,
+            "value": "Requires the Vast.ai CLI, redacted structured output, and access to the affected account or instance."
           },
           {
             "count": 1,
@@ -1749,6 +1837,14 @@
           {
             "count": 1,
             "value": "Requires the pr-to-spec CLI on PATH (Node.js 18+; ships with this plugin) and a git repository to analyze. Runs in Claude Code or any agent runtime with shell access."
+          },
+          {
+            "count": 1,
+            "value": "Requires workload and data classification, Vast.ai account design, immutable artifacts, external storage, observability, and incident ownership."
+          },
+          {
+            "count": 1,
+            "value": "Requires workload performance requirements, Vast.ai offer and instance data, billing-read access, and a cleanup owner."
           },
           {
             "count": 1,
@@ -3228,7 +3324,7 @@
         "invalid_patterns": 0,
         "invisible_files": 5,
         "target_invisible_files": 0,
-        "tracked_files": 25712
+        "tracked_files": 25762
       }
     },
     "47": {
@@ -3313,15 +3409,15 @@
       "dimension": "Inventory header versus rows",
       "reproduce": "pnpm run measure:e1 --row=52 --stdout",
       "source": [
-        "freshie/reports/run-delta-127.json",
+        "freshie/reports/run-delta-128.json",
         "freshie/scripts/dolt-sync.py",
         "freshie/scripts/run-delta.py"
       ],
       "status": "target_met",
       "values": {
-        "dolt_commit": "ccifml2jpnk66o7qda1qn4jkgkkkrspk",
+        "dolt_commit": "gmm15f3sh0ell48fjhpn73s3ju8m4hna",
         "header_total_skills": 2914,
-        "run_id": 127,
+        "run_id": 128,
         "skill_row_delta": 0,
         "skill_rows": 2914,
         "target_skill_row_delta": 0
@@ -3334,32 +3430,32 @@
       "source": [
         "freshie/grade-histogram.json",
         "freshie/grades.csv",
-        "freshie/reports/run-delta-127.json"
+        "freshie/reports/run-delta-128.json"
       ],
       "status": "target_met",
       "values": {
         "compliance_rows": 3491,
-        "export_dolt_commit": "ccifml2jpnk66o7qda1qn4jkgkkkrspk",
-        "export_run_id": 127,
+        "export_dolt_commit": "gmm15f3sh0ell48fjhpn73s3ju8m4hna",
+        "export_run_id": 128,
         "grades_csv_rows": 3491,
-        "grades_csv_sha256": "dfc2caf3c9817fc0026a048cc354bab7f57f0d9e19989c3922d59e993d201cef",
+        "grades_csv_sha256": "95614376cb91ead807a9412ce19672baa06be9288ee30b44b4ba030b00d5510f",
         "histogram_grades": {
-          "A": 2785,
-          "B": 415,
+          "A": 2807,
+          "B": 393,
           "C": 133,
           "D": 154,
           "F": 4
         },
         "histogram_total": 3491,
         "immutable_grade_counts": {
-          "A": 2785,
-          "B": 415,
+          "A": 2807,
+          "B": 393,
           "C": 133,
           "D": 154,
           "F": 4
         },
-        "inventory_dolt_commit": "ccifml2jpnk66o7qda1qn4jkgkkkrspk",
-        "inventory_run_id": 127,
+        "inventory_dolt_commit": "gmm15f3sh0ell48fjhpn73s3ju8m4hna",
+        "inventory_run_id": 128,
         "target_lag_runs": 0
       }
     },
@@ -3369,7 +3465,7 @@
       "reproduce": "pnpm run measure:e1 --row=54 --stdout",
       "source": [
         "freshie/reports/legacy-forge-proofs-demotion.json",
-        "freshie/reports/run-delta-127.json",
+        "freshie/reports/run-delta-128.json",
         "freshie/reports/run-delta-19.json",
         "freshie/scripts/dolt-sync.py",
         "freshie/scripts/run-delta.py",
@@ -3383,7 +3479,7 @@
           "E2": 0,
           "E3": 0
         },
-        "current_run_id": 127,
+        "current_run_id": 128,
         "invalid_identities": 0,
         "legacy_e0_records": 3,
         "retained_e2_e3": 0,
@@ -3407,7 +3503,7 @@
       "source": [
         "000-docs/807-DR-STND-evaluation-evidence.md",
         "freshie/reports/legacy-forge-proofs-demotion.json",
-        "freshie/reports/run-delta-127.json",
+        "freshie/reports/run-delta-128.json",
         "freshie/reports/run-delta-19.json",
         "freshie/scripts/dolt-sync.py",
         "freshie/scripts/run-delta.py"
