@@ -1022,7 +1022,7 @@
         "email": "[email protected]"
       },
       "verification": {
-        "score": 93,
+        "score": 94,
         "grade": "A",
         "badge": "gold",
         "lastValidated": "2026-09-11T00:00:00.000Z"
@@ -9074,14 +9074,15 @@
     {
       "name": "flexport-pack",
       "source": "./plugins/saas-packs/flexport-pack",
-      "description": "Claude Code skill pack for Flexport (24 skills)",
-      "version": "1.6.0",
+      "description": "24 governed Flexport v3 and MCP operator workflows for freight, trade data, webhooks, and secure integrations",
+      "version": "2.0.0",
       "category": "saas-packs",
       "keywords": [
         "flexport",
-        "saas",
-        "sdk",
-        "integration"
+        "freight",
+        "supply-chain",
+        "mcp",
+        "operations"
       ],
       "author": {
         "name": "Jeremy Longshore",
@@ -9092,10 +9093,10 @@
         "skills": 24
       },
       "verification": {
-        "score": 86,
-        "grade": "B",
-        "badge": "silver",
-        "lastValidated": "2026-09-11T00:00:00.000Z"
+        "score": 93,
+        "grade": "A",
+        "badge": "gold",
+        "lastValidated": "2026-09-13T00:00:00.000Z"
       }
     },
     {
