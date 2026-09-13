@@ -15,7 +15,7 @@ tags:
   - copilot
   - conversation-intelligence
   - analytics
-compatibility: 'Requires Clari Copilot API entitlement, workspace integration credentials, and approval to process recordings, transcripts, and participant data.'
+compatibility: 'Requires entitlement to the Clari conversation-intelligence API, workspace integration credentials, and approval to process recordings, transcripts, and participant data.'
 ---
 
 # Clari Copilot Conversation Intelligence Extraction

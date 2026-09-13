@@ -15,7 +15,7 @@ tags:
   - authentication
   - tokens
   - integration-user
-compatibility: 'Requires an entitled Clari tenant, an approved integration owner, and access to the relevant Revenue API or Copilot workspace settings.'
+compatibility: 'Requires an entitled Clari tenant, an approved integration owner, and access to the relevant Revenue API or conversation-intelligence workspace settings.'
 ---
 
 # Clari Integration Identity and Token Setup

@@ -15,7 +15,7 @@ tags:
   - rate-limits
   - quota
   - scheduling
-compatibility: 'Requires workload volume estimates, retained job or cursor state, and access to organization limits where the provider exposes them.'
+compatibility: 'Requires workload volume estimates, retained job or pagination state, and access to organization limits where the provider exposes them.'
 ---
 
 # Clari Quota-Aware Request Scheduling

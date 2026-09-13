@@ -15,7 +15,7 @@ tags:
   - audit-events
   - activity-export
   - change-detection
-compatibility: 'Requires Revenue API access to the chosen audit or activity surface, durable cursor or window state, and an approved downstream event sink.'
+compatibility: 'Requires Revenue API access to the chosen audit or activity surface, durable checkpoint or window state, and an approved downstream event sink.'
 ---
 
 # Clari Audit and Activity Change Feed
