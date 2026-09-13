@@ -3,7 +3,7 @@
   "authority": "Blueprint 727 §8; Freshie graded export",
   "source": {
     "path": "freshie/grades.csv",
-    "sha256": "716f9be0fb5167d36af8b59df287674cfc084a743707f80c7e3f289b206eb313",
+    "sha256": "4b1e9bf973b575d6290827ef9f7032149f4e8f7b66d40da500cd79951865e92e",
     "artifact_count": 3491
   },
   "rule_order": [
@@ -19233,7 +19233,7 @@
     {
       "path": "plugins/saas-packs/flyio-pack/skills/flyio-ci-integration/SKILL.md",
       "grade": "A",
-      "score": 91,
+      "score": 95,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -19243,8 +19243,8 @@
     },
     {
       "path": "plugins/saas-packs/flyio-pack/skills/flyio-common-errors/SKILL.md",
-      "grade": "B",
-      "score": 86,
+      "grade": "A",
+      "score": 96,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -19254,8 +19254,8 @@
     },
     {
       "path": "plugins/saas-packs/flyio-pack/skills/flyio-core-workflow-a/SKILL.md",
-      "grade": "B",
-      "score": 86,
+      "grade": "A",
+      "score": 96,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -19265,8 +19265,8 @@
     },
     {
       "path": "plugins/saas-packs/flyio-pack/skills/flyio-core-workflow-b/SKILL.md",
-      "grade": "B",
-      "score": 86,
+      "grade": "A",
+      "score": 95,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -19276,8 +19276,8 @@
     },
     {
       "path": "plugins/saas-packs/flyio-pack/skills/flyio-cost-tuning/SKILL.md",
-      "grade": "B",
-      "score": 84,
+      "grade": "A",
+      "score": 97,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -19287,8 +19287,8 @@
     },
     {
       "path": "plugins/saas-packs/flyio-pack/skills/flyio-debug-bundle/SKILL.md",
-      "grade": "B",
-      "score": 87,
+      "grade": "A",
+      "score": 96,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -19298,8 +19298,8 @@
     },
     {
       "path": "plugins/saas-packs/flyio-pack/skills/flyio-deploy-integration/SKILL.md",
-      "grade": "B",
-      "score": 88,
+      "grade": "A",
+      "score": 95,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -19309,8 +19309,8 @@
     },
     {
       "path": "plugins/saas-packs/flyio-pack/skills/flyio-hello-world/SKILL.md",
-      "grade": "B",
-      "score": 84,
+      "grade": "A",
+      "score": 96,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -19320,8 +19320,8 @@
     },
     {
       "path": "plugins/saas-packs/flyio-pack/skills/flyio-install-auth/SKILL.md",
-      "grade": "B",
-      "score": 85,
+      "grade": "A",
+      "score": 95,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -19331,8 +19331,8 @@
     },
     {
       "path": "plugins/saas-packs/flyio-pack/skills/flyio-local-dev-loop/SKILL.md",
-      "grade": "B",
-      "score": 87,
+      "grade": "A",
+      "score": 96,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -19342,8 +19342,8 @@
     },
     {
       "path": "plugins/saas-packs/flyio-pack/skills/flyio-performance-tuning/SKILL.md",
-      "grade": "B",
-      "score": 84,
+      "grade": "A",
+      "score": 96,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -19353,8 +19353,8 @@
     },
     {
       "path": "plugins/saas-packs/flyio-pack/skills/flyio-prod-checklist/SKILL.md",
-      "grade": "B",
-      "score": 89,
+      "grade": "A",
+      "score": 96,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -19364,8 +19364,8 @@
     },
     {
       "path": "plugins/saas-packs/flyio-pack/skills/flyio-rate-limits/SKILL.md",
-      "grade": "B",
-      "score": 84,
+      "grade": "A",
+      "score": 94,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -19375,8 +19375,8 @@
     },
     {
       "path": "plugins/saas-packs/flyio-pack/skills/flyio-reference-architecture/SKILL.md",
-      "grade": "B",
-      "score": 89,
+      "grade": "A",
+      "score": 95,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -19386,8 +19386,8 @@
     },
     {
       "path": "plugins/saas-packs/flyio-pack/skills/flyio-sdk-patterns/SKILL.md",
-      "grade": "B",
-      "score": 86,
+      "grade": "A",
+      "score": 96,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -19398,7 +19398,7 @@
     {
       "path": "plugins/saas-packs/flyio-pack/skills/flyio-security-basics/SKILL.md",
       "grade": "A",
-      "score": 90,
+      "score": 96,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -19408,8 +19408,8 @@
     },
     {
       "path": "plugins/saas-packs/flyio-pack/skills/flyio-upgrade-migration/SKILL.md",
-      "grade": "B",
-      "score": 84,
+      "grade": "A",
+      "score": 95,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",
@@ -19419,8 +19419,8 @@
     },
     {
       "path": "plugins/saas-packs/flyio-pack/skills/flyio-webhooks-events/SKILL.md",
-      "grade": "B",
-      "score": 86,
+      "grade": "A",
+      "score": 96,
       "diagnostics": [],
       "disposition": "CERTIFY-PENDING-EVIDENCE",
       "gate": "G7",

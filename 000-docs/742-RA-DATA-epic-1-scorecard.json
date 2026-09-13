@@ -22,8 +22,8 @@
       "error_files": 315,
       "error_total": 2836,
       "grade_distribution": {
-        "A": 2823,
-        "B": 378,
+        "A": 2839,
+        "B": 362,
         "C": 132,
         "D": 154,
         "F": 4
@@ -42,7 +42,7 @@
       "values": {
         "plugin_agent_files": 352,
         "raw_tracked_plugin_skill_files": 2991,
-        "tracked_files": 25803
+        "tracked_files": 25841
       }
     },
     "2": {
@@ -91,7 +91,7 @@
         },
         "marketplace_terminal": {
           "error_total_all_validated_surfaces": 3073,
-          "fully_compliant_surfaces": 2010,
+          "fully_compliant_surfaces": 2028,
           "terminal_denominator": {
             "agents": 363,
             "commands": 370,
@@ -101,7 +101,7 @@
             "skills": 3491
           },
           "validated_plugin_manifests": 595,
-          "validator_reported_mixed_denominator_percent": 41.8
+          "validator_reported_mixed_denominator_percent": 42.1
         },
         "skill_rows": {
           "a_error_total": 25,
@@ -112,8 +112,8 @@
           "error_files": 315,
           "error_total": 2836,
           "grade_distribution": {
-            "A": 2823,
-            "B": 378,
+            "A": 2839,
+            "B": 362,
             "C": 132,
             "D": 154,
             "F": 4
@@ -129,17 +129,17 @@
       "source": ["scripts/validate-skills-schema.py"],
       "status": "measured",
       "values": {
-        "average_score": 91.6,
+        "average_score": 91.7,
         "grade_distribution": {
-          "A": 2823,
-          "B": 378,
+          "A": 2839,
+          "B": 362,
           "C": 132,
           "D": 154,
           "F": 4
         },
         "grade_percentages": {
-          "A": 80.9,
-          "B": 10.8,
+          "A": 81.3,
+          "B": 10.4,
           "C": 3.8,
           "D": 4.4,
           "F": 0.1
@@ -286,7 +286,7 @@
       "source": ["scripts/validate-skills-schema.py"],
       "status": "measured",
       "values": {
-        "distinct_values": 421,
+        "distinct_values": 439,
         "invalid_or_empty": 0,
         "target_free_text_values": 0,
         "values": [
@@ -391,7 +391,7 @@
             "value": "Cross-platform — talks WebDriver HTTP directly via Node's built-in node:https; no platform-specific binary dependency. Requires Node.js >= 18, a persistent local filesystem (the observe-decide-act loop passes state through local turn files), and ~/.kobiton/.credentials written by /automate:setup — scripts/appium.js reads that file directly and never calls the MCP getCredential tool, so it is required, not a fallback. An authenticated Kobiton MCP connection is additionally useful for device selection."
           },
           {
-            "count": 2285,
+            "count": 2267,
             "value": "Designed for Claude Code"
           },
           {
@@ -1424,6 +1424,22 @@
           },
           {
             "count": 1,
+            "value": "Requires a Fly Launch app, immutable image, configured health checks, sufficient temporary capacity, and an approved deployment and rollback owner."
+          },
+          {
+            "count": 1,
+            "value": "Requires a Fly.io account and organization, a containerizable application, an available app name, and approval to create billable resources."
+          },
+          {
+            "count": 1,
+            "value": "Requires a Fly.io app, an approved CI system, an app-scoped or organization-scoped token, and a protected deployment environment."
+          },
+          {
+            "count": 1,
+            "value": "Requires a Fly.io organization, approved data classification and regions, a backup objective, and access to the relevant app and Managed Postgres controls."
+          },
+          {
+            "count": 1,
             "value": "Requires a Procore Developer account, an approved secret store, and network access to the selected Procore environment."
           },
           {
@@ -1556,7 +1572,15 @@
           },
           {
             "count": 1,
+            "value": "Requires a scoped Fly.io API token, an operation and resource inventory, durable job state, and current provider limit documentation."
+          },
+          {
+            "count": 1,
             "value": "Requires a supported Kubernetes cluster, castctl, reviewed cloud permissions, and an approved CAST AI organization"
+          },
+          {
+            "count": 1,
+            "value": "Requires a supported operator workstation or CI runner, a Fly.io account, an approved organization or app scope, and a secret manager."
           },
           {
             "count": 1,
@@ -1624,6 +1648,10 @@
           },
           {
             "count": 1,
+            "value": "Requires an approved production app, accountable owners, service objectives, a scoped deploy identity, and evidence from a representative non-production release."
+          },
+          {
+            "count": 1,
             "value": "Requires an approved public-data use case, named system owners, and current Bright Data product documentation"
           },
           {
@@ -1660,6 +1688,10 @@
           },
           {
             "count": 1,
+            "value": "Requires an existing Fly.io organization, an approved app target, a deploy-capable scoped identity, and a tested health and rollback contract."
+          },
+          {
+            "count": 1,
             "value": "Requires an existing infrastructure delivery system and cloud-specific CAST AI permissions reviewed for each target cluster"
           },
           {
@@ -1693,6 +1725,14 @@
           {
             "count": 1,
             "value": "Requires application architecture, data classification, permission inventory, and access to the Procore app configuration."
+          },
+          {
+            "count": 1,
+            "value": "Requires application service objectives, representative traffic, metrics and health evidence, current Machine sizes, regions, and data dependency placement."
+          },
+          {
+            "count": 1,
+            "value": "Requires application source, a local container runtime where used, read access to a development Fly.io app, and explicit approval before connecting to remote data."
           },
           {
             "count": 1,
@@ -1768,6 +1808,14 @@
           },
           {
             "count": 1,
+            "value": "Requires current and target contracts, an immutable backup or export where data is involved, a representative staging boundary, and approved rollback criteria."
+          },
+          {
+            "count": 1,
+            "value": "Requires current billing exports or invoices, app and database inventory, utilization evidence, service objectives, and an approved optimization window."
+          },
+          {
+            "count": 1,
             "value": "Requires current endpoint rate metadata, observed response evidence, and an application operation ledger."
           },
           {
@@ -1816,6 +1864,10 @@
           },
           {
             "count": 1,
+            "value": "Requires named security and application owners, a Fly.io organization and app inventory, approved identity policy, and access to redacted configuration evidence."
+          },
+          {
+            "count": 1,
             "value": "Requires offline Bright Data fixtures; an optional live lane requires protected CI secrets and an explicitly approved target"
           },
           {
@@ -1829,6 +1881,18 @@
           {
             "count": 1,
             "value": "Requires read access to affected Vast.ai resources, an approved evidence location, and a defined incident window."
+          },
+          {
+            "count": 1,
+            "value": "Requires read access to the affected app, an incident time window, a secure evidence destination, and approval for any log or configuration collection."
+          },
+          {
+            "count": 1,
+            "value": "Requires read access to the affected app, the relevant release identifier, and permission to inspect redacted configuration, health, Machine, and log evidence."
+          },
+          {
+            "count": 1,
+            "value": "Requires read access to the selected app signals, durable checkpoint state, a bounded observation window, and an approved downstream alert or event sink."
           },
           {
             "count": 1,
@@ -1891,6 +1955,10 @@
             "value": "Requires the current CAST AI API specification; declarative infrastructure should use the supported Terraform provider where appropriate"
           },
           {
+            "count": 1,
+            "value": "Requires the current Machines OpenAPI contract, a supported runtime, a scoped test identity, fixtures, and a non-production integration boundary."
+          },
+          {
             "count": 4,
             "value": "Requires the ejentum-mcp MCP server installed and EJENTUM_API_KEY env var set. Free and paid tiers at ejentum.com."
           },
@@ -1905,6 +1973,10 @@
           {
             "count": 1,
             "value": "Requires workload and data classification, Vast.ai account design, immutable artifacts, external storage, observability, and incident ownership."
+          },
+          {
+            "count": 1,
+            "value": "Requires workload and data requirements, service objectives, approved regions, dependency ownership, and a cost and recovery model."
           },
           {
             "count": 1,
@@ -3396,7 +3468,7 @@
         "invalid_patterns": 0,
         "invisible_files": 5,
         "target_invisible_files": 0,
-        "tracked_files": 25803
+        "tracked_files": 25841
       }
     },
     "47": {
@@ -3481,15 +3553,15 @@
       "dimension": "Inventory header versus rows",
       "reproduce": "pnpm run measure:e1 --row=52 --stdout",
       "source": [
-        "freshie/reports/run-delta-131.json",
+        "freshie/reports/run-delta-132.json",
         "freshie/scripts/dolt-sync.py",
         "freshie/scripts/run-delta.py"
       ],
       "status": "target_met",
       "values": {
-        "dolt_commit": "tu9mqfp3qsu0ap98adhdvtnjonufqifq",
+        "dolt_commit": "o21v7k7opmkl7qkla98ill9ju1t9ghdq",
         "header_total_skills": 2914,
-        "run_id": 131,
+        "run_id": 132,
         "skill_row_delta": 0,
         "skill_rows": 2914,
         "target_skill_row_delta": 0
@@ -3502,32 +3574,32 @@
       "source": [
         "freshie/grade-histogram.json",
         "freshie/grades.csv",
-        "freshie/reports/run-delta-131.json"
+        "freshie/reports/run-delta-132.json"
       ],
       "status": "target_met",
       "values": {
         "compliance_rows": 3491,
-        "export_dolt_commit": "tu9mqfp3qsu0ap98adhdvtnjonufqifq",
-        "export_run_id": 131,
+        "export_dolt_commit": "o21v7k7opmkl7qkla98ill9ju1t9ghdq",
+        "export_run_id": 132,
         "grades_csv_rows": 3491,
-        "grades_csv_sha256": "716f9be0fb5167d36af8b59df287674cfc084a743707f80c7e3f289b206eb313",
+        "grades_csv_sha256": "4b1e9bf973b575d6290827ef9f7032149f4e8f7b66d40da500cd79951865e92e",
         "histogram_grades": {
-          "A": 2823,
-          "B": 378,
+          "A": 2839,
+          "B": 362,
           "C": 132,
           "D": 154,
           "F": 4
         },
         "histogram_total": 3491,
         "immutable_grade_counts": {
-          "A": 2823,
-          "B": 378,
+          "A": 2839,
+          "B": 362,
           "C": 132,
           "D": 154,
           "F": 4
         },
-        "inventory_dolt_commit": "tu9mqfp3qsu0ap98adhdvtnjonufqifq",
-        "inventory_run_id": 131,
+        "inventory_dolt_commit": "o21v7k7opmkl7qkla98ill9ju1t9ghdq",
+        "inventory_run_id": 132,
         "target_lag_runs": 0
       }
     },
@@ -3537,7 +3609,7 @@
       "reproduce": "pnpm run measure:e1 --row=54 --stdout",
       "source": [
         "freshie/reports/legacy-forge-proofs-demotion.json",
-        "freshie/reports/run-delta-131.json",
+        "freshie/reports/run-delta-132.json",
         "freshie/reports/run-delta-19.json",
         "freshie/scripts/dolt-sync.py",
         "freshie/scripts/run-delta.py",
@@ -3551,7 +3623,7 @@
           "E2": 0,
           "E3": 0
         },
-        "current_run_id": 131,
+        "current_run_id": 132,
         "invalid_identities": 0,
         "legacy_e0_records": 3,
         "retained_e2_e3": 0,
@@ -3575,7 +3647,7 @@
       "source": [
         "000-docs/807-DR-STND-evaluation-evidence.md",
         "freshie/reports/legacy-forge-proofs-demotion.json",
-        "freshie/reports/run-delta-131.json",
+        "freshie/reports/run-delta-132.json",
         "freshie/reports/run-delta-19.json",
         "freshie/scripts/dolt-sync.py",
         "freshie/scripts/run-delta.py"
