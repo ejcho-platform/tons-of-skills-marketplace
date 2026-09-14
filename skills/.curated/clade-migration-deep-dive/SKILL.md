@@ -5,7 +5,7 @@ description: "Migrate from OpenAI/GPT to Anthropic/Claude \u2014 API differences
   \ and feature mapping.\nTrigger with \"migrate to claude\", \"openai to anthropic\"\
   ,\n\"switch from gpt to claude\", \"replace openai with anthropic\".\n"
 allowed-tools: Read, Write, Edit, Grep
-version: 1.0.0
+version: 1.1.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 tags:

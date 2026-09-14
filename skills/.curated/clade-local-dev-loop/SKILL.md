@@ -5,7 +5,7 @@ description: "Set up a fast local development loop for building with the Anthrop
   \ tips, and test patterns.\nTrigger with \"anthropic dev setup\", \"claude local\
   \ development\",\n\"anthropic test locally\", \"claude dev workflow\".\n"
 allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pip:*)
-version: 1.0.0
+version: 1.1.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 tags:

@@ -5,7 +5,7 @@ description: "Optimize Anthropic API latency \u2014 streaming, prompt caching, m
   \ and parallel requests.\nTrigger with \"anthropic slow\", \"claude latency\", \"\
   speed up anthropic\",\n\"anthropic performance\", \"claude response time\".\n"
 allowed-tools: Read, Write, Edit
-version: 1.0.0
+version: 1.1.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 tags:

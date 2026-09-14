@@ -11,7 +11,7 @@ description: 'Common mistakes when building with the Anthropic API and how to av
 
   '
 allowed-tools: Read, Write, Edit
-version: 1.0.0
+version: 1.1.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 tags:

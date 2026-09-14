@@ -6,7 +6,7 @@ description: "Build different types of Claude-powered applications \u2014 chatbo
   anthropic rag\", \"build with claude\",\n\"claude agent pattern\", \"anthropic app\
   \ design\".\n"
 allowed-tools: Read, Write, Edit
-version: 1.0.0
+version: 1.1.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 tags:

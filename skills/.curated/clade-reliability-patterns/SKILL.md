@@ -5,7 +5,7 @@ description: "Build fault-tolerant Claude integrations \u2014 retries, circuit b
   \ degradation.\nTrigger with \"anthropic reliability\", \"claude fault tolerance\"\
   ,\n\"anthropic circuit breaker\", \"claude fallback\".\n"
 allowed-tools: Read, Write, Edit
-version: 1.0.0
+version: 1.1.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 tags:

@@ -5,7 +5,7 @@ description: "Debug complex Claude issues \u2014 inconsistent outputs, tool use 
   \ edge cases.\nTrigger with \"claude inconsistent\", \"anthropic advanced debug\"\
   ,\n\"claude tool use broken\", \"anthropic streaming issues\".\n"
 allowed-tools: Read, Write, Edit, Grep, Bash(curl:*)
-version: 1.0.0
+version: 1.1.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 tags:

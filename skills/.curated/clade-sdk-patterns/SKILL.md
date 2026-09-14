@@ -5,7 +5,7 @@ description: "Production-ready Anthropic SDK patterns \u2014 client config, retr
   \ types, and async patterns.\nTrigger with \"anthropic sdk\", \"claude client setup\"\
   , \"anthropic typescript\",\n\"anthropic python patterns\".\n"
 allowed-tools: Read, Write, Edit
-version: 1.0.0
+version: 1.1.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 tags:

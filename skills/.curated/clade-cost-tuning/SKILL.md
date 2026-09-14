@@ -5,7 +5,7 @@ description: "Optimize Anthropic API costs \u2014 model selection, prompt cachin
   \ monitoring.\nTrigger with \"anthropic pricing\", \"claude cost\", \"reduce anthropic\
   \ spend\",\n\"anthropic billing\", \"claude cheaper\".\n"
 allowed-tools: Read, Write, Edit
-version: 1.0.0
+version: 1.1.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 tags:

@@ -5,7 +5,7 @@ description: "Secure your Anthropic integration \u2014 API key management, input
   \ privacy.\nTrigger with \"anthropic security\", \"claude api key security\",\n\"\
   anthropic prompt injection\", \"secure claude integration\".\n"
 allowed-tools: Read, Write, Edit
-version: 1.0.0
+version: 1.1.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 tags:

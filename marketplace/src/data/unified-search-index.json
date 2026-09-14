@@ -1945,7 +1945,7 @@
         "name": "Jeremy Longshore"
       },
       "authorType": "official",
-      "version": "1.23.0",
+      "version": "1.24.0",
       "isFeatured": false,
       "isNew": false,
       "badges": [],
@@ -2134,7 +2134,7 @@
         "email": "[email protected]"
       },
       "authorType": "official",
-      "version": "1.36.0",
+      "version": "1.37.0",
       "isFeatured": true,
       "isNew": false,
       "badges": [],
@@ -5229,7 +5229,7 @@
         "email": "[email protected]"
       },
       "authorType": "official",
-      "version": "0.5.0",
+      "version": "0.6.0",
       "isFeatured": false,
       "isNew": false,
       "badges": [],
@@ -7897,7 +7897,7 @@
         "email": "severity1@intentsolutions.io"
       },
       "authorType": "official",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "isFeatured": false,
       "isNew": false,
       "badges": [],
@@ -10265,7 +10265,7 @@
         "url": "https://github.com/jeremylongshore"
       },
       "authorType": "official",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "isFeatured": false,
       "isNew": false,
       "badges": [],
@@ -10895,7 +10895,7 @@
         "url": "https://github.com/jeremylongshore"
       },
       "authorType": "official",
-      "version": "2.6.0",
+      "version": "2.7.0",
       "isFeatured": false,
       "isNew": false,
       "badges": [],
@@ -11061,7 +11061,7 @@
         "url": "https://github.com/jeremylongshore"
       },
       "authorType": "official",
-      "version": "1.14.0",
+      "version": "1.15.0",
       "isFeatured": false,
       "isNew": false,
       "badges": [],
@@ -11872,7 +11872,7 @@
         "url": "https://github.com/jeremylongshore"
       },
       "authorType": "official",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "isFeatured": false,
       "isNew": false,
       "badges": [],
@@ -14857,7 +14857,7 @@
         "url": "https://github.com/el-zachariah"
       },
       "authorType": "community",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "isFeatured": false,
       "isNew": false,
       "badges": [],
@@ -15100,7 +15100,7 @@
         "email": "jeremy@intentsolutions.io"
       },
       "authorType": "official",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "isFeatured": false,
       "isNew": false,
       "badges": [],
@@ -16361,7 +16361,7 @@
         "Bash(util:*)"
       ],
       "compatibleWith": [],
-      "version": "1.23.0",
+      "version": "1.24.0",
       "parentPlugin": {
         "name": "agent-context-manager",
         "category": "productivity"
@@ -16424,7 +16424,7 @@
         "Bash(python3:*)"
       ],
       "compatibleWith": [],
-      "version": "1.1.0",
+      "version": "1.2.0",
       "parentPlugin": {
         "name": "agent-safety-preflight",
         "category": "security"
@@ -18242,7 +18242,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "1.7.0",
       "parentPlugin": {
         "name": "anthropic-pack",
         "category": "saas-packs"
@@ -18263,7 +18263,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "1.7.0",
       "parentPlugin": {
         "name": "anthropic-pack",
         "category": "saas-packs"
@@ -18285,7 +18285,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "1.7.0",
       "parentPlugin": {
         "name": "anthropic-pack",
         "category": "saas-packs"
@@ -18305,7 +18305,7 @@
         "Bash(curl:*)"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "1.7.0",
       "parentPlugin": {
         "name": "anthropic-pack",
         "category": "saas-packs"
@@ -18327,7 +18327,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "1.7.0",
       "parentPlugin": {
         "name": "anthropic-pack",
         "category": "saas-packs"
@@ -18349,7 +18349,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "1.7.0",
       "parentPlugin": {
         "name": "anthropic-pack",
         "category": "saas-packs"
@@ -18370,7 +18370,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "1.7.0",
       "parentPlugin": {
         "name": "anthropic-pack",
         "category": "saas-packs"
@@ -18391,7 +18391,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "1.7.0",
       "parentPlugin": {
         "name": "anthropic-pack",
         "category": "saas-packs"
@@ -18413,7 +18413,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "1.7.0",
       "parentPlugin": {
         "name": "anthropic-pack",
         "category": "saas-packs"
@@ -18435,7 +18435,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "1.7.0",
       "parentPlugin": {
         "name": "anthropic-pack",
         "category": "saas-packs"
@@ -18456,7 +18456,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "1.7.0",
       "parentPlugin": {
         "name": "anthropic-pack",
         "category": "saas-packs"
@@ -18476,7 +18476,7 @@
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "1.7.0",
       "parentPlugin": {
         "name": "anthropic-pack",
         "category": "saas-packs"
@@ -18496,7 +18496,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "1.7.0",
       "parentPlugin": {
         "name": "anthropic-pack",
         "category": "saas-packs"
@@ -18519,7 +18519,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "1.7.0",
       "parentPlugin": {
         "name": "anthropic-pack",
         "category": "saas-packs"
@@ -18540,7 +18540,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "1.7.0",
       "parentPlugin": {
         "name": "anthropic-pack",
         "category": "saas-packs"
@@ -18562,7 +18562,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "1.7.0",
       "parentPlugin": {
         "name": "anthropic-pack",
         "category": "saas-packs"
@@ -18585,7 +18585,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "1.7.0",
       "parentPlugin": {
         "name": "anthropic-pack",
         "category": "saas-packs"
@@ -18607,7 +18607,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "1.7.0",
       "parentPlugin": {
         "name": "anthropic-pack",
         "category": "saas-packs"
@@ -18629,7 +18629,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "1.7.0",
       "parentPlugin": {
         "name": "anthropic-pack",
         "category": "saas-packs"
@@ -18650,7 +18650,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "1.7.0",
       "parentPlugin": {
         "name": "anthropic-pack",
         "category": "saas-packs"
@@ -18671,7 +18671,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "1.7.0",
       "parentPlugin": {
         "name": "anthropic-pack",
         "category": "saas-packs"
@@ -18692,7 +18692,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "1.7.0",
       "parentPlugin": {
         "name": "anthropic-pack",
         "category": "saas-packs"
@@ -18712,7 +18712,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "1.7.0",
       "parentPlugin": {
         "name": "anthropic-pack",
         "category": "saas-packs"
@@ -18732,7 +18732,7 @@
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "1.7.0",
       "parentPlugin": {
         "name": "anthropic-pack",
         "category": "saas-packs"
@@ -18753,7 +18753,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "1.7.0",
       "parentPlugin": {
         "name": "anthropic-pack",
         "category": "saas-packs"
@@ -18774,7 +18774,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "1.7.0",
       "parentPlugin": {
         "name": "anthropic-pack",
         "category": "saas-packs"
@@ -18794,7 +18794,7 @@
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "1.7.0",
       "parentPlugin": {
         "name": "anthropic-pack",
         "category": "saas-packs"
@@ -18814,7 +18814,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "1.7.0",
       "parentPlugin": {
         "name": "anthropic-pack",
         "category": "saas-packs"
@@ -18837,7 +18837,7 @@
         "Bash(git:*)"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "1.7.0",
       "parentPlugin": {
         "name": "anthropic-pack",
         "category": "saas-packs"
@@ -18859,7 +18859,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "1.7.0",
       "parentPlugin": {
         "name": "anthropic-pack",
         "category": "saas-packs"
@@ -25155,7 +25155,7 @@
         "Bash(curl:*)"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -25175,7 +25175,7 @@
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -25196,7 +25196,7 @@
         "Bash(npm:*)"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -25216,7 +25216,7 @@
         "Bash(curl:*)"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -25234,7 +25234,7 @@
         "Read"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -25252,7 +25252,7 @@
         "Read"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -25272,7 +25272,7 @@
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -25292,7 +25292,7 @@
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -25312,7 +25312,7 @@
         "Bash(curl:*)"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -25335,7 +25335,7 @@
         "Bash(gcloud:*)"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -25357,7 +25357,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -25377,7 +25377,7 @@
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -25397,7 +25397,7 @@
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -25417,7 +25417,7 @@
         "Bash(curl:*)"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -25440,7 +25440,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -25460,7 +25460,7 @@
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -25480,7 +25480,7 @@
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -25502,7 +25502,7 @@
         "Bash(pip:*)"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -25523,7 +25523,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -25545,7 +25545,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -25565,7 +25565,7 @@
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -25585,7 +25585,7 @@
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -25605,7 +25605,7 @@
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -25625,7 +25625,7 @@
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -25645,7 +25645,7 @@
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -25665,7 +25665,7 @@
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -25686,7 +25686,7 @@
         "Bash(npm:*)"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -25706,7 +25706,7 @@
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -25726,7 +25726,7 @@
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -25746,7 +25746,7 @@
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -25769,7 +25769,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -25790,7 +25790,7 @@
         "Bash(curl:*)"
       ],
       "compatibleWith": [],
-      "version": "1.0.0",
+      "version": "1.1.0",
       "parentPlugin": {
         "name": "claude-pack",
         "category": "saas-packs"
@@ -26866,7 +26866,7 @@
         "Bash(gh:*)"
       ],
       "compatibleWith": [],
-      "version": "1.14.0",
+      "version": "1.15.0",
       "parentPlugin": {
         "name": "clerk-pack",
         "category": "saas-packs"
@@ -26888,7 +26888,7 @@
         "Bash(npm:*)"
       ],
       "compatibleWith": [],
-      "version": "1.14.0",
+      "version": "1.15.0",
       "parentPlugin": {
         "name": "clerk-pack",
         "category": "saas-packs"
@@ -26909,7 +26909,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.14.0",
+      "version": "1.15.0",
       "parentPlugin": {
         "name": "clerk-pack",
         "category": "saas-packs"
@@ -26930,7 +26930,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.14.0",
+      "version": "1.15.0",
       "parentPlugin": {
         "name": "clerk-pack",
         "category": "saas-packs"
@@ -26951,7 +26951,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.14.0",
+      "version": "1.15.0",
       "parentPlugin": {
         "name": "clerk-pack",
         "category": "saas-packs"
@@ -26973,7 +26973,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.14.0",
+      "version": "1.15.0",
       "parentPlugin": {
         "name": "clerk-pack",
         "category": "saas-packs"
@@ -26996,7 +26996,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.14.0",
+      "version": "1.15.0",
       "parentPlugin": {
         "name": "clerk-pack",
         "category": "saas-packs"
@@ -27019,7 +27019,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.14.0",
+      "version": "1.15.0",
       "parentPlugin": {
         "name": "clerk-pack",
         "category": "saas-packs"
@@ -27040,7 +27040,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.14.0",
+      "version": "1.15.0",
       "parentPlugin": {
         "name": "clerk-pack",
         "category": "saas-packs"
@@ -27062,7 +27062,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.14.0",
+      "version": "1.15.0",
       "parentPlugin": {
         "name": "clerk-pack",
         "category": "saas-packs"
@@ -27085,7 +27085,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.14.0",
+      "version": "1.15.0",
       "parentPlugin": {
         "name": "clerk-pack",
         "category": "saas-packs"
@@ -27108,7 +27108,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.14.0",
+      "version": "1.15.0",
       "parentPlugin": {
         "name": "clerk-pack",
         "category": "saas-packs"
@@ -27131,7 +27131,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.14.0",
+      "version": "1.15.0",
       "parentPlugin": {
         "name": "clerk-pack",
         "category": "saas-packs"
@@ -27153,7 +27153,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.14.0",
+      "version": "1.15.0",
       "parentPlugin": {
         "name": "clerk-pack",
         "category": "saas-packs"
@@ -27175,7 +27175,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.14.0",
+      "version": "1.15.0",
       "parentPlugin": {
         "name": "clerk-pack",
         "category": "saas-packs"
@@ -27197,7 +27197,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.14.0",
+      "version": "1.15.0",
       "parentPlugin": {
         "name": "clerk-pack",
         "category": "saas-packs"
@@ -27218,7 +27218,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.14.0",
+      "version": "1.15.0",
       "parentPlugin": {
         "name": "clerk-pack",
         "category": "saas-packs"
@@ -27240,7 +27240,7 @@
         "Bash(npm:*)"
       ],
       "compatibleWith": [],
-      "version": "1.14.0",
+      "version": "1.15.0",
       "parentPlugin": {
         "name": "clerk-pack",
         "category": "saas-packs"
@@ -27261,7 +27261,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.14.0",
+      "version": "1.15.0",
       "parentPlugin": {
         "name": "clerk-pack",
         "category": "saas-packs"
@@ -27282,7 +27282,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.14.0",
+      "version": "1.15.0",
       "parentPlugin": {
         "name": "clerk-pack",
         "category": "saas-packs"
@@ -27303,7 +27303,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.14.0",
+      "version": "1.15.0",
       "parentPlugin": {
         "name": "clerk-pack",
         "category": "saas-packs"
@@ -27324,7 +27324,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.14.0",
+      "version": "1.15.0",
       "parentPlugin": {
         "name": "clerk-pack",
         "category": "saas-packs"
@@ -27347,7 +27347,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.14.0",
+      "version": "1.15.0",
       "parentPlugin": {
         "name": "clerk-pack",
         "category": "saas-packs"
@@ -27369,7 +27369,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.14.0",
+      "version": "1.15.0",
       "parentPlugin": {
         "name": "clerk-pack",
         "category": "saas-packs"
@@ -30905,7 +30905,7 @@
         "Bash(cmd:*)"
       ],
       "compatibleWith": [],
-      "version": "1.18.0",
+      "version": "1.19.0",
       "parentPlugin": {
         "name": "cursor-pack",
         "category": "saas-packs"
@@ -30926,7 +30926,7 @@
         "Bash(cmd:*)"
       ],
       "compatibleWith": [],
-      "version": "1.18.0",
+      "version": "1.19.0",
       "parentPlugin": {
         "name": "cursor-pack",
         "category": "saas-packs"
@@ -30947,7 +30947,7 @@
         "Bash(cmd:*)"
       ],
       "compatibleWith": [],
-      "version": "1.18.0",
+      "version": "1.19.0",
       "parentPlugin": {
         "name": "cursor-pack",
         "category": "saas-packs"
@@ -30968,7 +30968,7 @@
         "Bash(cmd:*)"
       ],
       "compatibleWith": [],
-      "version": "1.18.0",
+      "version": "1.19.0",
       "parentPlugin": {
         "name": "cursor-pack",
         "category": "saas-packs"
@@ -30989,7 +30989,7 @@
         "Bash(cmd:*)"
       ],
       "compatibleWith": [],
-      "version": "1.18.0",
+      "version": "1.19.0",
       "parentPlugin": {
         "name": "cursor-pack",
         "category": "saas-packs"
@@ -31010,7 +31010,7 @@
         "Bash(cmd:*)"
       ],
       "compatibleWith": [],
-      "version": "1.18.0",
+      "version": "1.19.0",
       "parentPlugin": {
         "name": "cursor-pack",
         "category": "saas-packs"
@@ -31031,7 +31031,7 @@
         "Bash(cmd:*)"
       ],
       "compatibleWith": [],
-      "version": "1.18.0",
+      "version": "1.19.0",
       "parentPlugin": {
         "name": "cursor-pack",
         "category": "saas-packs"
@@ -31052,7 +31052,7 @@
         "Bash(cmd:*)"
       ],
       "compatibleWith": [],
-      "version": "1.18.0",
+      "version": "1.19.0",
       "parentPlugin": {
         "name": "cursor-pack",
         "category": "saas-packs"
@@ -31073,7 +31073,7 @@
         "Bash(cmd:*)"
       ],
       "compatibleWith": [],
-      "version": "1.18.0",
+      "version": "1.19.0",
       "parentPlugin": {
         "name": "cursor-pack",
         "category": "saas-packs"
@@ -31094,7 +31094,7 @@
         "Bash(cmd:*)"
       ],
       "compatibleWith": [],
-      "version": "1.18.0",
+      "version": "1.19.0",
       "parentPlugin": {
         "name": "cursor-pack",
         "category": "saas-packs"
@@ -31115,7 +31115,7 @@
         "Bash(cmd:*)"
       ],
       "compatibleWith": [],
-      "version": "1.18.0",
+      "version": "1.19.0",
       "parentPlugin": {
         "name": "cursor-pack",
         "category": "saas-packs"
@@ -31136,7 +31136,7 @@
         "Bash(cmd:*)"
       ],
       "compatibleWith": [],
-      "version": "1.18.0",
+      "version": "1.19.0",
       "parentPlugin": {
         "name": "cursor-pack",
         "category": "saas-packs"
@@ -31157,7 +31157,7 @@
         "Bash(cmd:*)"
       ],
       "compatibleWith": [],
-      "version": "1.18.0",
+      "version": "1.19.0",
       "parentPlugin": {
         "name": "cursor-pack",
         "category": "saas-packs"
@@ -31178,7 +31178,7 @@
         "Bash(cmd:*)"
       ],
       "compatibleWith": [],
-      "version": "1.18.0",
+      "version": "1.19.0",
       "parentPlugin": {
         "name": "cursor-pack",
         "category": "saas-packs"
@@ -31199,7 +31199,7 @@
         "Bash(cmd:*)"
       ],
       "compatibleWith": [],
-      "version": "1.18.0",
+      "version": "1.19.0",
       "parentPlugin": {
         "name": "cursor-pack",
         "category": "saas-packs"
@@ -31220,7 +31220,7 @@
         "Bash(cmd:*)"
       ],
       "compatibleWith": [],
-      "version": "1.18.0",
+      "version": "1.19.0",
       "parentPlugin": {
         "name": "cursor-pack",
         "category": "saas-packs"
@@ -31241,7 +31241,7 @@
         "Bash(cmd:*)"
       ],
       "compatibleWith": [],
-      "version": "1.18.0",
+      "version": "1.19.0",
       "parentPlugin": {
         "name": "cursor-pack",
         "category": "saas-packs"
@@ -31262,7 +31262,7 @@
         "Bash(cmd:*)"
       ],
       "compatibleWith": [],
-      "version": "1.18.0",
+      "version": "1.19.0",
       "parentPlugin": {
         "name": "cursor-pack",
         "category": "saas-packs"
@@ -31283,7 +31283,7 @@
         "Bash(cmd:*)"
       ],
       "compatibleWith": [],
-      "version": "1.18.0",
+      "version": "1.19.0",
       "parentPlugin": {
         "name": "cursor-pack",
         "category": "saas-packs"
@@ -31304,7 +31304,7 @@
         "Bash(cmd:*)"
       ],
       "compatibleWith": [],
-      "version": "1.18.0",
+      "version": "1.19.0",
       "parentPlugin": {
         "name": "cursor-pack",
         "category": "saas-packs"
@@ -31325,7 +31325,7 @@
         "Bash(cmd:*)"
       ],
       "compatibleWith": [],
-      "version": "1.18.0",
+      "version": "1.19.0",
       "parentPlugin": {
         "name": "cursor-pack",
         "category": "saas-packs"
@@ -31346,7 +31346,7 @@
         "Bash(cmd:*)"
       ],
       "compatibleWith": [],
-      "version": "1.18.0",
+      "version": "1.19.0",
       "parentPlugin": {
         "name": "cursor-pack",
         "category": "saas-packs"
@@ -31367,7 +31367,7 @@
         "Bash(cmd:*)"
       ],
       "compatibleWith": [],
-      "version": "1.18.0",
+      "version": "1.19.0",
       "parentPlugin": {
         "name": "cursor-pack",
         "category": "saas-packs"
@@ -31388,7 +31388,7 @@
         "Bash(cmd:*)"
       ],
       "compatibleWith": [],
-      "version": "1.18.0",
+      "version": "1.19.0",
       "parentPlugin": {
         "name": "cursor-pack",
         "category": "saas-packs"
@@ -31409,7 +31409,7 @@
         "Bash(cmd:*)"
       ],
       "compatibleWith": [],
-      "version": "1.18.0",
+      "version": "1.19.0",
       "parentPlugin": {
         "name": "cursor-pack",
         "category": "saas-packs"
@@ -31430,7 +31430,7 @@
         "Bash(cmd:*)"
       ],
       "compatibleWith": [],
-      "version": "1.18.0",
+      "version": "1.19.0",
       "parentPlugin": {
         "name": "cursor-pack",
         "category": "saas-packs"
@@ -31451,7 +31451,7 @@
         "Bash(cmd:*)"
       ],
       "compatibleWith": [],
-      "version": "1.18.0",
+      "version": "1.19.0",
       "parentPlugin": {
         "name": "cursor-pack",
         "category": "saas-packs"
@@ -31472,7 +31472,7 @@
         "Bash(cmd:*)"
       ],
       "compatibleWith": [],
-      "version": "1.18.0",
+      "version": "1.19.0",
       "parentPlugin": {
         "name": "cursor-pack",
         "category": "saas-packs"
@@ -31493,7 +31493,7 @@
         "Bash(cmd:*)"
       ],
       "compatibleWith": [],
-      "version": "1.18.0",
+      "version": "1.19.0",
       "parentPlugin": {
         "name": "cursor-pack",
         "category": "saas-packs"
@@ -31514,7 +31514,7 @@
         "Bash(cmd:*)"
       ],
       "compatibleWith": [],
-      "version": "1.18.0",
+      "version": "1.19.0",
       "parentPlugin": {
         "name": "cursor-pack",
         "category": "saas-packs"
@@ -34792,7 +34792,7 @@
         "AskUserQuestion"
       ],
       "compatibleWith": [],
-      "version": "0.5.0",
+      "version": "0.6.0",
       "parentPlugin": {
         "name": "engineer-design-diagram",
         "category": "devops"
@@ -50091,7 +50091,7 @@
         "Bash(pytest:*)"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50110,7 +50110,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50131,7 +50131,7 @@
         "Bash(python:*)"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50152,7 +50152,7 @@
         "Bash(python:*)"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50174,7 +50174,7 @@
         "Bash(redis-cli:*)"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50196,7 +50196,7 @@
         "Bash(pip:*)"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50218,7 +50218,7 @@
         "Bash(pip:*)"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50239,7 +50239,7 @@
         "Bash(python:*)"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50262,7 +50262,7 @@
         "Bash(vercel:*)"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50285,7 +50285,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50306,7 +50306,7 @@
         "Bash(python:*)"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50329,7 +50329,7 @@
         "Bash(pytest:*)"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50347,7 +50347,7 @@
         "Read"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50368,7 +50368,7 @@
         "Bash(python:*)"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50389,7 +50389,7 @@
         "Bash(python:*)"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50411,7 +50411,7 @@
         "Bash(psql:*)"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50432,7 +50432,7 @@
         "Bash(python:*)"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50453,7 +50453,7 @@
         "Bash(python:*)"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50474,7 +50474,7 @@
         "Bash(python:*)"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50497,7 +50497,7 @@
         "Bash(pip:*)"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50518,7 +50518,7 @@
         "Bash(python:*)"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50541,7 +50541,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50563,7 +50563,7 @@
         "Bash(gcloud:*)"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50584,7 +50584,7 @@
         "Bash(python:*)"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50606,7 +50606,7 @@
         "Bash(pip:*)"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50628,7 +50628,7 @@
         "Bash(redis-cli:*)"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50650,7 +50650,7 @@
         "Bash(pip:*)"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50672,7 +50672,7 @@
         "Bash(redis-cli:*)"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50692,7 +50692,7 @@
         "Edit"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50714,7 +50714,7 @@
         "Bash(pip:*)"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50736,7 +50736,7 @@
         "Bash(grep:*)"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50758,7 +50758,7 @@
         "Bash(python:*)"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -50779,7 +50779,7 @@
         "Bash(python:*)"
       ],
       "compatibleWith": [],
-      "version": "2.6.0",
+      "version": "2.7.0",
       "parentPlugin": {
         "name": "langchain-py-pack",
         "category": "saas-packs"
@@ -61261,7 +61261,7 @@
         "Bash(npm:*)"
       ],
       "compatibleWith": [],
-      "version": "1.36.0",
+      "version": "1.37.0",
       "parentPlugin": {
         "name": "ai-sdk-agents",
         "category": "ai-ml"
@@ -64873,7 +64873,7 @@
         "Grep"
       ],
       "compatibleWith": [],
-      "version": "1.6.0",
+      "version": "1.7.0",
       "parentPlugin": {
         "name": "severity1-marketplace",
         "category": "security"

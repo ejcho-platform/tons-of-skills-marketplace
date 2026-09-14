@@ -5,7 +5,7 @@ description: "Collect debug evidence for Anthropic API issues \u2014 request IDs
   \ steps for support tickets.\nTrigger with \"anthropic debug\", \"claude support\
   \ ticket\", \"anthropic request id\",\n\"debug claude api call\".\n"
 allowed-tools: Read, Grep, Bash(curl:*)
-version: 1.0.0
+version: 1.1.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 tags:

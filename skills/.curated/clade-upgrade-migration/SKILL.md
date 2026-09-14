@@ -10,7 +10,7 @@ description: 'Upgrade Anthropic SDK versions and migrate between Claude model ge
 
   '
 allowed-tools: Read, Write, Edit, Bash(npm:*), Bash(pip:*), Grep
-version: 1.0.0
+version: 1.1.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 tags:
