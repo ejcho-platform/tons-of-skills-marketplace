@@ -10,7 +10,7 @@ description: 'Use Anthropic Message Batches for async bulk processing and event 
 
   '
 allowed-tools: Read, Write, Edit, Bash(curl:*)
-version: 1.0.0
+version: 1.1.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 tags:

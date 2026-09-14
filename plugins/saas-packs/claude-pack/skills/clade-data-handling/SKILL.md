@@ -6,7 +6,7 @@ description: "Handle sensitive data with Claude \u2014 PII redaction, conversati
   \ pii\", \"anthropic context window\",\n\"manage claude conversations\", \"anthropic\
   \ data retention\".\n"
 allowed-tools: Read, Write, Edit
-version: 1.0.0
+version: 1.1.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 tags:

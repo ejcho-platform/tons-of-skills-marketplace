@@ -10,7 +10,7 @@ description: 'Redirect to claude-embeddings-search for tool use (function callin
 
   '
 allowed-tools: Read
-version: 1.0.0
+version: 1.1.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 tags:

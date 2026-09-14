@@ -5,7 +5,7 @@ description: "Scale Claude usage for high-throughput applications \u2014 batches
   \ tier upgrades.\nTrigger with \"anthropic scale\", \"claude high volume\", \"anthropic\
   \ throughput\",\n\"scale claude api\", \"anthropic concurrent requests\".\n"
 allowed-tools: Read, Write, Edit
-version: 1.0.0
+version: 1.1.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 tags:

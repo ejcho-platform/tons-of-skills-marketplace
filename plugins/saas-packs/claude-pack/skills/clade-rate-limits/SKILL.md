@@ -5,7 +5,7 @@ description: "Handle Anthropic rate limits \u2014 understand tiers, implement ba
   Trigger with \"anthropic rate limit\", \"claude 429\", \"anthropic throttling\"\
   ,\n\"anthropic usage limits\", \"claude tokens per minute\".\n"
 allowed-tools: Read, Write, Edit
-version: 1.0.0
+version: 1.1.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 tags:

@@ -5,7 +5,7 @@ description: "Diagnose and fix Anthropic API errors \u2014 authentication, rate 
   \ policy issues.\nTrigger with \"anthropic error\", \"claude 429\", \"claude overloaded\"\
   ,\n\"anthropic not working\", \"debug claude api\".\n"
 allowed-tools: Read, Grep, Bash(curl:*)
-version: 1.0.0
+version: 1.1.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 tags:

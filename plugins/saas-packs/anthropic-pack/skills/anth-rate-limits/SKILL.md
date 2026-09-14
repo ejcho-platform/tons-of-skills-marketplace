@@ -12,7 +12,7 @@ description: 'Implement Anthropic Claude API rate limiting, backoff, and quota m
 
   '
 allowed-tools: Read, Write, Edit
-version: 1.6.0
+version: 1.7.0
 license: MIT
 author: Jeremy Longshore <jeremy@intentsolutions.io>
 tags:
