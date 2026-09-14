@@ -348,6 +348,7 @@ test('high and critical advisories retain package path, scope, and advisory IDs 
             url: 'https://github.com/advisories/GHSA-test-1234',
           },
         ],
+        nodes: ['node_modules/risky', 'node_modules/parent/node_modules/risky'],
       },
     },
   });
@@ -364,16 +365,21 @@ test('high and critical advisories retain package path, scope, and advisory IDs 
   assert.equal(result.ok, true);
   assert.equal(result.reportOnlyFailure, true);
   assert.deepEqual(
-    result.findings.map((finding) => [finding.scope, finding.id]),
+    result.findings.map((finding) => [finding.scope, finding.id, finding.dependencyPaths]),
     [
-      ['production', 'GHSA-test-1234'],
-      ['full', 'GHSA-test-1234'],
+      [
+        'production',
+        'GHSA-test-1234',
+        ['node_modules/parent/node_modules/risky', 'node_modules/risky'],
+      ],
+      ['full', 'GHSA-test-1234', ['node_modules/parent/node_modules/risky', 'node_modules/risky']],
     ],
   );
   assert.match(
     result.messages[0],
     /plugins\/skill-enhancers\/vulnerable production: critical risky \[GHSA-test-1234\]/,
   );
+  assert.match(result.messages[0], /paths=node_modules\/parent\/node_modules\/risky/);
 });
 
 test('pnpm advisory format preserves GHSA IDs and dependency introduction paths', () => {
@@ -455,7 +461,11 @@ test('pnpm commands disable executable hooks and pin the trusted audit registry'
   writePackage(repoRoot, packageInfo.root, packageInfo.manifest, 'pnpm-lock.yaml');
   const calls = [];
   const priorRegistry = process.env.NPM_CONFIG_REGISTRY;
+  const priorProxy = process.env.HTTPS_PROXY;
+  const priorCorepackRegistry = process.env.COREPACK_NPM_REGISTRY;
   process.env.NPM_CONFIG_REGISTRY = 'https://attacker.invalid/';
+  process.env.HTTPS_PROXY = 'https://attacker.invalid/';
+  process.env.COREPACK_NPM_REGISTRY = 'https://attacker.invalid/';
   let result;
   try {
     result = auditStandalonePackage({
@@ -469,6 +479,10 @@ test('pnpm commands disable executable hooks and pin the trusted audit registry'
   } finally {
     if (priorRegistry === undefined) delete process.env.NPM_CONFIG_REGISTRY;
     else process.env.NPM_CONFIG_REGISTRY = priorRegistry;
+    if (priorProxy === undefined) delete process.env.HTTPS_PROXY;
+    else process.env.HTTPS_PROXY = priorProxy;
+    if (priorCorepackRegistry === undefined) delete process.env.COREPACK_NPM_REGISTRY;
+    else process.env.COREPACK_NPM_REGISTRY = priorCorepackRegistry;
   }
   assert.equal(result.ok, true);
   assert.equal(calls.length, 3);
@@ -480,6 +494,8 @@ test('pnpm commands disable executable hooks and pin the trusted audit registry'
     calls.every((call) => call.args.includes('--config.registry=https://registry.npmjs.org/')),
   );
   assert.ok(calls.every((call) => call.options.env.NPM_CONFIG_REGISTRY === undefined));
+  assert.ok(calls.every((call) => call.options.env.HTTPS_PROXY === undefined));
+  assert.ok(calls.every((call) => call.options.env.COREPACK_NPM_REGISTRY === undefined));
 });
 
 test('an audit transport or registry failure cannot masquerade as a clean report-only result', () => {

@@ -9,7 +9,16 @@
  * plugin roots so an unrelated advisory cannot red-wall every pull request.
  */
 
-import { existsSync, lstatSync, readFileSync, readdirSync } from 'node:fs';
+import {
+  closeSync,
+  constants,
+  existsSync,
+  fstatSync,
+  lstatSync,
+  openSync,
+  readFileSync,
+  readdirSync,
+} from 'node:fs';
 import { dirname, join, relative, resolve, sep } from 'node:path';
 import { spawnSync } from 'node:child_process';
 import { fileURLToPath, pathToFileURL } from 'node:url';
@@ -27,6 +36,32 @@ const DEPENDENCY_FIELDS = [
 
 function normalizePath(value) {
   return value.split(sep).join('/').replace(/^\.\//, '').replace(/\/$/, '');
+}
+
+function readRegularNonSymlinkFile(path, label) {
+  let descriptor;
+  try {
+    descriptor = openSync(path, constants.O_RDONLY | (constants.O_NOFOLLOW ?? 0));
+    const openedStat = fstatSync(descriptor);
+    const pathStat = lstatSync(path);
+    if (
+      !openedStat.isFile() ||
+      pathStat.isSymbolicLink() ||
+      !pathStat.isFile() ||
+      openedStat.dev !== pathStat.dev ||
+      openedStat.ino !== pathStat.ino
+    ) {
+      throw new Error(`${label} must be a stable regular non-symlink file`);
+    }
+    return readFileSync(descriptor, 'utf8');
+  } catch (error) {
+    if (error?.code === 'ELOOP') {
+      throw new Error(`${label} must be a stable regular non-symlink file`, { cause: error });
+    }
+    throw error;
+  } finally {
+    if (descriptor !== undefined) closeSync(descriptor);
+  }
 }
 
 export function parseWorkspacePatterns(text) {
@@ -149,12 +184,8 @@ export function discoverChangedStandalonePackages({ repoRoot, changedPaths }) {
 
   for (const root of roots) {
     const manifestPath = join(repoRoot, root, 'package.json');
-    const manifestStat = lstatSync(manifestPath);
-    if (!manifestStat.isFile() || manifestStat.isSymbolicLink()) {
-      throw new Error(`${root}/package.json must be a regular non-symlink file`);
-    }
     if (workspaceIncludes(workspacePatterns, root)) continue;
-    const manifest = JSON.parse(readFileSync(manifestPath, 'utf8'));
+    const manifest = JSON.parse(readRegularNonSymlinkFile(manifestPath, `${root}/package.json`));
     if (!hasAuditableDependencies(manifest)) continue;
     packages.push({ root, manifestPath, manifest });
   }
@@ -229,8 +260,17 @@ export function summarizeAuditJson(value) {
     const advisoryObjects = Array.isArray(detail?.via)
       ? detail.via.filter((entry) => entry && typeof entry === 'object')
       : [];
+    const dependencyPaths = Array.isArray(detail?.nodes)
+      ? [...new Set(detail.nodes.map(String))].sort()
+      : [];
     if (advisoryObjects.length === 0) {
-      findings.push({ dependency, severity, id: 'unknown-advisory', title: dependency });
+      findings.push({
+        dependency,
+        severity,
+        id: 'unknown-advisory',
+        title: dependency,
+        dependencyPaths,
+      });
       continue;
     }
     for (const via of advisoryObjects) {
@@ -242,6 +282,7 @@ export function summarizeAuditJson(value) {
         id: advisoryId(via),
         title: String(via.title ?? via.name ?? dependency),
         url: typeof via.url === 'string' ? via.url : '',
+        dependencyPaths,
       });
     }
   }
@@ -337,7 +378,10 @@ function auditCommands(manager, directory) {
 
 function invoke(run, spec) {
   const environment = Object.fromEntries(
-    Object.entries(process.env).filter(([name]) => !/^npm_config_/i.test(name)),
+    Object.entries(process.env).filter(
+      ([name]) =>
+        !/^(?:npm_config_|https?_proxy$|all_proxy$|no_proxy$|corepack_|pnpm_home$)/i.test(name),
+    ),
   );
   return run(spec.command, spec.args, {
     cwd: spec.cwd,
