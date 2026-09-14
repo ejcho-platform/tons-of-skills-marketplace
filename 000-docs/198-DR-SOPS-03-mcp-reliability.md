@@ -1052,7 +1052,7 @@ npm install @modelcontextprotocol/sdk
 ```
 - MCP Specification
 - SDK Documentation
-- [Claude Code MCP Guide](https://docs.anthropic.com/claude/docs/model-context-protocol)
+- [Claude Code MCP Guide](https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro)
 
 ### Analytics & Monitoring
 
