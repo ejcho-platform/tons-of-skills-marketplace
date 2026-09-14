@@ -4,10 +4,10 @@
   "semantics": "Family-name matches are review candidates, not automatic quality or retirement verdicts.",
   "sources": {
     "catalog": ".claude-plugin/marketplace.extended.json",
-    "catalog_sha256": "db2254046cf81c96a21adaa47ed4e2214703ee6773f4a4b9cc47a27d264b8941",
+    "catalog_sha256": "bc8b582ea6d63ff3147f10d275a02e3322bfe122243415ff95f4030dd27041f6",
     "curated_manifest": "skills/.curated/MANIFEST.json",
     "curated_manifest_sha256": "dfaec285788000d4d12ddf3f3b7e6b21c56f832ba7f23e81b5475e73d9961ef2",
-    "tracked_inventory_sha256": "9fe90546a8150cd76219bbcabe6bff3a4b05e62dd855f46c5a7eba66e4e2fbe4"
+    "tracked_inventory_sha256": "83d5f018cc1f8ae022604c70cdc66a782084816890e6627ffe2bd9e6a4c5507a"
   },
   "family_definition": [
     "advanced-troubleshooting",
@@ -234,8 +234,8 @@
       "candidate_basis_points": 10000,
       "verification_grade": "B",
       "verification_score": 88,
-      "pack_inventory_sha256": "f5f8c7ca8ed6cf8c093adcb71b0ff6e34b66bfe512218db3faec21a3af89ea63",
-      "candidate_set_sha256": "a303e0aef69ccba7e27057b3bbc8a5dae193a02bbb5fa32823d2e114abc97f53",
+      "pack_inventory_sha256": "89e898b2a1ef49b45987729a142a1f955c09ce7e7bdb8d71dd68afa9e74e8347",
+      "candidate_set_sha256": "7015486bd944595337a8df6d8eac3e70286063269e8c119021d0a3e58120f4fb",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -462,8 +462,8 @@
       "candidate_basis_points": 10000,
       "verification_grade": "A",
       "verification_score": 93,
-      "pack_inventory_sha256": "1a95703a1e8dc6f99ba5c213442e15e184d7dc65318d7bdf48c32ea845563a0b",
-      "candidate_set_sha256": "d8a91996bb996aaa8bc3a3a1de5543206261d35a05ebcd05834e09d116080e30",
+      "pack_inventory_sha256": "92d5bea448076fa3c3bf18d35d39f98ccbe3d7d82e015a91385bc08a996fb8a9",
+      "candidate_set_sha256": "7310ad2b4bce59f5a55192cf6630d02a176aa8d4b5d8d4d7e0ec05eb3cf3f3a8",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -1122,8 +1122,8 @@
       "candidate_basis_points": 9375,
       "verification_grade": "A",
       "verification_score": 94,
-      "pack_inventory_sha256": "c44eea94a729fd6405a593f7dc573773365a357fc5937c8d17cea519c46ee235",
-      "candidate_set_sha256": "e8765aae9b596ef03c77f19dd2c654678bcf5a1f452264dda492d6bf47fa3930",
+      "pack_inventory_sha256": "164cb77b719b0cedbd9f49d7a7fe1e554cdc63bb71c62b5bffa8c7776f93f467",
+      "candidate_set_sha256": "7fd1c196614cc62515bc02e79f3361eb0daeeb23e410eb7ad28cb5e3dd45cc04",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -1242,8 +1242,8 @@
       "candidate_basis_points": 5455,
       "verification_grade": "A",
       "verification_score": 92,
-      "pack_inventory_sha256": "5fdcdc3d3b04cd6919fd2ecae8edb4c18c35fb7d27fe34bc80ac52f17ab3b73d",
-      "candidate_set_sha256": "fabc6a8d0a58c14ea970e7e9ce123523b3a5bb4decf381048c567ff793df26a8",
+      "pack_inventory_sha256": "56e149c2eab169128d24043909f6a11da772e2c53da8d0ebc1dbaddb28356699",
+      "candidate_set_sha256": "fbbd635016b77b5feb8eedbba7e7503e9325b955e4bacca3810f40a317ad3f48",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     },
     {
@@ -1290,8 +1290,8 @@
       "candidate_basis_points": 3333,
       "verification_grade": "A",
       "verification_score": 93,
-      "pack_inventory_sha256": "8508fc6a66a58de692ee858a55e1963bc227d4f45053b5a0b24a4cf4b4d8f9e5",
-      "candidate_set_sha256": "7d26aa2b100fd90555df375fb38ce73ace6a53c31e30223a5c2f3d5ae36da8b6",
+      "pack_inventory_sha256": "eac6271f41a3dbc7b41336f1fb9a37fea2d45489019474385e9e859e95de0d15",
+      "candidate_set_sha256": "315dbee483fe742af891284df369f5d3ac7ce95c6726a474e6c86d6e734bc7cb",
       "next_action": "ENSURE_EXACTLY_ONE_PACK_DISPOSITION_CHILD"
     }
   ],
@@ -3119,14 +3119,14 @@
     {
       "name": "anthropic-pack",
       "source": "plugins/saas-packs/anthropic-pack",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "verification": {
         "grade": "B",
         "score": 88
       },
       "npm_candidate": {
         "name": "@intentsolutionsio/anthropic-pack",
-        "version": "1.0.3",
+        "version": "1.0.4",
         "private": false,
         "files_include_skills": true,
         "live_registry_check": "REQUIRED_BEFORE_MUTATION"
@@ -3135,8 +3135,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "f5f8c7ca8ed6cf8c093adcb71b0ff6e34b66bfe512218db3faec21a3af89ea63",
-      "candidate_set_sha256": "a303e0aef69ccba7e27057b3bbc8a5dae193a02bbb5fa32823d2e114abc97f53",
+      "pack_inventory_sha256": "89e898b2a1ef49b45987729a142a1f955c09ce7e7bdb8d71dd68afa9e74e8347",
+      "candidate_set_sha256": "7015486bd944595337a8df6d8eac3e70286063269e8c119021d0a3e58120f4fb",
       "skill_count": 30,
       "catalog_declared_skill_count": 30,
       "tutorial_lattice_count": 30,
@@ -7379,14 +7379,14 @@
     {
       "name": "claude-pack",
       "source": "plugins/saas-packs/claude-pack",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "verification": {
         "grade": "A",
         "score": 94
       },
       "npm_candidate": {
         "name": "@intentsolutionsio/claude-pack",
-        "version": "1.0.3",
+        "version": "1.0.4",
         "private": false,
         "files_include_skills": true,
         "live_registry_check": "REQUIRED_BEFORE_MUTATION"
@@ -7395,8 +7395,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "c44eea94a729fd6405a593f7dc573773365a357fc5937c8d17cea519c46ee235",
-      "candidate_set_sha256": "e8765aae9b596ef03c77f19dd2c654678bcf5a1f452264dda492d6bf47fa3930",
+      "pack_inventory_sha256": "164cb77b719b0cedbd9f49d7a7fe1e554cdc63bb71c62b5bffa8c7776f93f467",
+      "candidate_set_sha256": "7fd1c196614cc62515bc02e79f3361eb0daeeb23e410eb7ad28cb5e3dd45cc04",
       "skill_count": 32,
       "catalog_declared_skill_count": 32,
       "tutorial_lattice_count": 30,
@@ -8362,14 +8362,14 @@
     {
       "name": "clerk-pack",
       "source": "plugins/saas-packs/clerk-pack",
-      "version": "1.14.0",
+      "version": "1.15.0",
       "verification": {
         "grade": "A",
         "score": 93
       },
       "npm_candidate": {
         "name": "@intentsolutionsio/clerk-pack",
-        "version": "1.0.4",
+        "version": "1.0.5",
         "private": false,
         "files_include_skills": true,
         "live_registry_check": "REQUIRED_BEFORE_MUTATION"
@@ -8378,8 +8378,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "1a95703a1e8dc6f99ba5c213442e15e184d7dc65318d7bdf48c32ea845563a0b",
-      "candidate_set_sha256": "d8a91996bb996aaa8bc3a3a1de5543206261d35a05ebcd05834e09d116080e30",
+      "pack_inventory_sha256": "92d5bea448076fa3c3bf18d35d39f98ccbe3d7d82e015a91385bc08a996fb8a9",
+      "candidate_set_sha256": "7310ad2b4bce59f5a55192cf6630d02a176aa8d4b5d8d4d7e0ec05eb3cf3f3a8",
       "skill_count": 24,
       "catalog_declared_skill_count": 24,
       "tutorial_lattice_count": 24,
@@ -10706,14 +10706,14 @@
     {
       "name": "cursor-pack",
       "source": "plugins/saas-packs/cursor-pack",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "verification": {
         "grade": "A",
         "score": 93
       },
       "npm_candidate": {
         "name": "@intentsolutionsio/cursor-pack",
-        "version": "1.0.2",
+        "version": "1.0.3",
         "private": false,
         "files_include_skills": true,
         "live_registry_check": "REQUIRED_BEFORE_MUTATION"
@@ -10722,8 +10722,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "8508fc6a66a58de692ee858a55e1963bc227d4f45053b5a0b24a4cf4b4d8f9e5",
-      "candidate_set_sha256": "7d26aa2b100fd90555df375fb38ce73ace6a53c31e30223a5c2f3d5ae36da8b6",
+      "pack_inventory_sha256": "eac6271f41a3dbc7b41336f1fb9a37fea2d45489019474385e9e859e95de0d15",
+      "candidate_set_sha256": "315dbee483fe742af891284df369f5d3ac7ce95c6726a474e6c86d6e734bc7cb",
       "skill_count": 30,
       "catalog_declared_skill_count": 30,
       "tutorial_lattice_count": 10,
@@ -21371,14 +21371,14 @@
     {
       "name": "langchain-py-pack",
       "source": "plugins/saas-packs/langchain-py-pack",
-      "version": "2.6.0",
+      "version": "2.7.0",
       "verification": {
         "grade": "A",
         "score": 92
       },
       "npm_candidate": {
         "name": "@intentsolutionsio/langchain-py-pack",
-        "version": "2.0.4",
+        "version": "2.0.5",
         "private": false,
         "files_include_skills": true,
         "live_registry_check": "REQUIRED_BEFORE_MUTATION"
@@ -21387,8 +21387,8 @@
       "ownership": {
         "status": "first-party"
       },
-      "pack_inventory_sha256": "5fdcdc3d3b04cd6919fd2ecae8edb4c18c35fb7d27fe34bc80ac52f17ab3b73d",
-      "candidate_set_sha256": "fabc6a8d0a58c14ea970e7e9ce123523b3a5bb4decf381048c567ff793df26a8",
+      "pack_inventory_sha256": "56e149c2eab169128d24043909f6a11da772e2c53da8d0ebc1dbaddb28356699",
+      "candidate_set_sha256": "fbbd635016b77b5feb8eedbba7e7503e9325b955e4bacca3810f40a317ad3f48",
       "skill_count": 33,
       "catalog_declared_skill_count": 33,
       "tutorial_lattice_count": 18,
