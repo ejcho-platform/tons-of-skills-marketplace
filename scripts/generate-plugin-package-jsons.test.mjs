@@ -23,7 +23,12 @@ const canonicalRepository = {
 };
 
 const repositoryRoot = dirname(dirname(fileURLToPath(import.meta.url)));
-const npmCommand = process.platform === 'win32' ? 'npm.cmd' : 'npm';
+function runNpm(args, options) {
+  // Windows resolves npm through npm.cmd. The arguments below are fixed test
+  // constants, never package-controlled input, so shell resolution adds no
+  // interpolation boundary.
+  return spawnSync('npm', args, { ...options, shell: process.platform === 'win32' });
+}
 
 function sourcePackageRows(root) {
   const rows = [];
@@ -265,7 +270,7 @@ test('npm dry-run does not announce public access for a repaired mirror', () => 
       { sourceOwned: true },
     ).pkg;
     writeFileSync(join(root, 'package.json'), JSON.stringify(repaired, null, 2) + '\n');
-    const result = spawnSync(npmCommand, ['publish', '--dry-run', '--ignore-scripts', '--json'], {
+    const result = runNpm(['publish', '--dry-run', '--ignore-scripts', '--json'], {
       cwd: root,
       encoding: 'utf8',
       env: { ...process.env, npm_config_offline: 'true' },
@@ -290,8 +295,7 @@ test('real npm publish path refuses a private mirror before loopback connection'
       { sourceOwned: true },
     ).pkg;
     writeFileSync(join(root, 'package.json'), JSON.stringify(repaired, null, 2) + '\n');
-    const result = spawnSync(
-      npmCommand,
+    const result = runNpm(
       [
         'publish',
         '--force',
