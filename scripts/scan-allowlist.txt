@@ -912,7 +912,7 @@ plugins/saas-packs/openevidence-pack/skills/openevidence-security-basics/SKILL.m
 plugins/saas-packs/openevidence-pack/skills/openevidence-upgrade-migration/SKILL.md:allowed-tools-network  reviewed least-privilege documentation lookup; WebFetch is restricted to current first-party OpenEvidence documentation
 plugins/saas-packs/openevidence-pack/skills/openevidence-webhooks-events/SKILL.md:allowed-tools-network  reviewed least-privilege documentation lookup; WebFetch is restricted to current first-party OpenEvidence documentation
 
-# ── Anthropic retired-doc-domain migration (#1146). ──
+# ── Anthropic retired documentation host migration (#1146). ──
 # The complete contents of these three first-party documentation surfaces were
 # reviewed while replacing deprecated docs.anthropic.com links. The reported
 # dual-use patterns are unchanged and remain constrained to examples.
