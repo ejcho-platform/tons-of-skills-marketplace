@@ -168,8 +168,8 @@ Submit two synthetic fixtures with custom IDs `demo-001` and `demo-002`, consume
 
 ## Resources
 
-- [Streaming API](https://docs.anthropic.com/en/api/messages-streaming)
-- [Message Batches API](https://docs.anthropic.com/en/api/creating-message-batches)
+- [Streaming API](https://platform.claude.com/docs/en/build-with-claude/streaming)
+- [Message Batches API](https://platform.claude.com/docs/en/api/messages/batches/create)
 
 ## Next Steps
 

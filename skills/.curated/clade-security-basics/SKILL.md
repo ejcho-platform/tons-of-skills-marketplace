@@ -148,7 +148,7 @@ See API Key Security (client-side vs server-side), Input Validation function, Pr
 ## Resources
 
 - [API Key Management](https://console.anthropic.com/settings/keys)
-- [Security Best Practices](https://docs.anthropic.com/en/docs/build-with-claude/security)
+- [Security Best Practices](https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/mitigate-jailbreaks)
 - Data Privacy
 
 ## Next Steps

@@ -212,9 +212,9 @@ dependency fails predictably instead of looping.
 
 ## Resources
 
-- [Tool Use Guide](https://docs.anthropic.com/en/docs/build-with-claude/tool-use)
-- [Tool Use API Reference](https://docs.anthropic.com/en/api/messages)
-- [Tool Use Examples](https://docs.anthropic.com/en/docs/build-with-claude/tool-use/examples)
+- [Tool Use Guide](https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview)
+- [Tool Use API Reference](https://platform.claude.com/docs/en/api/messages)
+- [Tool Use Examples](https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview)
 
 ## Next Steps
 

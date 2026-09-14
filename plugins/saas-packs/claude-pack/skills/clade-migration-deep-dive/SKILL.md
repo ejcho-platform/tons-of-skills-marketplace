@@ -122,8 +122,8 @@ See API Mapping table, Before/After SDK code, Key Differences list, Tool Use Mig
 
 ## Resources
 
-- [Anthropic Messages API](https://docs.anthropic.com/en/api/messages)
-- [Migration Guide](https://docs.anthropic.com/en/docs/about-claude/models)
+- [Anthropic Messages API](https://platform.claude.com/docs/en/api/messages)
+- [Migration Guide](https://platform.claude.com/docs/en/models/overview)
 
 ## Next Steps
 

@@ -161,8 +161,8 @@ that reproduces the behavior.
 ## Resources
 
 - [API Status](https://status.anthropic.com)
-- [Error Types](https://docs.anthropic.com/en/api/errors)
-- [Rate Limits](https://docs.anthropic.com/en/api/rate-limits)
+- [Error Types](https://platform.claude.com/docs/en/api/errors)
+- [Rate Limits](https://platform.claude.com/docs/en/api/rate-limits)
 
 ## Next Steps
 

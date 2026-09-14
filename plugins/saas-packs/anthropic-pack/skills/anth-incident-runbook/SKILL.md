@@ -159,8 +159,8 @@ For a synthetic 529 spike, record `severity=P1; probe=529; circuit=open; noncrit
 ## Resources
 
 - [API Status](https://status.anthropic.com)
-- [Error Reference](https://docs.anthropic.com/en/api/errors)
-- [Rate Limits](https://docs.anthropic.com/en/api/rate-limits)
+- [Error Reference](https://platform.claude.com/docs/en/api/errors)
+- [Rate Limits](https://platform.claude.com/docs/en/api/rate-limits)
 
 ## Next Steps
 

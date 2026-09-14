@@ -157,7 +157,7 @@ See Step 1 (batch creation), Step 2 (polling), Step 3 (result retrieval), Python
 
 ## Resources
 
-- [Message Batches API](https://docs.anthropic.com/en/api/creating-message-batches)
+- [Message Batches API](https://platform.claude.com/docs/en/api/messages/batches/create)
 - [Batch Pricing](https://www.anthropic.com/pricing) — 50% off standard
 
 ## Next Steps

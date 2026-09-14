@@ -157,8 +157,8 @@ See ten numbered pitfall sections above, each with BAD/GOOD code comparisons. Qu
 
 ## Resources
 
-- [API Reference](https://docs.anthropic.com/en/api/messages)
-- [Best Practices](https://docs.anthropic.com/en/docs/build-with-claude)
+- [API Reference](https://platform.claude.com/docs/en/api/messages)
+- [Best Practices](https://platform.claude.com/docs/en/build-with-claude/overview)
 
 ## Prerequisites
 

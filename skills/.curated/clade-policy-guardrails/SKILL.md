@@ -123,7 +123,7 @@ See System Prompt Guardrails, Input Validation function, Output Validation funct
 ## Resources
 
 - Anthropic AUP
-- [Safety Best Practices](https://docs.anthropic.com/en/docs/build-with-claude)
+- [Safety Best Practices](https://platform.claude.com/docs/en/build-with-claude/overview)
 
 ## Next Steps
 

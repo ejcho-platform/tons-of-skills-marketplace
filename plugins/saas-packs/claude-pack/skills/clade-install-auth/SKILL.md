@@ -137,7 +137,7 @@ client = anthropic.AsyncAnthropic()
 
 ## Resources
 
-- [Anthropic API Docs](https://docs.anthropic.com/en/api/getting-started)
+- [Anthropic API Docs](https://platform.claude.com/docs/en/api/overview)
 - [Console Dashboard](https://console.anthropic.com)
 - [API Key Management](https://console.anthropic.com/settings/keys)
 - [Anthropic Status](https://status.anthropic.com)

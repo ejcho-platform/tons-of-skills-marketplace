@@ -110,7 +110,7 @@ See Logging Wrapper with `trackedCreate()`, `estimateCost()` function, Key Metri
 ## Resources
 
 - [Usage Dashboard](https://console.anthropic.com/settings/usage)
-- [Rate Limits](https://docs.anthropic.com/en/api/rate-limits)
+- [Rate Limits](https://platform.claude.com/docs/en/api/rate-limits)
 
 ## Next Steps
 

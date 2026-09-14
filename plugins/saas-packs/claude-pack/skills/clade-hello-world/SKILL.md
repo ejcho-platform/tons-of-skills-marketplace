@@ -127,8 +127,8 @@ See Step 1 (basic message), Step 2 (system prompt), and Step 3 (multi-turn) abov
 
 ## Resources
 
-- [Messages API Reference](https://docs.anthropic.com/en/api/messages)
-- [Model Overview](https://docs.anthropic.com/en/docs/about-claude/models)
+- [Messages API Reference](https://platform.claude.com/docs/en/api/messages)
+- [Model Overview](https://platform.claude.com/docs/en/models/overview)
 
 ## Next Steps
 

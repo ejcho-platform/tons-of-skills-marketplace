@@ -177,7 +177,7 @@ name in the CI log for triage.
 ## Resources
 
 - [GitHub Actions Secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets)
-- [Anthropic Pricing](https://docs.anthropic.com/en/docs/about-claude/pricing)
+- [Anthropic Pricing](https://platform.claude.com/docs/en/about-claude/pricing)
 
 ## Next Steps
 

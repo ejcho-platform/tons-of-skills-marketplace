@@ -101,7 +101,7 @@ See SDK Upgrade commands, grep patterns for finding model references, environmen
 
 - SDK Releases (TS)
 - SDK Releases (Python)
-- [Model Deprecation Policy](https://docs.anthropic.com/en/docs/about-claude/models)
+- [Model Deprecation Policy](https://platform.claude.com/docs/en/models/overview)
 
 ## Next Steps
 

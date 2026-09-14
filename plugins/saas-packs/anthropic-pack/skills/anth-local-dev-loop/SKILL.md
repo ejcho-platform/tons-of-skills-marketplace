@@ -169,7 +169,7 @@ model = DEV_MODEL if os.getenv("ENV") == "development" else PROD_MODEL
 ## Resources
 
 - [SDK Debug Logging](https://github.com/anthropics/anthropic-sdk-python#logging)
-- [Pricing](https://docs.anthropic.com/en/docs/about-claude/pricing)
+- [Pricing](https://platform.claude.com/docs/en/about-claude/pricing)
 
 ## Next Steps
 

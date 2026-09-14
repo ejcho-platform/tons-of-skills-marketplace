@@ -203,8 +203,8 @@ See Step 1 (tool definition), Step 2 (sending with tools), Step 3 (executing and
 
 ## Resources
 
-- [Tool Use Guide](https://docs.anthropic.com/en/docs/build-with-claude/tool-use)
-- [Tool Use API Reference](https://docs.anthropic.com/en/api/messages)
+- [Tool Use Guide](https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview)
+- [Tool Use API Reference](https://platform.claude.com/docs/en/api/messages)
 
 ## Next Steps
 

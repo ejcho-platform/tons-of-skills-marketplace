@@ -202,9 +202,9 @@ records from the same batch.
 
 ## Resources
 
-- [Streaming Messages](https://docs.anthropic.com/en/api/messages-streaming)
-- [Message Batches API](https://docs.anthropic.com/en/api/creating-message-batches)
-- [Batch Results](https://docs.anthropic.com/en/api/retrieving-message-batch-results)
+- [Streaming Messages](https://platform.claude.com/docs/en/build-with-claude/streaming)
+- [Message Batches API](https://platform.claude.com/docs/en/api/messages/batches/create)
+- [Batch Results](https://platform.claude.com/docs/en/api/messages/batches/results)
 
 ## Next Steps
 

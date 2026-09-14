@@ -218,8 +218,8 @@ Each error section above includes the exact JSON error response, cause analysis,
 
 ## Resources
 
-- [Error Types Reference](https://docs.anthropic.com/en/api/errors)
-- [Rate Limits](https://docs.anthropic.com/en/api/rate-limits)
+- [Error Types Reference](https://platform.claude.com/docs/en/api/errors)
+- [Rate Limits](https://platform.claude.com/docs/en/api/rate-limits)
 - [Anthropic Status](https://status.anthropic.com)
 
 ## Next Steps

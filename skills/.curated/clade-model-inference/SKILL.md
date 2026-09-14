@@ -151,9 +151,9 @@ See Step 1 (streaming), Step 2 (vision with base64 images), and Step 3 (structur
 
 ## Resources
 
-- [Messages API](https://docs.anthropic.com/en/api/messages)
-- [Streaming](https://docs.anthropic.com/en/api/messages-streaming)
-- [Vision](https://docs.anthropic.com/en/docs/build-with-claude/vision)
+- [Messages API](https://platform.claude.com/docs/en/api/messages)
+- [Streaming](https://platform.claude.com/docs/en/build-with-claude/streaming)
+- [Vision](https://platform.claude.com/docs/en/build-with-claude/vision)
 
 ## Next Steps
 

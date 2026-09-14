@@ -136,9 +136,9 @@ See Inconsistent Outputs (temperature fix), Tool Use Failures (validation), Stre
 
 ## Resources
 
-- [Error Types](https://docs.anthropic.com/en/api/errors)
-- [Tool Use Guide](https://docs.anthropic.com/en/docs/build-with-claude/tool-use)
-- [Vision Docs](https://docs.anthropic.com/en/docs/build-with-claude/vision)
+- [Error Types](https://platform.claude.com/docs/en/api/errors)
+- [Tool Use Guide](https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview)
+- [Vision Docs](https://platform.claude.com/docs/en/build-with-claude/vision)
 
 ## Next Steps
 

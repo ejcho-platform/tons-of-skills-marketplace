@@ -190,7 +190,7 @@ Run a sandbox fixture containing a fake key and a synthetic prompt. The expected
 ## Resources
 
 - Anthropic Usage Policy
-- [Prompt Engineering](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering)
+- [Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview)
 
 ## Next Steps
 

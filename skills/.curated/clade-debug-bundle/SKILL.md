@@ -138,7 +138,7 @@ See Step 1 (request ID extraction), Step 2 (full error logging), Step 3 (curl re
 ## Resources
 
 - [Anthropic Status](https://status.anthropic.com)
-- [Error Types](https://docs.anthropic.com/en/api/errors)
+- [Error Types](https://platform.claude.com/docs/en/api/errors)
 - [Support](https://support.anthropic.com)
 
 ## Next Steps

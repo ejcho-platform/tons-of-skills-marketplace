@@ -144,7 +144,7 @@ See Step 1 (project setup), Step 2 (test script with cost tracking), Step 3 (hot
 
 ## Resources
 
-- [Quickstart Guide](https://docs.anthropic.com/en/docs/initial-setup)
+- [Quickstart Guide](https://platform.claude.com/docs/en/get-started)
 - TypeScript SDK
 
 ## Next Steps

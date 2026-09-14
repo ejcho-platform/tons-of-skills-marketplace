@@ -70,8 +70,8 @@ const stream = client.messages.stream({
 
 ## Resources
 
-- [Messages API](https://docs.anthropic.com/en/api/messages)
-- [Streaming](https://docs.anthropic.com/en/api/messages-streaming)
+- [Messages API](https://platform.claude.com/docs/en/api/messages)
+- [Streaming](https://platform.claude.com/docs/en/build-with-claude/streaming)
 
 ## Next Steps
 

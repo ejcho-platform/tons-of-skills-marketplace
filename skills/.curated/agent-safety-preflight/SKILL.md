@@ -96,4 +96,4 @@ The skill finds a destructive recursive delete pattern in an automation file, re
 - Scanner: `plugins/security/agent-safety-preflight/scripts/agent_preflight_lite.py`
 - Decision-rule reference: `references/decision-rules.md`
 - Public source workflow: https://github.com/el-zachariah/ai-agent-safety-starter-pack
-- Claude Code plugin reference: https://docs.anthropic.com/en/docs/claude-code/plugins
+- Claude Code plugin reference: https://code.claude.com/docs/en/plugins

@@ -220,4 +220,4 @@ For teams using BYOK:
 - [Cursor API Keys Documentation](https://docs.cursor.com/advanced/api-keys)
 - [Cursor Data Use Policy](https://cursor.com/data-use)
 - [OpenAI API Reference](https://platform.openai.com/docs/api-reference)
-- [Anthropic API Reference](https://docs.anthropic.com/en/api)
+- [Anthropic API Reference](https://platform.claude.com/docs/en/api/overview)

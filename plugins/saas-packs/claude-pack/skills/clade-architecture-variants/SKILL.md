@@ -176,8 +176,8 @@ See five numbered pattern sections with complete TypeScript code, and the Choosi
 
 ## Resources
 
-- [Tool Use Guide](https://docs.anthropic.com/en/docs/build-with-claude/tool-use)
-- [Prompt Engineering](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering)
+- [Tool Use Guide](https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview)
+- [Prompt Engineering](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview)
 
 ## Next Steps
 

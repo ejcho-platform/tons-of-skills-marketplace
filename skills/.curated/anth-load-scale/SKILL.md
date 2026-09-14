@@ -185,8 +185,8 @@ Run 50 requests using `Respond with exactly: OK` in the sandbox, cap concurrency
 
 ## Resources
 
-- [Rate Limits](https://docs.anthropic.com/en/api/rate-limits)
-- [Service Tiers](https://docs.anthropic.com/en/api/service-tiers)
+- [Rate Limits](https://platform.claude.com/docs/en/api/rate-limits)
+- [Service Tiers](https://platform.claude.com/docs/en/api/service-tiers)
 
 ## Next Steps
 

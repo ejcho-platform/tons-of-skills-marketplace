@@ -220,8 +220,8 @@ See Building a Skill (SKILL.md), Building a Slash Command, Building an Agent, Bu
 
 ## Resources
 
-- [Plugin Docs](https://docs.anthropic.com/en/docs/claude-code/plugins)
-- [SKILL.md Spec](https://docs.anthropic.com/en/docs/claude-code/skills)
+- [Plugin Docs](https://code.claude.com/docs/en/plugins)
+- [SKILL.md Spec](https://code.claude.com/docs/en/skills)
 - [MCP Protocol](https://modelcontextprotocol.io)
 
 ## Next Steps

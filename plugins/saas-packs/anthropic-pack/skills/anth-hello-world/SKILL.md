@@ -152,9 +152,9 @@ cost controls.
 
 ## Resources
 
-- [Messages API Reference](https://docs.anthropic.com/en/api/messages)
-- [Messages Examples](https://docs.anthropic.com/en/api/messages-examples)
-- [Vision Guide](https://docs.anthropic.com/en/docs/build-with-claude/vision)
+- [Messages API Reference](https://platform.claude.com/docs/en/api/messages)
+- [Messages Examples](https://platform.claude.com/docs/en/build-with-claude/working-with-messages)
+- [Vision Guide](https://platform.claude.com/docs/en/build-with-claude/vision)
 
 ## Next Steps
 

@@ -111,8 +111,8 @@ See Message Batches example, p-limit concurrency control, Tier Upgrades table, a
 
 ## Resources
 
-- [Rate Limits](https://docs.anthropic.com/en/api/rate-limits)
-- [Message Batches](https://docs.anthropic.com/en/api/creating-message-batches)
+- [Rate Limits](https://platform.claude.com/docs/en/api/rate-limits)
+- [Message Batches](https://platform.claude.com/docs/en/api/messages/batches/create)
 
 ## Next Steps
 

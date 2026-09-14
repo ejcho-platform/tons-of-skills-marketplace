@@ -166,8 +166,8 @@ For `artifact=sha256:fixture` in staging, run synthetic `fixture-request-001`, a
 ## Resources
 
 - [API Status](https://status.anthropic.com)
-- [Pricing](https://docs.anthropic.com/en/docs/about-claude/pricing)
-- [Rate Limits](https://docs.anthropic.com/en/api/rate-limits)
+- [Pricing](https://platform.claude.com/docs/en/about-claude/pricing)
+- [Rate Limits](https://platform.claude.com/docs/en/api/rate-limits)
 
 ## Next Steps
 

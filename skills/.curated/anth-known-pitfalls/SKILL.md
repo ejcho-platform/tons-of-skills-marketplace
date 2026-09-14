@@ -225,6 +225,6 @@ Run a sandbox review using `fixture-tool-call-001` and `fixture-truncated-002`, 
 
 ## Resources
 
-- [Messages API Reference](https://docs.anthropic.com/en/api/messages)
+- [Messages API Reference](https://platform.claude.com/docs/en/api/messages)
 - [Python SDK](https://github.com/anthropics/anthropic-sdk-python)
 - [TypeScript SDK](https://github.com/anthropics/anthropic-sdk-typescript)

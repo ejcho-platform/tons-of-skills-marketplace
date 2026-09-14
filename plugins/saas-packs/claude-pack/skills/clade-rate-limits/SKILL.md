@@ -138,9 +138,9 @@ See Rate Limit Tiers table, Response Headers section, Built-In SDK Retries, Cust
 
 ## Resources
 
-- [Rate Limits Docs](https://docs.anthropic.com/en/api/rate-limits)
-- [Message Batches](https://docs.anthropic.com/en/api/creating-message-batches) — no rate limits
-- [Token Counting](https://docs.anthropic.com/en/api/counting-tokens)
+- [Rate Limits Docs](https://platform.claude.com/docs/en/api/rate-limits)
+- [Message Batches](https://platform.claude.com/docs/en/api/messages/batches/create) — no rate limits
+- [Token Counting](https://platform.claude.com/docs/en/api/messages/count_tokens)
 
 ## Next Steps
 

@@ -231,8 +231,8 @@ See Client Configuration, Error Handling, Streaming Patterns, TypeScript Types, 
 
 - TypeScript SDK
 - Python SDK
-- [Prompt Caching](https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching)
-- [Message Batches](https://docs.anthropic.com/en/api/creating-message-batches)
+- [Prompt Caching](https://platform.claude.com/docs/en/build-with-claude/prompt-caching)
+- [Message Batches](https://platform.claude.com/docs/en/api/messages/batches/create)
 
 ## Next Steps
 
