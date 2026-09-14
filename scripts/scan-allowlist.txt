@@ -914,7 +914,7 @@ plugins/saas-packs/openevidence-pack/skills/openevidence-webhooks-events/SKILL.m
 
 # ── Anthropic retired documentation host migration (#1146). ──
 # The complete contents of these three first-party documentation surfaces were
-# reviewed while replacing deprecated docs.anthropic.com links. The reported
+# reviewed while replacing deprecated Anthropic documentation links. The reported
 # dual-use patterns are unchanged and remain constrained to examples.
 plugins/ai-ml/ai-sdk-agents/README.md:secret-exfil-cooccur  documented model-provider configuration example; environment selection never transmits a credential and the file contains no credential-bearing network request
 plugins/saas-packs/claude-pack/skills/clade-reference-architecture/SKILL.md:hook-definition  inert JSON documentation for fixed pre-tool and post-tool echo hooks; no network, credentials, dynamic command construction, or untrusted input
