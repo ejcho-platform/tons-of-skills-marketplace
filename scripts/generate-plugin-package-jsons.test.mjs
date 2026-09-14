@@ -23,6 +23,7 @@ const canonicalRepository = {
 };
 
 const repositoryRoot = dirname(dirname(fileURLToPath(import.meta.url)));
+const npmCommand = process.platform === 'win32' ? 'npm.cmd' : 'npm';
 
 function sourcePackageRows(root) {
   const rows = [];
@@ -264,7 +265,7 @@ test('npm dry-run does not announce public access for a repaired mirror', () => 
       { sourceOwned: true },
     ).pkg;
     writeFileSync(join(root, 'package.json'), JSON.stringify(repaired, null, 2) + '\n');
-    const result = spawnSync('npm', ['publish', '--dry-run', '--ignore-scripts', '--json'], {
+    const result = spawnSync(npmCommand, ['publish', '--dry-run', '--ignore-scripts', '--json'], {
       cwd: root,
       encoding: 'utf8',
       env: { ...process.env, npm_config_offline: 'true' },
@@ -290,7 +291,7 @@ test('real npm publish path refuses a private mirror before loopback connection'
     ).pkg;
     writeFileSync(join(root, 'package.json'), JSON.stringify(repaired, null, 2) + '\n');
     const result = spawnSync(
-      'npm',
+      npmCommand,
       [
         'publish',
         '--force',
