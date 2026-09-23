@@ -1313,10 +1313,10 @@ sources:
     category: testing
     verified: false
     include:
-      - 'skills/**'
-      - '.claude-plugin/**'
-      - 'README.md'
-      - 'LICENSE'
+      - '/skills/**'
+      - '/.claude-plugin/**'
+      - '/README.md'
+      - '/LICENSE'
     exclude:
       - '.git/**'
       - 'scripts/**'
